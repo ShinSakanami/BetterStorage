@@ -1,0 +1,264 @@
+{
+	"stockpile": {
+		"resources": {
+			"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.resources)",
+			"filter": "resources",
+			"ordinal": 1,
+			"categories": {
+				"wood": {
+					"ordinal": 1,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_wood)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/wood.png",
+					"filter": "stockpile_wood"
+				},
+				"stone": {
+					"ordinal": 2,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_stone)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/stone.png",
+					"filter": "stockpile_stone"
+				},
+				"clay": {
+					"ordinal": 3,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_clay)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/clay.png",
+					"filter": "stockpile_clay"
+				},
+				"ore": {
+					"ordinal": 4,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_ore)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/ore.png",
+					"filter": "stockpile_ore"
+				}
+			}
+		},
+		"plants": {
+			"display_name": "i18n(better_stockpiles:ui.stockpile.filters.plants)",
+			"filter": "plants",
+			"ordinal": 2,
+			"categories": {
+				"fiber": {
+					"ordinal": 1,
+					"display_name": "i18n(better_stockpiles:ui.stockpile.filters.tooltip_fibers)",
+					"icon": "/better_stockpiles/ui/fibers.png",
+					"filter": "plant fiber"
+				},
+				"herb": {
+					"ordinal": 2,
+					"display_name": "i18n(better_stockpiles:ui.stockpile.filters.tooltip_herbs)",
+					"icon": "/better_stockpiles/ui/herbs.png",
+					"filter": "plant herb"
+				},
+				"sapling": {
+					"ordinal": 3,
+					"display_name": "i18n(better_stockpiles:ui.stockpile.filters.tooltip_saplings)",
+					"icon": "/better_stockpiles/ui/sapling.png",
+					"filter": "plant tree"
+				}
+			}
+		},
+		"animal_parts": {
+			"display_name": "i18n(better_stockpiles:ui.stockpile.filters.animal_parts)",
+			"filter": "animal_parts",
+			"ordinal": 3,
+			"categories": {
+				"pelt": {
+					"ordinal": 1,
+					"display_name": "i18n(better_stockpiles:ui.stockpile.filters.tooltip_fur_pelts)",
+					"icon": "/better_stockpiles/ui/fur_pelt.png",
+					"filter": "stockpile_animal_part pelt"
+				},
+				"skin": {
+					"ordinal": 2,
+					"display_name": "i18n(better_stockpiles:ui.stockpile.filters.tooltip_skins)",
+					"icon": "/better_stockpiles/ui/skin.png",
+					"filter": "stockpile_animal_part skin"
+				},
+				"feather": {
+					"ordinal": 3,
+					"display_name": "i18n(better_stockpiles:ui.stockpile.filters.tooltip_feathers)",
+					"icon": "/better_stockpiles/ui/feathers.png",
+					"filter": "stockpile_animal_part feather"
+				},
+				"wool": {
+					"ordinal": 4,
+					"display_name": "i18n(better_stockpiles:ui.stockpile.filters.tooltip_wool)",
+					"icon": "/better_stockpiles/ui/wool.png",
+					"filter": "stockpile_animal_part fiber"
+				}
+			}
+		},
+		"construction": {
+			"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.construction)",
+			"filter": "construction",
+			"ordinal": 4,
+			"categories": {
+				"portal": {
+					"ordinal": 1,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_portal)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/portal.png",
+					"filter": "portal"
+				},
+				"furniture": {
+					"ordinal": 2,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_furniture)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/furniture.png",
+					"filter": "furniture"
+				},
+				"defense": {
+					"ordinal": 3,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_defense)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/defense.png",
+					"filter": "defense"
+				},
+				"light": {
+					"ordinal": 4,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_light)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/light.png",
+					"filter": "light_source"
+				},
+				"decoration": {
+					"ordinal": 5,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_decoration)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/decoration.png",
+					"filter": "decoration"
+				}
+			}
+		},
+		"goods": {
+			"display_name": "i18n(better_stockpiles:ui.stockpile.filters.goods)",
+			"filter": "goods",
+			"ordinal": 5,
+			"categories": {
+				"refined_cloth": {
+					"ordinal": 1,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_refined_cloth)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/refined_cloth.png",
+					"filter": "refined_cloth"
+				},
+				"refined_animal_part": {
+					"ordinal": 2,
+					"display_name": "i18n(better_stockpiles:ui.stockpile.filters.tooltip_leather)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/refined_animal_part.png",
+					"filter": "stockpile_refined_animal_part"
+				},
+				"refined_ore": {
+					"ordinal": 3,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_refined_ore)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/refined_ore.png",
+					"filter": "ingot"
+				},
+				"healing_items": {
+					"ordinal": 4,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_healing_items)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/healing_items.png",
+					"filter": "consumable"
+				}
+			}
+		},
+		"gear": {
+			"display_name": "i18n(better_stockpiles:ui.stockpile.filters.gear)",
+			"filter": "gear",
+			"ordinal": 6,
+			"categories": {
+				"tool": {
+					"ordinal": 1,
+					"display_name": "i18n(better_stockpiles:ui.stockpile.filters.tooltip_tools)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/tool.png",
+					"filter": "tool"
+				},
+				"melee_weapon": {
+					"ordinal": 2,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_melee_weapon)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/melee_weapon.png",
+					"filter": "melee_weapon"
+				},
+				"ranged_weapon": {
+					"ordinal": 3,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_ranged_weapon)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/ranged_weapon.png",
+					"filter": "ranged_weapon"
+				},
+				"light_armor": {
+					"ordinal": 4,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_light_armor)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/light_armor.png",
+					"filter": "light_armor"
+				},
+				"heavy_armor": {
+					"ordinal": 5,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_heavy_armor)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/heavy_armor.png",
+					"filter": "heavy_armor"
+				},
+				"exotic_gear": {
+					"ordinal": 6,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_exotic_gear)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/exotic_gear.png",
+					"filter": "exotic"
+				}
+			}
+		},
+		"food_and_drink": {
+			"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.food_and_drink)",
+			"filter": "food_and_drink",
+			"ordinal": 7,
+			"categories": {
+				"food_container": {
+					"ordinal": 1,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_food_containers)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/fruit.png",
+					"filter": "raw_food food_container"
+				},
+				"raw_ingredient": {
+					"ordinal": 2,
+					"display_name": "i18n(better_stockpiles:ui.stockpile.filters.tooltip_meat_and_egg)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/meat.png",
+					"filter": "stockpile_raw_ingredient"
+				},
+				"cooking_ingredient": {
+					"ordinal": 3,
+					"display_name": "i18n(better_stockpiles:ui.stockpile.filters.tooltip_cooking_ingredients)",
+					"icon": "/better_stockpiles/ui/cooking_ingredient.png",
+					"filter": "stockpile_cooking_ingredient"
+				},
+				"prepared_food": {
+					"ordinal": 4,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_prepared_food)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/baked.png",
+					"filter": "prepared_food"
+				},
+				"animal_feed": {
+					"ordinal": 5,
+					"display_name": "i18n(better_stockpiles:ui.stockpile.filters.tooltip_animal_feed)",
+					"icon": "/better_stockpiles/ui/animal_feed.png",
+					"filter": "stockpile_animal_feed"
+				},
+				"grain": {
+					"ordinal": 6,
+					"display_name": "i18n(better_stockpiles:ui.stockpile.filters.tooltip_grains)",
+					"icon": "/better_stockpiles/ui/grain.png",
+					"filter": "stockpile_grain"
+				}
+			}
+		},
+		"wealth": {
+			"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.wealth)",
+			"filter": "wealth",
+			"ordinal": 8,
+			"categories": {
+				"gold": {
+					"ordinal": 1,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_gold)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/gold.png",
+					"filter": "gold money"
+				},
+				"gem": {
+					"ordinal": 2,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_gem)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/gem.png",
+					"filter": "stockpile_trophy_gem"
+				}
+			}
+		}
+	}
+}

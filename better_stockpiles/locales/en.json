@@ -1,0 +1,25 @@
+{
+	"ui": {
+		"stockpile": {
+			"filters": {
+				"goods": "Goods",
+				"gear": "Equipment",
+				"plants": "Plants",
+				"animal_parts": "Animal Parts",
+				"tooltip_fibers": "fibers",
+				"tooltip_herbs": "herbs",
+				"tooltip_saplings": "saplings",
+				"tooltip_meat_and_egg": "meat & eggs",
+				"tooltip_cooking_ingredients": "cooking ingredients",
+				"tooltip_grains": "grains",
+				"tooltip_animal_feed": "animal feed",
+				"tooltip_fur_pelts": "fur pelts",
+				"tooltip_skins": "skins",
+				"tooltip_feathers": "feathers",
+				"tooltip_leather": "leather",
+				"tooltip_tools": "tools",
+				"tooltip_wool": "wool"
+			}
+		}
+	}
+}

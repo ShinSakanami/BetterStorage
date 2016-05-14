@@ -1,0 +1,7 @@
+{
+	"components": {
+		"stonehearth:material": {
+			"tags": "animal_feed rabbit_feed stockpile_animal_feed"
+		}
+	}
+}

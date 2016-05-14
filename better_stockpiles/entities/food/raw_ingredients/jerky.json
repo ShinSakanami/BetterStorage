@@ -1,0 +1,7 @@
+{
+	"components": {
+		"stonehearth:material": {
+			"tags": "stockpile_raw_ingredient food meat raw"
+		}
+	}
+}
