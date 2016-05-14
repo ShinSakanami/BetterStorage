@@ -3,6 +3,8 @@
 
 By Shinji Sakanami http://shinsaka.com
 
+Stonehearth is a game by Radiant Entertainment http://stonehearth.net/
+
 ## Description
 
 The stockpiles in StoneHearth are great, but maybe you need more filtering capabilities? Want to separate flowers from fibers? Wheat grains from food? Meat from animal feed?
