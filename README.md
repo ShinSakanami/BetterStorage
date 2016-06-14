@@ -9,18 +9,19 @@ Stonehearth is a game by Radiant Entertainment http://stonehearth.net/
 
 The stockpiles in StoneHearth are great, but maybe you need more filtering capabilities? Want to separate flowers from fibers? Wheat grains from food? Meat from animal feed?
 
-Better Stockpiles is here for you! Adding more filters to stockpiles for better stocks management!
+Better Stockpiles is here for you! Adding more filters to stockpiles, crates and chests for better stocks management!
 
-Current available filters in stockpiles:
+Current available filters:
 
-* **Resources:** wood, stone, clay, ore
-* **Plants:** fibers, herbs, saplings
-* **Animal Parts:** fur pelts, skins, feathers, wool
-* **Construction:** doors & windows, furnitures, defenses, torches & lights, decorations
-* **Goods:** thread& cloth, leather, metal bars, healing items and other consumables
-* **Equipment:** tools, melee weapons, ranged weapons, light zrmor, heavy zrmor, exotic gear
-* **Food & Drink:** fruit and vegetable baskets, meat & eggs, cooking ingredients, cooked foods, animal feed, grains
-* **Wealth:** gold, gems and trophies
+* **Resources:** Wood, Stone, Clay, Ore
+* **Plants:** Fibers, Herbs, Saplings
+* **Animal Parts:** Pelts, Skins, Feathers, Wool, Bones
+* **Construction:** Doors & Windows, Furniture, Defenses, Decorations
+* **Goods:** Thread, Cloth, Leather, Metal Bars, Healing Items and Other Consumables
+* **Equipment:** Tools, Melee Weapons, Ranged Weapons, Light Armor, Heavy Armor
+* **Ingredients:** Meat, Eggs, Wheat, Flour, Corn Meal
+* **Food & Drink:** Raw Foods, Cooked Foods, Animal Feed
+* **Wealth:** Gold Chests, Trophies
 
 Discuss about this mod on http://discourse.stonehearth.net/t/mod-better-stockpiles/21449
 
@@ -32,39 +33,36 @@ Feedback, suggestions and bug reports are welcome!
 
 **StoneHearth Mods:** https://stonehearthmods.co/better-stockpiles/
 
-## Detailled content
-
-* Removed "Plants" and "Animal Parts" subcategories from "Resources" category.
-* Added "Plants" and "Animal Parts" categories.
-* Added "fibers", "herbs" and "saplings" subcategories to "Plants" category.
-* Added "fur pelts", "skins", "feathers" and "wool" subcategories to "Animal Parts" category.
-* Renamed "Tools & Goods" category to "Goods".
-* Renamed "Weapons & Armor" category to "Equipment".
-* Moved "tools" subcategory from "Goods" to "Equipment" category.
-* Renamed "goods produced from bits of animals" subcategory to "leather".
-* Renamed "raw ingredients and animal feed" subcategory to "meat & eggs".
-* Added "cooking ingredients", "animal feed" and "grains" subcategory to "Food and Drinks" category.
-* "Fiber Bundle" moved from "plants" to "fibers".
-* "Wool Bundle" moved from "plants" to "wool".
-* "Brightbell Flower", "Cactus Flower" and "Frostsnap Flower" moved from "plants" to "herbs".
-* "Sapling Oak Tree" moved from "plants" to "saplings".
-* Fur pelts moved from "animal parts" to "fur pelts".
-* "Varanus Skin" moved from "animal parts" to "skins".
-* "Poyo Feathers" moved from "animal parts" to "feathers".
-* "Leather Bolt" moved from "animal parts" to "leather".
-* "Fur Rug" moved from "goods produced from bits of animals" to "decorations".
-* "Poyo Feed", "Rabbit Feed" and "Sheep Feed" moved from "raw ingredients and animal feed" to "animal feed".
-* "Wheat Bale" and "Large Wheat Bundle" moved from "raw ingredients and animal feed" to "grains".
-* "Flour" and "Corn Meal" moved from "raw ingredients and animal feed" to "cooking ingredients".
 
 ## Changelog
+
+**Version 0.17.0**
+
+For Stonehearth Alpha 17 develop 3008
+
+* Use of the new "override" mixintype. The ghost filters are now exorcised.
+* Compatibility with the new stockpile filters.
+* Added "Bones" filter to "Animal Parts" category.
+* "Fruits & Vegetable Baskets" filter renamed to "Raw Food" and mover under "Food & Drink" category.
+* "Exotic Gear" filter removed.
+* "Light & Torches" filter removed.
+
+**Version 0.16.4**
+
+For Stonehearth Alpha 16 stable 2972
+
+* stockpile_filters.json is now a mixinto instead of an override. This should assure better compatibility with other mods.
+* Redesigned filters so they use vanilla item tags as much as possible, to assure better compatibility with other mods. Now, only the fur rug need a mixinto.
+* "Cloth" and "thread" are now two separated filters.
+* Cooking ingredients are now spitted under their own category "Ingredients" into 6 filters : "fruits & vegetables", "meat", "egg", "wheat", "flour" and "corn meal". "Prepared food" and "animal feed" are still under "Food & Drinks".
+* New icons.
 
 **Version 0.16.3**
 
 For Stonehearth Alpha 16 stable 2972.
 
-* Added "wool" subcategory to "Animal Parts" category.
-* Moved "Wool Bundle" to "wool" subcategory.
+* Added "wool" filter to "Animal Parts" category.
+* Moved "Wool Bundle" to "wool" filter.
 
 **Version 0.16.2/0.15.2**
 
@@ -74,16 +72,16 @@ For Stonehearth Alpha 16 unstable 2940 and Alpha 15 stable 549.
 * Renamed "flowers" to "herbs" (to be consistent with craft recipes).
 * Renamed "goods produced from bits of animals" to "leather".
 * Divided "Plants & Animal Parts" into two separated categories.
-* "Plants" category with "fibers", "herbs" and "saplings" subcategories.
-* "Animal Parts" category with "fur pelts", "skins" and "feathers" subcategories.
+* "Plants" category with "fibers", "herbs" and "saplings" filters.
+* "Animal Parts" category with "fur pelts", "skins" and "feathers" filters.
 
 **Version 0.16.1/0.15.1**
 
 For Stonehearth Alpha 16 unstable 2924 and Alpha 15 stable 549.
 
-* Leather Bolt moved to Refined Animal Parts.
-* Fur Rug moved to Decorations.
-* Jerkies moved to Meat & Eggs.
+* "Leather Bolt" moved to "Refined Animal Parts".
+* "Fur Rug" moved to "Decorations".
+* "Jerkies" moved to "Meat & Eggs".
 
 **Version 0.16.0**
 
