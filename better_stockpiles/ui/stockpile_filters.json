@@ -2,18 +2,31 @@
 	"stockpile": {
 		"resources": {
 			"ordinal": 1,
+			"mixintype_categories": "override",
 			"categories": {
-				"animal_part": {
-					"ordinal": 0,
-					"display_name": "",
-					"icon": "",
-					"filter": ""
+				"wood": {
+				   "ordinal": 1,
+				   "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_wood)",
+				   "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/wood.png",
+				   "filter": "stockpile_wood"
 				},
-				"plant": {
-					"ordinal": 0,
-					"display_name": "",
-					"icon": "",
-					"filter": ""
+				"stone": {
+				   "ordinal": 2,
+				   "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_stone)",
+				   "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/stone.png",
+				   "filter": "stockpile_stone"
+				},
+				"clay": {
+				   "ordinal": 3,
+				   "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_clay)",
+				   "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/clay.png",
+				   "filter": "stockpile_clay"
+				},
+				"ore": {
+				   "ordinal": 4,
+				   "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_ore)",
+				   "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/ore.png",
+				   "filter": "stockpile_ore"
 				}
 			}
 		},
@@ -26,19 +39,19 @@
 					"ordinal": 1,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_fiber)",
 					"icon": "/better_stockpiles/ui/fibers.png",
-					"filter": "plant fiber"
+					"filter": "stockpile_plant fiber"
 				},
 				"herb": {
 					"ordinal": 2,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_herb)",
 					"icon": "/better_stockpiles/ui/herbs.png",
-					"filter": "plant herb"
+					"filter": "stockpile_plant herb"
 				},
 				"sapling": {
 					"ordinal": 3,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_sapling)",
 					"icon": "/better_stockpiles/ui/sapling.png",
-					"filter": "plant tree"
+					"filter": "stockpile_plant tree"
 				}
 			}
 		},
@@ -70,6 +83,12 @@
 					"display_name": "i18n(better_stockpiles:filters.tooltip_wool)",
 					"icon": "/better_stockpiles/ui/wool.png",
 					"filter": "stockpile_animal_part fiber"
+				},
+				"bone": {
+					"ordinal": 5,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_bone)",
+					"icon": "/better_stockpiles/ui/bone.png",
+					"filter": "stockpile_animal_part bone"
 				}
 			}
 		},
@@ -79,87 +98,108 @@
 		"goods": {
 			"display_name": "i18n(better_stockpiles:filters.goods)",
 			"ordinal": 5,
+			"mixintype_categories": "override",
 			"categories": {
-				"tool": {
+				"thread": {
+					"ordinal": 1,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_thread)",
 					"icon": "/better_stockpiles/ui/thread.png",
-					"filter": "refined_cloth thread"
+					"filter": "stockpile_refined_weaver thread"
 				},
-				"refined_cloth": {
+				"cloth": {
+					"ordinal": 2,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_cloth)",
 					"icon": "/better_stockpiles/ui/cloth_bolt.png",
-					"filter": "refined_cloth cloth"
+					"filter": "stockpile_refined_weaver cloth"
 				},
-				"refined_animal_part": {
+				"leather": {
+					"ordinal": 3,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_leather)",
-					"icon": "/better_stockpiles/ui/leather_bolt.png"
+					"icon": "/better_stockpiles/ui/leather_bolt.png",
+					"filter": "stockpile_refined_weaver leather"
+				},
+				"refined_ore": {
+					"ordinal": 4,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_refined_ore)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/refined_ore.png",
+					"filter": "stockpile_refined_ore"
+				},
+				"consumables": {
+					"ordinal": 5,
+					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_consumables)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/healing_items.png",
+					"filter": "stockpile_consumable"
 				}
-			}	
+			}
 		},
 		"gear": {
 			"display_name": "i18n(better_stockpiles:filters.gear)",
+			"filter": "gear",
 			"ordinal": 6,
 			"categories": {
 				"tool": {
 					"ordinal": 1,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_tool)",
 					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/tool.png",
-					"filter": "tool"
+					"filter": "stockpile_tool"
 				},
 				"melee_weapon": {
-					"ordinal": 2
+					"ordinal": 2,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_melee_weapon)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/melee_weapon.png",
+					"filter": "stockpile_weapon melee_weapon"
 				},
 				"ranged_weapon": {
-					"ordinal": 3
+					"ordinal": 3,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_ranged_weapon)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/ranged_weapon.png",
+					"filter": "stockpile_weapon ranged_weapon"
 				},
 				"light_armor": {
-					"ordinal": 4
+					"ordinal": 4,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_light_armor)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/light_armor.png",
+					"filter": "stockpile_equipment light_armor"
 				},
 				"heavy_armor": {
-					"ordinal": 5
-				},
-				"exotic_gear": {
-					"ordinal": 6
+					"ordinal": 5,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_heavy_armor)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/heavy_armor.png",
+					"filter": "stockpile_equipment heavy_armor"
 				}
 			}
 		},
 		"cooking_ingredients": {
 			"display_name": "i18n(better_stockpiles:filters.cooking_ingredients)",
-			"filter": "ingredients",
+			"filter": "cooking_ingredients",
 			"ordinal": 7,
 			"categories": {
-				"food_container": {
-					"ordinal": 1,
-					"display_name": "i18n(better_stockpiles:filters.tooltip_food_container)",
-					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/fruit.png",
-					"filter": "raw_food food_container"
-				},
 				"meat": {
-					"ordinal": 2,
+					"ordinal": 1,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_meat)",
 					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/meat.png",
 					"filter": "stockpile_cooking_ingredient meat"
 				},
 				"egg": {
-					"ordinal": 3,
+					"ordinal": 2,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_egg)",
 					"icon": "/better_stockpiles/ui/egg.png",
 					"filter": "stockpile_cooking_ingredient egg"
 				},
 				"wheat": {
-					"ordinal": 4,
+					"ordinal": 3,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_wheat)",
 					"icon": "/better_stockpiles/ui/wheat_bale.png",
 					"filter": "stockpile_cooking_ingredient wheat"
 				},
 				"flour": {
-					"ordinal": 5,
+					"ordinal": 4,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_flour)",
 					"icon": "/better_stockpiles/ui/flour.png",
 					"filter": "stockpile_cooking_ingredient flour"
 				},
 				"corn_meal": {
-					"ordinal": 6,
+					"ordinal": 5,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_corn_meal)",
 					"icon": "/better_stockpiles/ui/corn_meal.png",
 					"filter": "stockpile_cooking_ingredient corn_meal"
@@ -169,23 +209,14 @@
 		"food_and_drink": {
 			"ordinal": 8,
 			"categories": {
-				"food_container": {
-					"ordinal": 0,
-					"display_name": "",
-					"icon": "",
-					"filter": ""
-				},
-				"cooking_ingredient": {
-					"ordinal": 0,
-					"display_name": "",
-					"icon": "",
-					"filter": ""
-				},
-				"prepared_food": {
+				"raw_food": {
 					"ordinal": 1
 				},
-				"animal_feed": {
-					"ordinal": 2,
+				"prepared_food": {
+					"ordinal": 2
+				},
+				"cooking_ingredient": {
+					"ordinal": 3,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_animal_feed)",
 					"icon": "/better_stockpiles/ui/animal_feed.png",
 					"filter": "stockpile_cooking_ingredient animal_feed"
