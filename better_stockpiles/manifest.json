@@ -5,8 +5,6 @@
 	},
 	"default_locale" : "en",
 	"mixintos" :  {
-		"stonehearth/ui/data/stockpile_filters.json": "file(ui/stockpile_filters.json)",
-		
-		"stonehearth/entities/decoration/fur_rug/fur_rug.json" : "file(entities/fur_rug.json)"
+		"stonehearth/ui/data/stockpile_filters.json": "file(ui/stockpile_filters.json)"
 	}
 }
