@@ -36,6 +36,12 @@ Feedback, suggestions and bug reports are welcome!
 
 ## Changelog
 
+**Version 0.17.1**
+
+For Stonehearth Alpha 17 develop 3013
+
+* Removes the Fur Rug mixinto.
+
 **Version 0.17.0**
 
 For Stonehearth Alpha 17 develop 3008
