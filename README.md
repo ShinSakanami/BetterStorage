@@ -17,7 +17,7 @@ Current available filters:
 * **Plants:** Fibers, Herbs, Saplings
 * **Animal Parts:** Pelts, Skins, Feathers, Wool, Bones
 * **Construction:** Doors & Windows, Furniture, Defenses, Decorations
-* **Goods:** Thread, Cloth, Leather, Metal Bars, Healing Items and Other Consumables
+* **Goods:** Thread, Cloth, Leather, Metal Bars, Gears, Healing Items and Other Consumables
 * **Equipment:** Tools, Melee Weapons, Ranged Weapons, Light Armor, Heavy Armor
 * **Ingredients:** Meat, Eggs, Wheat, Flour, Corn Meal
 * **Food & Drink:** Raw Foods, Cooked Foods, Animal Feed
@@ -35,6 +35,12 @@ Feedback, suggestions and bug reports are welcome!
 
 
 ## Changelog
+
+**Version 0.17.2**
+
+For Stonehearth Alpha 17 stable 584
+
+* Added "Gears" filter to "Goods" category. (Thanks Brendan)
 
 **Version 0.17.1**
 
@@ -72,7 +78,7 @@ For Stonehearth Alpha 16 stable 2972.
 
 **Version 0.16.2/0.15.2**
 
-For Stonehearth Alpha 16 unstable 2940 and Alpha 15 stable 549.
+For Stonehearth Alpha 16 develop 2940 and Alpha 15 stable 549.
 
 * Moved "Goblin Honor Tokens" to "gems and trophies".
 * Renamed "flowers" to "herbs" (to be consistent with craft recipes).
@@ -83,7 +89,7 @@ For Stonehearth Alpha 16 unstable 2940 and Alpha 15 stable 549.
 
 **Version 0.16.1/0.15.1**
 
-For Stonehearth Alpha 16 unstable 2924 and Alpha 15 stable 549.
+For Stonehearth Alpha 16 develop 2924 and Alpha 15 stable 549.
 
 * "Leather Bolt" moved to "Refined Animal Parts".
 * "Fur Rug" moved to "Decorations".
@@ -91,7 +97,7 @@ For Stonehearth Alpha 16 unstable 2924 and Alpha 15 stable 549.
 
 **Version 0.16.0**
 
-Initial version for Stonehearth Alpha 16 unstable 2924.
+Initial version for Stonehearth Alpha 16 develop 2924.
 
 ## License
 

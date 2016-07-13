@@ -122,10 +122,16 @@
 					"ordinal": 4,
 					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_refined_ore)",
 					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/refined_ore.png",
-					"filter": "stockpile_refined_ore"
+					"filter": "stockpile_refined_ore ingot"
+				},
+				"gears": {
+					"ordinal": 5,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_gear)",
+					"icon": "/better_stockpiles/ui/gear.png",
+					"filter": "stockpile_refined_ore gear"
 				},
 				"consumables": {
-					"ordinal": 5,
+					"ordinal": 6,
 					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_consumables)",
 					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/healing_items.png",
 					"filter": "stockpile_consumable"
