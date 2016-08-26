@@ -1,10 +1,14 @@
 {
 	"info": {
 		"name": "better_stockpiles",
-		"version": 2
+		"version": 3
 	},
 	"default_locale" : "en",
 	"mixintos" :  {
-		"stonehearth/ui/data/stockpile_filters.json": "file(ui/stockpile_filters.json)"
+		"stonehearth/ui/data/stockpile_filters.json": "file(ui/stockpile_filters.json)",
+		"stonehearth/entities/consumables/courage_tonic/courage_tonic.json": "file(entities/consumables/tonics/courage_tonic.json)",
+		"stonehearth/entities/consumables/energy_tonic/energy_tonic.json": "file(entities/consumables/tonics/energy_tonic.json)",
+		"stonehearth/entities/consumables/stamina_tonic/stamina_tonic.json": "file(entities/consumables/tonics/stamina_tonic.json)",
+		"stonehearth/entities/consumables/strength_tonic/strength_tonic.json": "file(entities/consumables/tonics/strength_tonic.json)"
 	}
 }

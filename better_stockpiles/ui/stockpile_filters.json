@@ -1,56 +1,78 @@
 {
 	"stockpile": {
 		"resources": {
-			"ordinal": 1,
-			"mixintype_categories": "override",
 			"categories": {
-				"wood": {
-				   "ordinal": 1,
-				   "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_wood)",
-				   "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/wood.png",
-				   "filter": "stockpile_wood"
+				"mixintypes": {
+					"ore": "remove",
+					"animal_part": "remove",
+					"plant": "remove"
+				}
+			}
+		},
+		"ore": {
+			"display_name": "i18n(better_stockpiles:filters.ore)",
+			"filter": "ore",
+			"ordinal": 2,
+			"categories": {
+				"coal_ore": {
+					"ordinal": 1,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_coal_ore)",
+					"icon": "/better_stockpiles/ui/coal_ore.png",
+					"filter": "stockpile_ore coal"
 				},
-				"stone": {
-				   "ordinal": 2,
-				   "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_stone)",
-				   "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/stone.png",
-				   "filter": "stockpile_stone"
+				"copper_ore": {
+					"ordinal": 2,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_copper_ore)",
+					"icon": "/better_stockpiles/ui/copper_ore.png",
+					"filter": "stockpile_ore copper"
 				},
-				"clay": {
-				   "ordinal": 3,
-				   "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_clay)",
-				   "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/clay.png",
-				   "filter": "stockpile_clay"
+				"tin_ore": {
+					"ordinal": 3,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_tin_ore)",
+					"icon": "/better_stockpiles/ui/tin_ore.png",
+					"filter": "stockpile_ore tin"
 				},
-				"ore": {
-				   "ordinal": 4,
-				   "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_ore)",
-				   "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/ore.png",
-				   "filter": "stockpile_ore"
+				"iron_ore": {
+					"ordinal": 4,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_iron_ore)",
+					"icon": "/better_stockpiles/ui/iron_ore.png",
+					"filter": "stockpile_ore iron"
+				},
+				"silver_ore": {
+					"ordinal": 5,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_silver_ore)",
+					"icon": "/better_stockpiles/ui/silver_ore.png",
+					"filter": "stockpile_ore silver"
+				},
+				"gold_ore": {
+					"ordinal": 6,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_gold_ore)",
+					"icon": "/better_stockpiles/ui/gold_ore.png",
+					"filter": "stockpile_ore gold"
 				}
 			}
 		},
 		"plants": {
 			"display_name": "i18n(better_stockpiles:filters.plants)",
 			"filter": "plants",
-			"ordinal": 2,
+			"ordinal": 3,
 			"categories": {
 				"fiber": {
 					"ordinal": 1,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_fiber)",
-					"icon": "/better_stockpiles/ui/fibers.png",
+					"icon": "/better_stockpiles/ui/fiber.png",
 					"filter": "stockpile_plant fiber"
 				},
 				"herb": {
 					"ordinal": 2,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_herb)",
-					"icon": "/better_stockpiles/ui/herbs.png",
+					"icon": "/better_stockpiles/ui/herb.png",
 					"filter": "stockpile_plant herb"
 				},
-				"sapling": {
+				"tree": {
 					"ordinal": 3,
-					"display_name": "i18n(better_stockpiles:filters.tooltip_sapling)",
-					"icon": "/better_stockpiles/ui/sapling.png",
+					"display_name": "i18n(better_stockpiles:filters.tooltip_tree)",
+					"icon": "/better_stockpiles/ui/tree.png",
 					"filter": "stockpile_plant tree"
 				}
 			}
@@ -58,12 +80,12 @@
 		"animal_parts": {
 			"display_name": "i18n(better_stockpiles:filters.animal_parts)",
 			"filter": "animal_parts",
-			"ordinal": 3,
+			"ordinal": 4,
 			"categories": {
 				"pelt": {
 					"ordinal": 1,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_pelt)",
-					"icon": "/better_stockpiles/ui/fur_pelt.png",
+					"icon": "/better_stockpiles/ui/pelt.png",
 					"filter": "stockpile_animal_part pelt"
 				},
 				"skin": {
@@ -75,14 +97,14 @@
 				"feather": {
 					"ordinal": 3,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_feather)",
-					"icon": "/better_stockpiles/ui/feathers.png",
+					"icon": "/better_stockpiles/ui/feather.png",
 					"filter": "stockpile_animal_part feather"
 				},
 				"wool": {
 					"ordinal": 4,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_wool)",
 					"icon": "/better_stockpiles/ui/wool.png",
-					"filter": "stockpile_animal_part fiber"
+					"filter": "stockpile_animal_part wool"
 				},
 				"bone": {
 					"ordinal": 5,
@@ -93,12 +115,14 @@
 			}
 		},
 		"construction": {
-			"ordinal": 4
+			"ordinal": 5
 		},
 		"goods": {
 			"display_name": "i18n(better_stockpiles:filters.goods)",
-			"ordinal": 5,
-			"mixintype_categories": "override",
+			"ordinal": 6,
+			"mixintypes": {
+				"categories": "override"
+			},
 			"categories": {
 				"thread": {
 					"ordinal": 1,
@@ -109,39 +133,76 @@
 				"cloth": {
 					"ordinal": 2,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_cloth)",
-					"icon": "/better_stockpiles/ui/cloth_bolt.png",
+					"icon": "/better_stockpiles/ui/cloth.png",
 					"filter": "stockpile_refined_weaver cloth"
 				},
 				"leather": {
 					"ordinal": 3,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_leather)",
-					"icon": "/better_stockpiles/ui/leather_bolt.png",
+					"icon": "/better_stockpiles/ui/leather.png",
 					"filter": "stockpile_refined_weaver leather"
 				},
-				"refined_ore": {
+				"gear": {
 					"ordinal": 4,
-					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_refined_ore)",
-					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/refined_ore.png",
-					"filter": "stockpile_refined_ore ingot"
-				},
-				"gears": {
-					"ordinal": 5,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_gear)",
 					"icon": "/better_stockpiles/ui/gear.png",
 					"filter": "stockpile_refined_ore gear"
-				},
-				"consumables": {
-					"ordinal": 6,
-					"display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_consumables)",
-					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/healing_items.png",
-					"filter": "stockpile_consumable"
 				}
 			}
 		},
-		"gear": {
-			"display_name": "i18n(better_stockpiles:filters.gear)",
-			"filter": "gear",
-			"ordinal": 6,
+		"ingots": {
+			"display_name": "i18n(better_stockpiles:filters.ingots)",
+			"filter": "ingots",
+			"ordinal": 7,
+			"categories": {
+				"copper_ingot": {
+					"ordinal": 1,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_copper_ingot)",
+					"icon": "/better_stockpiles/ui/copper_ingot.png",
+					"filter": "stockpile_refined_ore copper ingot"
+				},
+				"tin_ingot": {
+					"ordinal": 2,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_tin_ingot)",
+					"icon": "/better_stockpiles/ui/tin_ingot.png",
+					"filter": "stockpile_refined_ore tin ingot"
+				},
+				"bronze_ingot": {
+					"ordinal": 3,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_bronze_ingot)",
+					"icon": "/better_stockpiles/ui/bronze_ingot.png",
+					"filter": "stockpile_refined_ore bronze ingot"
+				},
+				"iron_ingot": {
+					"ordinal": 4,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_iron_ingot)",
+					"icon": "/better_stockpiles/ui/iron_ingot.png",
+					"filter": "stockpile_refined_ore iron ingot"
+				},
+				"silver_ingot": {
+					"ordinal": 5,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_silver_ingot)",
+					"icon": "/better_stockpiles/ui/silver_ingot.png",
+					"filter": "stockpile_refined_ore silver ingot"
+				},
+				"gold_ingot": {
+					"ordinal": 6,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_gold_ingot)",
+					"icon": "/better_stockpiles/ui/gold_ingot.png",
+					"filter": "stockpile_refined_ore gold ingot"
+				},
+				"steel_ingot": {
+					"ordinal": 7,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_steel_ingot)",
+					"icon": "/better_stockpiles/ui/steel_ingot.png",
+					"filter": "stockpile_refined_ore steel ingot"
+				}
+			}
+		},
+		"equipment": {
+			"display_name": "i18n(better_stockpiles:filters.equipment)",
+			"filter": "equipment",
+			"ordinal": 8,
 			"categories": {
 				"tool": {
 					"ordinal": 1,
@@ -175,10 +236,37 @@
 				}
 			}
 		},
+		"consumables": {
+			"display_name": "i18n(better_stockpiles:filters.consumables)",
+			"filter": "consumables",
+			"ordinal": 9,
+			"categories": {
+				"healing_item": {
+					"ordinal": 1,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_healing_item)",
+					"icon": "/better_stockpiles/ui/healing_item.png",
+					"filter": "stockpile_consumable healing_item"
+				},
+				"tonic": {
+					"ordinal": 2,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_tonic)",
+					"icon": "/better_stockpiles/ui/tonic.png",
+					"filter": "stockpile_consumable tonic"
+				}
+			}
+		},
+		"food_and_drink": {
+			"ordinal": 10,
+			"categories": {
+				"mixintypes": {
+					"cooking_ingredient": "remove"
+				}
+			}
+		},
 		"cooking_ingredients": {
 			"display_name": "i18n(better_stockpiles:filters.cooking_ingredients)",
 			"filter": "cooking_ingredients",
-			"ordinal": 7,
+			"ordinal": 11,
 			"categories": {
 				"meat": {
 					"ordinal": 1,
@@ -195,7 +283,7 @@
 				"wheat": {
 					"ordinal": 3,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_wheat)",
-					"icon": "/better_stockpiles/ui/wheat_bale.png",
+					"icon": "/better_stockpiles/ui/wheat.png",
 					"filter": "stockpile_cooking_ingredient wheat"
 				},
 				"flour": {
@@ -212,25 +300,33 @@
 				}
 			}
 		},
-		"food_and_drink": {
-			"ordinal": 8,
+		"animal_feed": {
+			"display_name": "i18n(better_stockpiles:filters.animal_feed)",
+			"filter": "animal_feed",
+			"ordinal": 12,
 			"categories": {
-				"raw_food": {
-					"ordinal": 1
+				"poyo_feed": {
+					"ordinal": 1,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_poyo_feed)",
+					"icon": "/better_stockpiles/ui/poyo_feed.png",
+					"filter": "stockpile_cooking_ingredient animal_feed poyo_feed_bag"
 				},
-				"prepared_food": {
-					"ordinal": 2
+				"rabbit_feed": {
+					"ordinal": 2,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_rabbit_feed)",
+					"icon": "/better_stockpiles/ui/rabbit_feed.png",
+					"filter": "stockpile_cooking_ingredient animal_feed rabbit_feed"
 				},
-				"cooking_ingredient": {
+				"sheep_feed": {
 					"ordinal": 3,
-					"display_name": "i18n(better_stockpiles:filters.tooltip_animal_feed)",
-					"icon": "/better_stockpiles/ui/animal_feed.png",
-					"filter": "stockpile_cooking_ingredient animal_feed"
+					"display_name": "i18n(better_stockpiles:filters.tooltip_sheep_feed)",
+					"icon": "/better_stockpiles/ui/sheep_feed.png",
+					"filter": "stockpile_cooking_ingredient animal_feed sheep_feed"
 				}
 			}
 		},
 		"wealth": {
-			"ordinal": 9
+			"ordinal": 13
 		}
 	}
 }

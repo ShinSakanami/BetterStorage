@@ -13,14 +13,18 @@ Better Stockpiles is here for you! Adding more filters to stockpiles, crates and
 
 Current available filters:
 
-* **Resources:** Wood, Stone, Clay, Ore
+* **Resources:** Wood, Stone, Clay
+* **Ore:** Coal, Copper, Tin, Iron, Silver, Gold
 * **Plants:** Fibers, Herbs, Saplings
 * **Animal Parts:** Pelts, Skins, Feathers, Wool, Bones
 * **Construction:** Doors & Windows, Furniture, Defenses, Decorations
-* **Goods:** Thread, Cloth, Leather, Metal Bars, Gears, Healing Items and Other Consumables
+* **Refined Goods:** Thread, Cloth, Leather, Gears
+* **Metal Bars:** Copper Ingots, Tin Ingots, Bronze Ingots, Iron Ingots, Silver Ingots, Gold Ingots, Steel Ingots
 * **Equipment:** Tools, Melee Weapons, Ranged Weapons, Light Armor, Heavy Armor
+* **Consumables:** Healing Items, Tonics
+* **Food & Drink:** Raw Foods, Cooked Foods
 * **Ingredients:** Meat, Eggs, Wheat, Flour, Corn Meal
-* **Food & Drink:** Raw Foods, Cooked Foods, Animal Feed
+* **Animal Feed:** Poyo Feed, Rabbit Feed, Sheep Feed
 * **Wealth:** Gold Chests, Trophies
 
 Discuss about this mod on http://discourse.stonehearth.net/t/mod-better-stockpiles/21449
@@ -33,8 +37,18 @@ Feedback, suggestions and bug reports are welcome!
 
 **StoneHearth Mods:** https://stonehearthmods.co/better-stockpiles/
 
-
 ## Changelog
+
+**Version 0.18.0**
+
+For Stonehearth Alpha 18 develop 3107
+
+* Use of the new "remove" mixintype.
+* "Ore", "Metal Bars", "Consumables" and "Animal Feed" filters are now detailled categories.
+* Renamed "Goods" category to "Refined Goods".
+* Moved "Ingredients" category after "Food & Drink".
+* Added "tonic" tag to Tonic potions, to use with the new "Tonics" filter.
+
 
 **Version 0.17.2**
 
