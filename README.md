@@ -44,11 +44,10 @@ Feedback, suggestions and bug reports are welcome!
 For Stonehearth Alpha 18 stable 652
 
 * Use of the new "remove" mixintype.
-* "Ore", "Metal Bars", "Consumables" and "Animal Feed" filters are now detailled categories.
+* "Ore", "Metal Bars", "Consumables" and "Animal Feed" filters are now detailed categories.
 * Renamed "Goods" category to "Refined Goods".
 * Moved "Ingredients" category after "Food & Drink".
 * Added "tonic" tag to Tonic potions, to use with the new "Tonics" filter.
-
 
 **Version 0.17.2**
 
