@@ -41,7 +41,7 @@ Feedback, suggestions and bug reports are welcome!
 
 **Version 0.18.0**
 
-For Stonehearth Alpha 18 develop 3107
+For Stonehearth Alpha 18 stable 652
 
 * Use of the new "remove" mixintype.
 * "Ore", "Metal Bars", "Consumables" and "Animal Feed" filters are now detailled categories.
