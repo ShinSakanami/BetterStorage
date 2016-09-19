@@ -22,8 +22,8 @@ Current available filters:
 * **Metal Bars:** Copper Ingots, Tin Ingots, Bronze Ingots, Iron Ingots, Silver Ingots, Gold Ingots, Steel Ingots
 * **Equipment:** Tools, Melee Weapons, Ranged Weapons, Light Armor, Heavy Armor
 * **Consumables:** Healing Items, Tonics
-* **Food & Drink:** Raw Foods, Cooked Foods
-* **Ingredients:** Meat, Eggs, Wheat, Flour, Corn Meal
+* **Food & Drink:** Raw Foods, Cooked Foods, Rotten Foods
+* **Ingredients:** Meat, Eggs, Wheat, Grain Flour
 * **Animal Feed:** Poyo Feed, Rabbit Feed, Sheep Feed
 * **Wealth:** Gold Chests, Trophies
 
@@ -39,6 +39,15 @@ Feedback, suggestions and bug reports are welcome!
 
 ## Changelog
 
+**Version 0.18.1**
+
+For Stonehearth Alpha 18 stable 656
+
+* Modified stockpile UI with a larger window (thanks Tuhalu).
+* Added "Rotten Foods" filter to "Food & Drink" category.
+* Added "stockpile_rotten_food" tag to Rotten Basket, Rotten Egg and Rotten Jerky.
+* Merged "Flour" and "Corn Meal" filters into "Grain Flour" filter.
+
 **Version 0.18.0**
 
 For Stonehearth Alpha 18 stable 652
@@ -53,7 +62,7 @@ For Stonehearth Alpha 18 stable 652
 
 For Stonehearth Alpha 17 stable 584
 
-* Added "Gears" filter to "Goods" category. (Thanks Brendan)
+* Added "Gears" filter to "Goods" category (thanks Brendan).
 
 **Version 0.17.1**
 

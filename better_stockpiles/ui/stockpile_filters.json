@@ -260,6 +260,12 @@
 			"categories": {
 				"mixintypes": {
 					"cooking_ingredient": "remove"
+				},
+				"rotten_food": {
+					"ordinal": 99,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_rotten_food)",
+					"icon": "/better_stockpiles/ui/rotten_food.png",
+					"filter": "stockpile_rotten_food"
 				}
 			}
 		},
@@ -286,17 +292,11 @@
 					"icon": "/better_stockpiles/ui/wheat.png",
 					"filter": "stockpile_cooking_ingredient wheat"
 				},
-				"flour": {
+				"grain_flour": {
 					"ordinal": 4,
-					"display_name": "i18n(better_stockpiles:filters.tooltip_flour)",
-					"icon": "/better_stockpiles/ui/flour.png",
-					"filter": "stockpile_cooking_ingredient flour"
-				},
-				"corn_meal": {
-					"ordinal": 5,
-					"display_name": "i18n(better_stockpiles:filters.tooltip_corn_meal)",
-					"icon": "/better_stockpiles/ui/corn_meal.png",
-					"filter": "stockpile_cooking_ingredient corn_meal"
+					"display_name": "i18n(better_stockpiles:filters.tooltip_grain_flour)",
+					"icon": "/better_stockpiles/ui/grain_flour.png",
+					"filter": "stockpile_cooking_ingredient grain_flour"
 				}
 			}
 		},

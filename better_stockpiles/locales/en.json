@@ -44,10 +44,10 @@
 		"tooltip_meat": "Meat",
 		"tooltip_egg": "Eggs",
 		"tooltip_wheat": "Wheat",
-		"tooltip_flour": "Flour",
-		"tooltip_corn_meal": "Corn Meal",
+		"tooltip_grain_flour": "Grain Flour",
 		"tooltip_poyo_feed": "Poyo Feed",
 		"tooltip_rabbit_feed": "Rabbit Feed",
-		"tooltip_sheep_feed": "Sheep Feed"
+		"tooltip_sheep_feed": "Sheep Feed",
+		"tooltip_rotten_food": "Rotten Foods"
 	}
 }
