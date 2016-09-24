@@ -27,6 +27,13 @@ Current available filters:
 * **Animal Feed:** Poyo Feed, Rabbit Feed, Sheep Feed
 * **Wealth:** Gold Chests, Trophies
 
+Current available filters for Stonehearth Cafe:
+
+* **Food & Drink:** Drink
+* **Ingredients:** Potatoes, Rice, Honey
+* **Animal Feed:** Pig Feed, Yak Feed
+* **Wealth:** Quest Items
+
 Discuss about this mod on http://discourse.stonehearth.net/t/mod-better-stockpiles/21449
 
 Feedback, suggestions and bug reports are welcome!
@@ -37,7 +44,32 @@ Feedback, suggestions and bug reports are welcome!
 
 **StoneHearth Mods:** https://stonehearthmods.co/better-stockpiles/
 
+## Installation
+
+* Download "better_stockpile.smod" file from the Releases page or any of the mirrors above.
+* Copy the file to "/Stonehearth/mods" directory.
+* Profit!
+
+## Compatibility
+
+* Patch "cookmod_bs" for Stonehearth Cafe 1.7 (http://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-7/10159)
+
+If a mod uses vanilla filtering tags for its items, it will be compatible with BS.
+
+If a mod modifies the stockpile filters file, it could be compatible with BS. Maybe. Depends on the modifications.
+
+If a mod overrides the stockpile filters file, or uses non vanilla filtering tags, it will NOT be compatible with BS.
+
+If you want me to make a compatibility patch for a mod, please send me a PM on Stonehearth Discourse, with a link to the latest version of the mod.
+
 ## Changelog
+
+**Version 0.18.2**
+
+For Stonehearth Alpha 18 stable 663
+
+* Enlarged stockpile UI window, so every filters are visible without scrolling!
+* Added compatibility patch for Stonehearth Cafe 1.7
 
 **Version 0.18.1**
 

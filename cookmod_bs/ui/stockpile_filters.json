@@ -1,0 +1,42 @@
+{
+	"stockpile": {
+		"cooking_ingredients": {
+			"categories": {
+				"potato": {
+					"ordinal": 5,
+					"display_name": "i18n(cookmod_bs:filters.tooltip_potato)",
+					"icon": "/cookmod_bs/ui/potato.png",
+					"filter": "stockpile_cooking_ingredient potato"
+				},
+				"rice": {
+					"ordinal": 6,
+					"display_name": "i18n(cookmod_bs:filters.tooltip_rice)",
+					"icon": "/cookmod_bs/ui/rice.png",
+					"filter": "stockpile_cooking_ingredient rice"
+				},
+				"honey": {
+					"ordinal": 7,
+					"display_name": "i18n(cookmod_bs:filters.tooltip_honey)",
+					"icon": "/cookmod_bs/ui/honey.png",
+					"filter": "stockpile_cooking_ingredient honey"
+				}
+			}
+		},
+		"animal_feed": {
+			"categories": {
+				"pig_feed": {
+					"ordinal": 4,
+					"display_name": "i18n(cookmod_bs:filters.tooltip_pig_feed)",
+					"icon": "/cookmod_bs/ui/pig_feed.png",
+					"filter": "stockpile_cooking_ingredient animal_feed pig_feed"
+				},
+				"yak_feed": {
+					"ordinal": 5,
+					"display_name": "i18n(cookmod_bs:filters.tooltip_yak_feed)",
+					"icon": "/cookmod_bs/ui/yak_feed.png",
+					"filter": "stockpile_cooking_ingredient animal_feed yak_feed"
+				}
+			}
+		}
+	}
+}

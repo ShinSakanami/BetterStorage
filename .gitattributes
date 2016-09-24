@@ -1,2 +1,0 @@
-$ cat .gitattributes
-*.json linguist-language=JSON
