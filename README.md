@@ -11,7 +11,9 @@ The stockpiles in StoneHearth are great, but maybe you need more filtering capab
 
 Better Stockpiles is here for you! Adding more filters to stockpiles, crates and chests for better stocks management!
 
-Current available filters:
+Now compatible with Stonehearth Cafe!
+
+Current available filters in stockpiles:
 
 * **Resources:** Wood, Stone, Clay
 * **Ore:** Coal, Copper, Tin, Iron, Silver, Gold
@@ -27,7 +29,7 @@ Current available filters:
 * **Animal Feed:** Poyo Feed, Rabbit Feed, Sheep Feed
 * **Wealth:** Gold Chests, Trophies
 
-Current available filters for Stonehearth Cafe:
+Stonehearth Cafe filters:
 
 * **Food & Drink:** Drink
 * **Ingredients:** Potatoes, Rice, Honey
@@ -40,9 +42,13 @@ Feedback, suggestions and bug reports are welcome!
 
 ## Mirrors
 
-**PraiseDB:** http://praisedb.x10.bz/mod.php?id=127
+**better_stockpiles.smod**
+* Dropbox: https://www.dropbox.com/s/0qvojc4niy1ircu/better_stockpiles.smod?dl=0
+* PraiseDB: http://praisedb.x10.bz/mod.php?id=127
+* StoneHearth Mods: https://stonehearthmods.co/better-stockpiles/
 
-**StoneHearth Mods:** https://stonehearthmods.co/better-stockpiles/
+**cookmod_bs.smod**
+* Dropbox: https://www.dropbox.com/s/iondsbpv3952tvi/cookmod_bs.smod?dl=0
 
 ## Installation
 
@@ -52,7 +58,7 @@ Feedback, suggestions and bug reports are welcome!
 
 ## Compatibility
 
-* Patch "cookmod_bs" for Stonehearth Cafe 1.7 (http://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-7/10159)
+* Patch "cookmod_bs.smod" for Stonehearth Cafe 1.7 (http://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-7/10159)
 
 If a mod uses vanilla filtering tags for its items, it will be compatible with BS.
 
