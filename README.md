@@ -11,7 +11,7 @@ The stockpiles in StoneHearth are great, but maybe you need more filtering capab
 
 Better Stockpiles is here for you! Adding more filters to stockpiles, crates and chests for better stocks management!
 
-Now compatible with Stonehearth Cafe!
+Now with a compatibility patch for Stonehearth Cafe!
 
 Current available filters in stockpiles:
 
@@ -53,6 +53,7 @@ Feedback, suggestions and bug reports are welcome!
 ## Installation
 
 * Download "better_stockpile.smod" file from the Releases page or any of the mirrors above.
+* Also download "cookmod_bs.smod" if you use Stonehearth Cafe mod.
 * Copy the file to "/Stonehearth/mods" directory.
 * Profit!
 
