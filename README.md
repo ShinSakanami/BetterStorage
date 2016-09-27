@@ -9,11 +9,11 @@ Stonehearth is a game by Radiant Entertainment http://stonehearth.net/
 
 The stockpiles in StoneHearth are great, but maybe you need more filtering capabilities? Want to separate flowers from fibers? Wheat grains from food? Meat from animal feed?
 
-Better Stockpiles is here for you! Adding more filters to stockpiles, crates and chests for better stocks management!
+Better Stockpiles is here for you! Adding more filters to stockpiles, crates and chests for better stocks management.
 
-Now with a compatibility patch for Stonehearth Cafe!
+Now compatible with Stonehearth Cafe and Brewery Mod!
 
-Current available filters in stockpiles:
+Current available stockpile filters:
 
 * **Resources:** Wood, Stone, Clay
 * **Ore:** Coal, Copper, Tin, Iron, Silver, Gold
@@ -24,17 +24,10 @@ Current available filters in stockpiles:
 * **Metal Bars:** Copper Ingots, Tin Ingots, Bronze Ingots, Iron Ingots, Silver Ingots, Gold Ingots, Steel Ingots
 * **Equipment:** Tools, Melee Weapons, Ranged Weapons, Light Armor, Heavy Armor
 * **Consumables:** Healing Items, Tonics
-* **Food & Drink:** Raw Foods, Cooked Foods, Rotten Foods
-* **Ingredients:** Meat, Eggs, Wheat, Grain Flour
-* **Animal Feed:** Poyo Feed, Rabbit Feed, Sheep Feed
-* **Wealth:** Gold Chests, Trophies
-
-Stonehearth Cafe filters:
-
-* **Food & Drink:** Drink
-* **Ingredients:** Potatoes, Rice, Honey
-* **Animal Feed:** Pig Feed, Yak Feed
-* **Wealth:** Quest Items
+* **Food & Drink:** Fruits & Vegetables, Meat, Cooked Foods, Drinks (SC), Rotten Foods
+* **Ingredients:** Cooking Ingredients, Eggs, Wheat, Honey (SC), Sugarcane (BM)
+* **Animal Feed:** Poyo Feed, Rabbit Feed, Sheep Feed, Pig Feed (SC), Yak Feed (SC)
+* **Wealth:** Gold Chests, Trophies, Quest Items (SC)
 
 Discuss about this mod on http://discourse.stonehearth.net/t/mod-better-stockpiles/21449
 
@@ -53,15 +46,17 @@ Feedback, suggestions and bug reports are welcome!
 ## Installation
 
 * Download "better_stockpile.smod" file from the Releases page or any of the mirrors above.
-* Also download "cookmod_bs.smod" if you use Stonehearth Cafe mod.
-* Copy the file to "/Stonehearth/mods" directory.
+* Download "cookmod_bs.smod" if you use Stonehearth Cafe.
+* Download "brewerymod_bs.smod" if you use Brewery Mod.
+* Copy the .smod files to "/Stonehearth/mods" directory.
 * Profit!
 
 ## Compatibility
 
 * Patch "cookmod_bs.smod" for Stonehearth Cafe 1.7 (http://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-7/10159)
+* Patch "brewerymod_bs.smod" for Brewery Mod Alpha 18 (http://discourse.stonehearth.net/t/alpha18-brewerymod/21790)
 
-If a mod uses vanilla filtering tags for its items, it will be compatible with BS.
+If a mod uses vanilla filtering tags for its items, it will be mostly compatible with BS.
 
 If a mod modifies the stockpile filters file, it could be compatible with BS. Maybe. Depends on the modifications.
 
@@ -71,12 +66,40 @@ If you want me to make a compatibility patch for a mod, please send me a PM on S
 
 ## Changelog
 
+**Version 0.18.3**
+
+For Stonehearth Alpha 18 stable 663
+
+* Moved "Meat" filter to "Food & Drink" category.
+* Renamed "Raw Food" filter to "Fruits & Vegetables".
+* Renamed "Grain Flour" filter to "Cooking Ingredients", with a new tag.
+
+Updated compatibility patch for Stoneheart Cafe 1.7:
+
+* Removed "Potatoes" and "Rice" filters.
+* Moved Potatoes and Rice entities to "Cooking Ingredients" filter with the new tag.
+
+Added compatibility patch for Brewery Mod Alpha 18
+
+* Added "Sugarcane" filter to "Ingredients" category.
+* Moved Cocoa Powder, Yeast and Sugar entities to "Cooking Ingredients" filter with the new tag.
+* Added "drink_container" tag to Corn Mead, Golden Mead, Mead, Pumpkin Spice Mead and Strawberry Mead entities.
+* Removed "drink_container" tag from Apple Basket, Blueberry Basket, Grapes Basket, Strawberry Basket and Tomato Basket entities.
+* Removed "stockpile_prepared_food" tag from Fortified Wine entity.
+
 **Version 0.18.2**
 
 For Stonehearth Alpha 18 stable 663
 
 * Enlarged stockpile UI window, so every filters are visible without scrolling!
-* Added compatibility patch for Stonehearth Cafe 1.7
+
+Added compatibility patch for Stonehearth Cafe 1.7:
+
+* Added "Potatoes", "Rice" and "Honey" filters to "Ingredients" category.
+* Added "Pig Feed" and "Yak Feed" to "Animal Feed" category.
+* Added "stockpile_decoration" tag to Well, Scarecrow and Wind Sail entities.
+* Added "stockpile_equipment" tag to Fisherman Rod and Fancy Cook Outfit entities.
+* Removed "drink_container" tag from Berries Basket and Prickly Pear Basket entities.
 
 **Version 0.18.1**
 
@@ -84,7 +107,7 @@ For Stonehearth Alpha 18 stable 656
 
 * Modified stockpile UI with a larger window (thanks Tuhalu).
 * Added "Rotten Foods" filter to "Food & Drink" category.
-* Added "stockpile_rotten_food" tag to Rotten Basket, Rotten Egg and Rotten Jerky.
+* Added "stockpile_rotten_food" tag to Rotten Basket, Rotten Egg and Rotten Jerky entities.
 * Merged "Flour" and "Corn Meal" filters into "Grain Flour" filter.
 
 **Version 0.18.0**
