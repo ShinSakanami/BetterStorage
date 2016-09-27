@@ -10,6 +10,8 @@
 		"stonehearth/entities/consumables/energy_tonic/energy_tonic.json": "file(entities/consumables/tonics/energy_tonic.json)",
 		"stonehearth/entities/consumables/stamina_tonic/stamina_tonic.json": "file(entities/consumables/tonics/stamina_tonic.json)",
 		"stonehearth/entities/consumables/strength_tonic/strength_tonic.json": "file(entities/consumables/tonics/strength_tonic.json)",
+		"stonehearth/entities/food/flour/flour.json": "file(entities/food/cooking_ingredient/flour.json)",
+		"stonehearth/entities/food/corn_meal/corn_meal.json": "file(entities/food/cooking_ingredient/corn_meal.json)",
 		"stonehearth/entities/food/rotten_basket/rotten_basket.json": "file(entities/food/rotten_food/rotten_basket.json)",
 		"stonehearth/entities/food/rotten_egg/rotten_egg.json": "file(entities/food/rotten_food/rotten_egg.json)",
 		"stonehearth/entities/food/rotten_jerky/rotten_jerky.json": "file(entities/food/rotten_food/rotten_jerky.json)"

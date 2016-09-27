@@ -1,21 +1,9 @@
 {
 	"stockpile": {
-		"cooking_ingredients": {
+		"ingredients": {
 			"categories": {
-				"potato": {
-					"ordinal": 5,
-					"display_name": "i18n(cookmod_bs:filters.tooltip_potato)",
-					"icon": "/cookmod_bs/ui/potato.png",
-					"filter": "stockpile_cooking_ingredient potato"
-				},
-				"rice": {
-					"ordinal": 6,
-					"display_name": "i18n(cookmod_bs:filters.tooltip_rice)",
-					"icon": "/cookmod_bs/ui/rice.png",
-					"filter": "stockpile_cooking_ingredient rice"
-				},
 				"honey": {
-					"ordinal": 7,
+					"ordinal": 4,
 					"display_name": "i18n(cookmod_bs:filters.tooltip_honey)",
 					"icon": "/cookmod_bs/ui/honey.png",
 					"filter": "stockpile_cooking_ingredient honey"

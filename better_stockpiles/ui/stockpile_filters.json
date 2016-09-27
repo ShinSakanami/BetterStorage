@@ -261,6 +261,18 @@
 				"mixintypes": {
 					"cooking_ingredient": "remove"
 				},
+				"raw_food": {
+				   "display_name": "i18n(better_stockpiles:filters.tooltip_fruit_vegetable)"
+				},
+				"meat": {
+					"ordinal": 2,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_meat)",
+					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/meat.png",
+					"filter": "stockpile_cooking_ingredient meat"
+				},
+				"prepared_food": {
+					"ordinal": 3
+				},
 				"rotten_food": {
 					"ordinal": 99,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_rotten_food)",
@@ -269,16 +281,16 @@
 				}
 			}
 		},
-		"cooking_ingredients": {
-			"display_name": "i18n(better_stockpiles:filters.cooking_ingredients)",
-			"filter": "cooking_ingredients",
+		"ingredients": {
+			"display_name": "i18n(better_stockpiles:filters.ingredients)",
+			"filter": "ingredients",
 			"ordinal": 11,
 			"categories": {
-				"meat": {
+				"cooking_ingredient": {
 					"ordinal": 1,
-					"display_name": "i18n(better_stockpiles:filters.tooltip_meat)",
-					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/meat.png",
-					"filter": "stockpile_cooking_ingredient meat"
+					"display_name": "i18n(better_stockpiles:filters.tooltip_cooking_ingredient)",
+					"icon": "/better_stockpiles/ui/grain_flour.png",
+					"filter": "stockpile_cooking_ingredient_bs"
 				},
 				"egg": {
 					"ordinal": 2,
@@ -291,12 +303,6 @@
 					"display_name": "i18n(better_stockpiles:filters.tooltip_wheat)",
 					"icon": "/better_stockpiles/ui/wheat.png",
 					"filter": "stockpile_cooking_ingredient wheat"
-				},
-				"grain_flour": {
-					"ordinal": 4,
-					"display_name": "i18n(better_stockpiles:filters.tooltip_grain_flour)",
-					"icon": "/better_stockpiles/ui/grain_flour.png",
-					"filter": "stockpile_cooking_ingredient grain_flour"
 				}
 			}
 		},
