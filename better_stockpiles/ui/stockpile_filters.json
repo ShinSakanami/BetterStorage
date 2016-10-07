@@ -233,6 +233,12 @@
 					"display_name": "i18n(better_stockpiles:filters.tooltip_heavy_armor)",
 					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/heavy_armor.png",
 					"filter": "stockpile_equipment heavy_armor"
+				},
+				"worker_outfit": {
+					"ordinal": 6,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_worker_outfit)",
+					"icon": "/better_stockpiles/ui/worker_outfit.png",
+					"filter": "stockpile_equipment worker_outfit"
 				}
 			}
 		},

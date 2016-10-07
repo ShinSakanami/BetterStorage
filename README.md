@@ -22,7 +22,7 @@ Current available stockpile filters:
 * **Construction:** Doors & Windows, Furniture, Defenses, Decorations
 * **Refined Goods:** Thread, Cloth, Leather, Gears
 * **Metal Bars:** Copper Ingots, Tin Ingots, Bronze Ingots, Iron Ingots, Silver Ingots, Gold Ingots, Steel Ingots
-* **Equipment:** Tools, Melee Weapons, Ranged Weapons, Light Armor, Heavy Armor
+* **Equipment:** Tools, Melee Weapons, Ranged Weapons, Light Armor, Heavy Armor, Worker Outfits
 * **Consumables:** Healing Items, Tonics
 * **Food & Drink:** Fruits & Vegetables, Meat, Cooked Foods, Drinks (SC), Rotten Foods
 * **Ingredients:** Cooking Ingredients, Eggs, Wheat, Honey (SC), Sugarcane (BM)
@@ -66,6 +66,18 @@ If you want me to make a compatibility patch for a mod, please send me a PM on S
 
 ## Changelog
 
+**Version 0.18.4**
+
+For Stonehearth Alpha 18 stable 663
+
+* Added "Worker Outfits" filter to "Equipment" category. Upgraded Worker Outfit and Winter Worker Outfit are now correctly stored by Hearthlings.
+
+Updated compatibility patch for Stonehearth Cafe 1.7:
+
+* Corrected bug with Fancy Cook Outfit and Fisherman's Rod.
+* Fancy Cook Outfit is now stored under "Worker Outfits" filter.
+
+
 **Version 0.18.3**
 
 For Stonehearth Alpha 18 stable 663
@@ -74,7 +86,7 @@ For Stonehearth Alpha 18 stable 663
 * Renamed "Raw Food" filter to "Fruits & Vegetables".
 * Renamed "Grain Flour" filter to "Cooking Ingredients", with a new tag.
 
-Updated compatibility patch for Stoneheart Cafe 1.7:
+Updated compatibility patch for Stonehearth Cafe 1.7:
 
 * Removed "Potatoes" and "Rice" filters.
 * Moved Potatoes and Rice entities to "Cooking Ingredients" filter with the new tag.
