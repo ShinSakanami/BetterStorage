@@ -1,0 +1,10 @@
+{
+	"info": {
+		"name": "Better Stockpiles Patch for Candledark",
+		"version": 3
+	},
+	"default_locale": "en",
+	"mixintos": {
+		"candledark/entities/consumables/ancient_healing_tonic/ancient_healing_tonic.json": "better_stockpiles/entities/consumables/tonic.json"
+	}
+}

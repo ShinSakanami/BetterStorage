@@ -5,19 +5,21 @@
 	},
 	"default_locale": "en",
 	"mixintos": {
-		"stonehearth/ui/data/stockpile_filters.json": "file(ui/stockpile_filters.json)",
-		"stonehearth/entities/consumables/courage_tonic/courage_tonic.json": "file(entities/consumables/tonics/courage_tonic.json)",
-		"stonehearth/entities/consumables/energy_tonic/energy_tonic.json": "file(entities/consumables/tonics/energy_tonic.json)",
-		"stonehearth/entities/consumables/stamina_tonic/stamina_tonic.json": "file(entities/consumables/tonics/stamina_tonic.json)",
-		"stonehearth/entities/consumables/strength_tonic/strength_tonic.json": "file(entities/consumables/tonics/strength_tonic.json)",
-		"stonehearth/entities/food/flour/flour.json": "file(entities/food/cooking_ingredient/flour.json)",
-		"stonehearth/entities/food/corn_meal/corn_meal.json": "file(entities/food/cooking_ingredient/corn_meal.json)",
-		"stonehearth/entities/food/rotten_basket/rotten_basket.json": "file(entities/food/rotten_food/rotten_basket.json)",
-		"stonehearth/entities/food/rotten_egg/rotten_egg.json": "file(entities/food/rotten_food/rotten_egg.json)",
-		"stonehearth/entities/food/rotten_jerky/rotten_jerky.json": "file(entities/food/rotten_food/rotten_jerky.json)"
+		"stonehearth/ui/data/stockpile_filters.json": "better_stockpiles/ui/stockpile_filters.json",
+		"stonehearth/entities/consumables/courage_tonic/courage_tonic.json": "better_stockpiles/entities/consumables/tonic.json",
+		"stonehearth/entities/consumables/energy_tonic/energy_tonic.json": "better_stockpiles/entities/consumables/tonic.json",
+		"stonehearth/entities/consumables/stamina_tonic/stamina_tonic.json": "better_stockpiles/entities/consumables/tonic.json",
+		"stonehearth/entities/consumables/strength_tonic/strength_tonic.json": "better_stockpiles/entities/consumables/tonic.json",
+		"stonehearth/entities/food/flour/flour.json": "better_stockpiles/entities/food/cooking_ingredient.json",
+		"stonehearth/entities/food/corn_meal/corn_meal.json": "better_stockpiles/entities/food/cooking_ingredient.json",
+		"stonehearth/entities/food/rotten_basket/rotten_basket.json": "better_stockpiles/entities/food/rotten_food.json",
+		"stonehearth/entities/food/rotten_egg/rotten_egg.json": "better_stockpiles/entities/food/rotten_food.json",
+		"stonehearth/entities/food/rotten_jerky/rotten_jerky.json": "better_stockpiles/entities/food/rotten_food.json",
+		"stonehearth/jobs/worker/worker_outfit_2/worker_outfit_2.json": "better_stockpiles/entities/equipment/outfit.json",
+		"stonehearth/jobs/worker/winter_worker_outfit/winter_worker_outfit.json": "better_stockpiles/entities/equipment/outfit.json"
 	},
 	"overrides":
 	{
-		"stonehearth/ui/game/modes/zones_mode/stockpile/stockpile.less" : "file(ui/stockpile.less)"
+		"stonehearth/ui/game/modes/zones_mode/stockpile/stockpile.less" : "better_stockpiles/ui/stockpile.less"
 	}
 }

@@ -5,15 +5,12 @@
 	},
 	"default_locale": "en",
 	"mixintos": {
-		"stonehearth/ui/data/stockpile_filters.json": "file(ui/stockpile_filters.json)",
-		"cookmod/entities/construction/well/well_ghost.json": "file(entities/construction/well/well_ghost.json)",
-		"cookmod/entities/decoration/scarecrow/scarecrow_ghost.json": "file(entities/decoration/scarecrow/scarecrow_ghost.json)",
-		"cookmod/entities/decoration/wind_sail/wind_sail_ghost.json": "file(entities/decoration/wind_sail/wind_sail_ghost.json)",
-		"stonehearth/entities/food/berries/berry_basket/berry_basket.json": "file(entities/food/raw_food/berry_basket.json)",
-		"stonehearth/entities/food/prickly_pear/prickly_pear_basket/prickly_pear_basket.json": "file(entities/food/raw_food/prickly_pear_basket.json)",
-		"cookmod/entities/crops/potato/potato_harvest/potato_harvest.json": "file(entities/food/cooking_ingredient/potato_harvest.json)",
-		"cookmod/entities/crops/rice/rice_harvest/rice_harvest.json": "file(entities/food/cooking_ingredient/rice_harvest.json)",
-		"cookmod/jobs/cook/fancy_cook_outfit/fancy_cook_outfit_iconic.json": "file(jobs/cook/fancy_cook_outfit_iconic.json)",
-		"cookmod/jobs/fisherman/fisherman_rod/fisherman_rod_iconic.json": "file(jobs/fisherman/fisherman_rod_iconic.json)"
+		"stonehearth/ui/data/stockpile_filters.json": "cookmod_bs/ui/stockpile_filters.json",
+		"stonehearth/entities/food/berries/berry_basket/berry_basket.json": "cookmod_bs/entities/food/raw_food.json",
+		"stonehearth/entities/food/prickly_pear/prickly_pear_basket/prickly_pear_basket.json": "cookmod_bs/entities/food/raw_food.json",
+		"cookmod/entities/crops/potato/potato_harvest/potato_harvest.json": "better_stockpiles/entities/food/cooking_ingredient.json",
+		"cookmod/entities/crops/rice/rice_harvest/rice_harvest.json": "better_stockpiles/entities/food/cooking_ingredient.json",
+		"cookmod/jobs/cook/fancy_cook_outfit/fancy_cook_outfit_iconic.json": "better_stockpiles/entities/equipment/outfit.json",
+		"cookmod/jobs/fisherman/fisherman_rod/fisherman_rod_iconic.json": "cookmod_bs/entities/equipment/tool.json"
 	}
 }

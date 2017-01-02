@@ -1,0 +1,24 @@
+{
+	"stockpile": {
+		"consumables": {
+			"categories": {
+				"medicine": {
+					"ordinal": 3,
+					"display_name": "i18n(frostfeast_bs:filters.tooltip_medicine)",
+					"icon": "/frostfeast_bs/ui/medicine.png",
+					"filter": "stockpile_consumable medicine"
+				}
+			}
+		},
+		"animal_feed": {
+			"categories": {
+				"pig_feed": {
+					"ordinal": 4,
+					"display_name": "i18n(frostfeast_bs:filters.tooltip_pig_feed)",
+					"icon": "/frostfeast_bs/ui/pig_feed.png",
+					"filter": "stockpile_cooking_ingredient animal_feed pig_feed"
+				}
+			}
+		}
+	}
+}

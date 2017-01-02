@@ -11,7 +11,7 @@ The stockpiles in StoneHearth are great, but maybe you need more filtering capab
 
 Better Stockpiles is here for you! Adding more filters to stockpiles, crates and chests for better stocks management.
 
-Now compatible with Stonehearth Cafe and Brewery Mod!
+Compatible with Candledark, Frostfeast, Stonehearth Cafe and Brewery Mod!
 
 Current available stockpile filters:
 
@@ -22,11 +22,11 @@ Current available stockpile filters:
 * **Construction:** Doors & Windows, Furniture, Defenses, Decorations
 * **Refined Goods:** Thread, Cloth, Leather, Gears
 * **Metal Bars:** Copper Ingots, Tin Ingots, Bronze Ingots, Iron Ingots, Silver Ingots, Gold Ingots, Steel Ingots
-* **Equipment:** Tools, Melee Weapons, Ranged Weapons, Light Armor, Heavy Armor, Worker Outfits
-* **Consumables:** Healing Items, Tonics
+* **Equipment:** Tools, Melee Weapons, Ranged Weapons, Light Armor, Heavy Armor, Outfits
+* **Consumables:** Healing Items, Tonics, Medicine (FF)
 * **Food & Drink:** Fruits & Vegetables, Meat, Cooked Foods, Drinks (SC), Rotten Foods
 * **Ingredients:** Cooking Ingredients, Eggs, Wheat, Honey (SC), Sugarcane (BM)
-* **Animal Feed:** Poyo Feed, Rabbit Feed, Sheep Feed, Pig Feed (SC), Yak Feed (SC)
+* **Animal Feed:** Poyo Feed, Rabbit Feed, Sheep Feed, Pig Feed (SC&FF), Yak Feed (SC)
 * **Wealth:** Gold Chests, Trophies, Quest Items (SC)
 
 Discuss about this mod on http://discourse.stonehearth.net/t/mod-better-stockpiles/21449
@@ -43,16 +43,20 @@ Feedback, suggestions and bug reports are welcome!
 **cookmod_bs.smod**
 * Dropbox: https://www.dropbox.com/s/iondsbpv3952tvi/cookmod_bs.smod?dl=0
 
+**brewerymod_bs.smod**
+* Dropbox: https://www.dropbox.com/s/o2co3mj6lbqopo7/brewerymod_bs.smod?dl=0
+
 ## Installation
 
 * Download "better_stockpile.smod" file from the Releases page or any of the mirrors above.
-* Download "cookmod_bs.smod" if you use Stonehearth Cafe.
-* Download "brewerymod_bs.smod" if you use Brewery Mod.
+* Download the compatiblity patches for the mods you use.
 * Copy the .smod files to "/Stonehearth/mods" directory.
 * Profit!
 
 ## Compatibility
 
+* Patch "candledark_bs.smod" for Candledark 2016 (http://www.stonehearth.net/eek-candledark-is-upon-us-again)
+* Patch "frostfeast_bs.smod" for Frostfeast 2016 (http://www.stonehearth.net/frostfeast-2016-moar-frost-moar-feast)
 * Patch "cookmod_bs.smod" for Stonehearth Cafe 1.7 (http://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-7/10159)
 * Patch "brewerymod_bs.smod" for Brewery Mod Alpha 18 (http://discourse.stonehearth.net/t/alpha18-brewerymod/21790)
 
@@ -66,6 +70,33 @@ If you want me to make a compatibility patch for a mod, please send me a PM on S
 
 ## Changelog
 
+**Version 0.19.0**
+
+For Stonehearth Alpha 19 stable 687
+
+* Reduced files number with more common mixintos.
+* Renamed "Worker Outfits" filter to "Outfits".
+
+Updated compatibility patch for Stonehearth Cafe 1.7:
+
+* Updated to the latest mod revision.
+
+Updated compatibility patch for Brewery Mod Alpha 18:
+
+* Updated to the latest mod revision.
+
+Added compatiblity patch for Candledark 2016: 
+
+* Moved Ancient Healing Tonic to "Tonics" filter.
+
+Added compatiblity patch for Frostfeast 2016:
+
+* Added "Pig Feed" filter to "Animal Feed" category.
+* Added "Medicine" filter to "Consumables" category.
+* Moved Cough Syrup and Vapour Rub to "Medicine" filter.
+* Moved "Ginger" to "Cooking Ingredients" filter.
+* Moved Winter Outfits to "Outfits" filter.
+
 **Version 0.18.4**
 
 For Stonehearth Alpha 18 stable 663
@@ -76,7 +107,6 @@ Updated compatibility patch for Stonehearth Cafe 1.7:
 
 * Corrected bug with Fancy Cook Outfit and Fisherman's Rod.
 * Fancy Cook Outfit is now stored under "Worker Outfits" filter.
-
 
 **Version 0.18.3**
 
@@ -91,7 +121,7 @@ Updated compatibility patch for Stonehearth Cafe 1.7:
 * Removed "Potatoes" and "Rice" filters.
 * Moved Potatoes and Rice entities to "Cooking Ingredients" filter with the new tag.
 
-Added compatibility patch for Brewery Mod Alpha 18
+Added compatibility patch for Brewery Mod Alpha 18:
 
 * Added "Sugarcane" filter to "Ingredients" category.
 * Moved Cocoa Powder, Yeast and Sugar entities to "Cooking Ingredients" filter with the new tag.
@@ -108,7 +138,7 @@ For Stonehearth Alpha 18 stable 663
 Added compatibility patch for Stonehearth Cafe 1.7:
 
 * Added "Potatoes", "Rice" and "Honey" filters to "Ingredients" category.
-* Added "Pig Feed" and "Yak Feed" to "Animal Feed" category.
+* Added "Pig Feed" and "Yak Feed" filters to "Animal Feed" category.
 * Added "stockpile_decoration" tag to Well, Scarecrow and Wind Sail entities.
 * Added "stockpile_equipment" tag to Fisherman Rod and Fancy Cook Outfit entities.
 * Removed "drink_container" tag from Berries Basket and Prickly Pear Basket entities.

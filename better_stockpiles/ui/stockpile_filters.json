@@ -234,11 +234,11 @@
 					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/heavy_armor.png",
 					"filter": "stockpile_equipment heavy_armor"
 				},
-				"worker_outfit": {
+				"outfit": {
 					"ordinal": 6,
-					"display_name": "i18n(better_stockpiles:filters.tooltip_worker_outfit)",
-					"icon": "/better_stockpiles/ui/worker_outfit.png",
-					"filter": "stockpile_equipment worker_outfit"
+					"display_name": "i18n(better_stockpiles:filters.tooltip_outfit)",
+					"icon": "/better_stockpiles/ui/outfit.png",
+					"filter": "stockpile_equipment outfit"
 				}
 			}
 		},
@@ -296,7 +296,7 @@
 					"ordinal": 1,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_cooking_ingredient)",
 					"icon": "/better_stockpiles/ui/grain_flour.png",
-					"filter": "stockpile_cooking_ingredient_bs"
+					"filter": "stockpile_cooking_ingredient ingredient"
 				},
 				"egg": {
 					"ordinal": 2,
