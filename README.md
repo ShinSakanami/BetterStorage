@@ -40,10 +40,10 @@ Feedback, suggestions and bug reports are welcome!
 * PraiseDB: http://praisedb.x10.bz/mod.php?id=127
 * StoneHearth Mods: https://stonehearthmods.co/better-stockpiles/
 
-** candledark_bs.smod **
+**candledark_bs.smod**
 * Dropbox: https://dl.dropboxusercontent.com/u/10146220/stonehearth/candledark_bs.smod
 
-** frostfeast_bs.smod **
+**frostfeast_bs.smod**
 * Dropbox: https://dl.dropboxusercontent.com/u/10146220/stonehearth/frostfeast_bs.smod
 
 **cookmod_bs.smod**
@@ -78,7 +78,7 @@ If you want me to make a compatibility patch for a mod, please send me a PM on S
 
 **Version 0.20.0**
 
-For Stonehearth Alpha 20 stable 695
+For Stonehearth Alpha 20 develop 695
 
 * Fixed broken strings.
 
