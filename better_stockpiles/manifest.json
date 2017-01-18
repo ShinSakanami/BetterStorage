@@ -1,6 +1,6 @@
 {
 	"info": {
-		"name": "Better Stockpiles",
+		"name": "better_stockpiles",
 		"version": 3
 	},
 	"default_locale": "en",
@@ -18,8 +18,7 @@
 		"stonehearth/jobs/worker/worker_outfit_2/worker_outfit_2.json": "better_stockpiles/entities/equipment/outfit.json",
 		"stonehearth/jobs/worker/winter_worker_outfit/winter_worker_outfit.json": "better_stockpiles/entities/equipment/outfit.json"
 	},
-	"overrides":
-	{
-		"stonehearth/ui/game/modes/zones_mode/stockpile/stockpile.less" : "better_stockpiles/ui/stockpile.less"
+	"overrides": {
+		"stonehearth/ui/game/modes/zones_mode/stockpile/stockpile.less": "better_stockpiles/ui/stockpile.less"
 	}
 }

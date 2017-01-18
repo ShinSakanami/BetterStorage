@@ -11,7 +11,7 @@ The stockpiles in StoneHearth are great, but maybe you need more filtering capab
 
 Better Stockpiles is here for you! Adding more filters to stockpiles, crates and chests for better stocks management.
 
-Compatible with Candledark, Frostfeast, Stonehearth Cafe and Brewery Mod!
+With compatibility patches for Candledark, Frostfeast, Stonehearth Cafe and Brewery Mod!
 
 Current available stockpile filters:
 
@@ -39,6 +39,12 @@ Feedback, suggestions and bug reports are welcome!
 * Dropbox: https://www.dropbox.com/s/0qvojc4niy1ircu/better_stockpiles.smod?dl=0
 * PraiseDB: http://praisedb.x10.bz/mod.php?id=127
 * StoneHearth Mods: https://stonehearthmods.co/better-stockpiles/
+
+** candledark_bs.smod **
+* Dropbox: https://dl.dropboxusercontent.com/u/10146220/stonehearth/candledark_bs.smod
+
+** frostfeast_bs.smod **
+* Dropbox: https://dl.dropboxusercontent.com/u/10146220/stonehearth/frostfeast_bs.smod
 
 **cookmod_bs.smod**
 * Dropbox: https://www.dropbox.com/s/iondsbpv3952tvi/cookmod_bs.smod?dl=0
@@ -69,6 +75,12 @@ If a mod overrides the stockpile filters file, or uses non vanilla filtering tag
 If you want me to make a compatibility patch for a mod, please send me a PM on Stonehearth Discourse, with a link to the latest version of the mod.
 
 ## Changelog
+
+**Version 0.20.0**
+
+For Stonehearth Alpha 20 stable 695
+
+* Fixed broken strings.
 
 **Version 0.19.0**
 
