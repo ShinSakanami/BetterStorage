@@ -41,16 +41,19 @@ Feedback, suggestions and bug reports are welcome!
 * StoneHearth Mods: https://stonehearthmods.co/better-stockpiles/
 
 **candledark_bs.smod**
-* Dropbox: https://dl.dropboxusercontent.com/u/10146220/stonehearth/candledark_bs.smod
+* Dropbox: https://www.dropbox.com/s/xiuxrncyyiqmiuz/candledark_bs.smod?dl=0
 
 **frostfeast_bs.smod**
-* Dropbox: https://dl.dropboxusercontent.com/u/10146220/stonehearth/frostfeast_bs.smod
+* Dropbox: https://www.dropbox.com/s/88rckv204vbk9kt/frostfeast_bs.smod?dl=0
 
 **cookmod_bs.smod**
 * Dropbox: https://www.dropbox.com/s/iondsbpv3952tvi/cookmod_bs.smod?dl=0
 
 **brewerymod_bs.smod**
 * Dropbox: https://www.dropbox.com/s/o2co3mj6lbqopo7/brewerymod_bs.smod?dl=0
+
+**settlementdecor_bs.smod**
+* Dropbox: https://www.dropbox.com/s/t3tuplw5ujohvic/settlementdecor_bs.smod?dl=0
 
 ## Installation
 
