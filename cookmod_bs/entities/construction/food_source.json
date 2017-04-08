@@ -1,7 +1,7 @@
 {
 	"entity_data": {
 		"stonehearth:catalog": {
-			"material_tags": "stockpile_tool"
+			"material_tags": "stockpile_food_source"
 		}
 	}
 }

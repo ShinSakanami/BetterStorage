@@ -5,14 +5,12 @@
 	},
 	"default_locale": "en",
 	"mixintos": {
-		"stonehearth/ui/data/stockpile_filters.json": "brewerymod_bs/ui/stockpile_filters.json",
-		"brewerymod/entities/food/cocoa_powder/cocoa_powder.json": "better_stockpiles/entities/food/cooking_ingredient.json",
-		"brewerymod/entities/food/sugar/sugar.json": "better_stockpiles/entities/food/cooking_ingredient.json",
-		"brewerymod/entities/food/yeast/yeast.json": "better_stockpiles/entities/food/cooking_ingredient.json",
-		"brewerymod/entities/food/apple/apple_basket/apple_basket.json": "cookmod_bs/entities/food/raw_food.json",
-		"brewerymod/entities/food/blueberry/blueberry_basket/blueberry_basket.json": "cookmod_bs/entities/food/raw_food.json",
-		"brewerymod/entities/food/grapes/grapes_basket/grapes_basket.json": "cookmod_bs/entities/food/raw_food.json",
-		"brewerymod/entities/food/strawberry/strawberry_basket/strawberry_basket.json": "cookmod_bs/entities/food/raw_food.json",
-		"brewerymod/entities/food/tomato/tomato_basket/tomato_basket.json": "cookmod_bs/entities/food/raw_food.json"
+		"brewerymod/entities/food/cocoa_powder/cocoa_powder.json": "better_stockpiles/entities/food/refined_ingredient.json",
+		"brewerymod/entities/food/sugar/sugar.json": "better_stockpiles/entities/food/refined_ingredient.json",
+		"brewerymod/entities/food/yeast/yeast.json": "better_stockpiles/entities/food/refined_ingredient.json",
+		
+		"brewerymod/entities/food/sugarcanebundle/sugarcanebundle.json": "cookmod_bs/entities/food/crop.json",
+		
+		"brewerymod/entities/food/apple_pie/apple_pie/apple_pie.json": "better_stockpiles/entities/food/prepared_vege.json"
 	}
 }

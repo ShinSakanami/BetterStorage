@@ -6,11 +6,40 @@
 	"default_locale": "en",
 	"mixintos": {
 		"stonehearth/ui/data/stockpile_filters.json": "cookmod_bs/ui/stockpile_filters.json",
-		"stonehearth/entities/food/berries/berry_basket/berry_basket.json": "cookmod_bs/entities/food/raw_food.json",
-		"stonehearth/entities/food/prickly_pear/prickly_pear_basket/prickly_pear_basket.json": "cookmod_bs/entities/food/raw_food.json",
-		"cookmod/entities/crops/potato/potato_harvest/potato_harvest.json": "better_stockpiles/entities/food/cooking_ingredient.json",
-		"cookmod/entities/crops/rice/rice_harvest/rice_harvest.json": "better_stockpiles/entities/food/cooking_ingredient.json",
-		"cookmod/jobs/cook/fancy_cook_outfit/fancy_cook_outfit_iconic.json": "better_stockpiles/entities/equipment/outfit.json",
-		"cookmod/jobs/fisherman/fisherman_rod/fisherman_rod_iconic.json": "cookmod_bs/entities/equipment/tool.json"
+		
+		"cookmod/entities/crops/potato/potato_harvest/potato_harvest.json": "cookmod_bs/entities/food/crop.json",
+		"cookmod/entities/crops/rice/rice_harvest/rice_harvest.json": "cookmod_bs/entities/food/crop.json",
+		
+		"cookmod/entities/construction/apiary/apiary_ghost.json": "cookmod_bs/entities/construction/food_source.json",
+		"cookmod/entities/construction/apiary/apiary_iconic.json": "cookmod_bs/entities/construction/food_source.json",
+		"cookmod/entities/construction/well/well_ghost.json": "cookmod_bs/entities/construction/food_source.json",
+		"cookmod/entities/construction/well/well_iconic.json": "cookmod_bs/entities/construction/food_source.json",
+		
+		"cookmod/entities/critters/bees/queen/queen.json": "cookmod_bs/entities/wealth/trophy.json",
+		
+		"cookmod/entities/food/berry_juice/berry_juice/berry_juice.json": "cookmod_bs/entities/food/drink.json",
+		"cookmod/entities/food/honey_fortified_berry_wine/honey_fortified_berry_wine/honey_fortified_berry_wine.json": "cookmod_bs/entities/food/drink.json",
+		"cookmod/entities/food/milk/milk/milk.json": "cookmod_bs/entities/food/drink.json",
+		"cookmod/entities/food/pear_juice/pear_juice/pear_juice.json": "cookmod_bs/entities/food/drink.json",
+		"cookmod/entities/food/water_bucket/water_bucket/water_bucket.json": "cookmod_bs/entities/food/drink.json",
+		
+		"cookmod/entities/food/berry_pie/berry_pie/berry_pie.json": "better_stockpiles/entities/food/prepared_vege.json",
+		"cookmod/entities/food/cake/cake/cake.json": "better_stockpiles/entities/food/prepared_vege.json",
+		"cookmod/entities/food/cheese/cheese/cheese.json": "better_stockpiles/entities/food/prepared_vege.json",
+		"cookmod/entities/food/grits/grits/grits.json": "better_stockpiles/entities/food/prepared_vege.json",
+		"cookmod/entities/food/pottage/pottage/pottage.json": "better_stockpiles/entities/food/prepared_vege.json",
+		"cookmod/entities/food/pumpkin_pie/pumpkin_pie/pumpkin_pie.json": "better_stockpiles/entities/food/prepared_vege.json",
+		"cookmod/entities/food/pumpkin_soup/pumpkin_soup/pumpkin_soup.json": "better_stockpiles/entities/food/prepared_vege.json",
+		"cookmod/entities/food/rice/boiled_rice/boiled_rice.json": "better_stockpiles/entities/food/prepared_vege.json",
+		"cookmod/entities/food/rice/rice_pudding/rice_pudding.json": "better_stockpiles/entities/food/prepared_vege.json",
+		
+		"cookmod/entities/food/honey_glazed_roast_critter/honey_glazed_roast_critter/honey_glazed_roast_critter.json": "better_stockpiles/entities/food/prepared_meat.json",
+		"cookmod/entities/food/meat_and_potato_pie/meat_and_potato_pie/meat_and_potato_pie.json": "better_stockpiles/entities/food/prepared_meat.json",
+		"cookmod/entities/food/meat_pie/meat_pie/meat_pie.json": "better_stockpiles/entities/food/prepared_meat.json",
+		"cookmod/entities/food/roast_beef/roast_beef/roast_beef.json": "better_stockpiles/entities/food/prepared_meat.json",
+		"cookmod/entities/food/roast_critter/roast_critter/roast_critter.json": "better_stockpiles/entities/food/prepared_meat.json",
+		"cookmod/entities/food/roast_ham/roast_ham/roast_ham.json": "better_stockpiles/entities/food/prepared_meat.json",
+		
+		"cookmod/jobs/cook/fancy_cook_outfit/fancy_cook_outfit_iconic.json": "better_stockpiles/entities/equipment/outfit.json"
 	}
 }

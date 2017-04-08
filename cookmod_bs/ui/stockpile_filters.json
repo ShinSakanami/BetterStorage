@@ -1,9 +1,35 @@
 {
 	"stockpile": {
+		"construction": {
+			"categories": {
+				"food_source": {
+					"ordinal": 8,
+					"display_name": "i18n(cookmod_bs:filters.tooltip_food_source)",
+					"icon": "/cookmod_bs/ui/food_source.png",
+					"filter": "stockpile_food_source"
+				}
+			}
+		},
+		"food_and_drink": {
+			"categories": {
+				"drink_container": {
+					"ordinal": 5,
+					"display_name": "i18n(cookmod_bs:filters.tooltip_drink)",
+					"icon": "/cookmod_bs/ui/drink.png",
+					"filter": "stockpile_drink"
+				}
+			}
+		},
 		"ingredients": {
 			"categories": {
-				"honey": {
+				"crop": {
 					"ordinal": 4,
+					"display_name": "i18n(cookmod_bs:filters.tooltip_crop)",
+					"icon": "/cookmod_bs/ui/crop.png",
+					"filter": "stockpile_cooking_ingredient crop"
+				},
+				"honey": {
+					"ordinal": 5,
 					"display_name": "i18n(cookmod_bs:filters.tooltip_honey)",
 					"icon": "/cookmod_bs/ui/honey.png",
 					"filter": "stockpile_cooking_ingredient honey"
@@ -13,16 +39,23 @@
 		"animal_feed": {
 			"categories": {
 				"pig_feed": {
-					"ordinal": 4,
+					"ordinal": 5,
 					"display_name": "i18n(cookmod_bs:filters.tooltip_pig_feed)",
 					"icon": "/cookmod_bs/ui/pig_feed.png",
 					"filter": "stockpile_cooking_ingredient animal_feed pig_feed"
 				},
 				"yak_feed": {
-					"ordinal": 5,
+					"ordinal": 6,
 					"display_name": "i18n(cookmod_bs:filters.tooltip_yak_feed)",
 					"icon": "/cookmod_bs/ui/yak_feed.png",
 					"filter": "stockpile_cooking_ingredient animal_feed yak_feed"
+				}
+			}
+		},
+		"wealth": {
+			"categories": {
+				"mixintypes": {
+					"quest_items": "remove"
 				}
 			}
 		}

@@ -6,6 +6,15 @@
 					"ore": "remove",
 					"animal_part": "remove",
 					"plant": "remove"
+				},
+				"wood": {
+					"icon": "/better_stockpiles/ui/wood.png"
+				},
+				"stone": {
+					"icon": "/better_stockpiles/ui/stone.png"
+				},
+				"clay": {
+					"icon": "/better_stockpiles/ui/clay.png"
 				}
 			}
 		},
@@ -115,7 +124,36 @@
 			}
 		},
 		"construction": {
-			"ordinal": 5
+			"ordinal": 5,
+			"categories": {
+				"portal": {
+					"icon": "/better_stockpiles/ui/portal.png"
+				},
+				"furniture": {
+					"icon": "/better_stockpiles/ui/furniture.png"
+				},
+				"defense": {
+					"display_name": "i18n(better_stockpiles:filters.tooltip_defense)",
+					"icon": "/better_stockpiles/ui/defense.png",
+					"filter": "stockpile_defense crafted"
+				},
+				"decoration": {
+					"icon": "/better_stockpiles/ui/decoration.png",
+					"filter": "stockpile_decoration decoration"
+				},
+				"light_source": {
+					"ordinal": 6,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_light_source)",
+					"icon": "/better_stockpiles/ui/light_source.png",
+					"filter": "stockpile_decoration light_source"
+				},
+				"trap": {
+					"ordinal": 7,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_trap)",
+					"icon": "/better_stockpiles/ui/trap.png",
+					"filter": "stockpile_defense trap"
+				}
+			}
 		},
 		"goods": {
 			"display_name": "i18n(better_stockpiles:filters.goods)",
@@ -207,31 +245,31 @@
 				"tool": {
 					"ordinal": 1,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_tool)",
-					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/tool.png",
+					"icon": "/better_stockpiles/ui/tool.png",
 					"filter": "stockpile_tool"
 				},
 				"melee_weapon": {
 					"ordinal": 2,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_melee_weapon)",
-					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/melee_weapon.png",
+					"icon": "/better_stockpiles/ui/melee_weapon.png",
 					"filter": "stockpile_weapon melee_weapon"
 				},
 				"ranged_weapon": {
 					"ordinal": 3,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_ranged_weapon)",
-					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/ranged_weapon.png",
+					"icon": "/better_stockpiles/ui/ranged_weapon.png",
 					"filter": "stockpile_weapon ranged_weapon"
 				},
 				"light_armor": {
 					"ordinal": 4,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_light_armor)",
-					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/light_armor.png",
+					"icon": "/better_stockpiles/ui/light_armor.png",
 					"filter": "stockpile_equipment light_armor"
 				},
 				"heavy_armor": {
 					"ordinal": 5,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_heavy_armor)",
-					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/heavy_armor.png",
+					"icon": "/better_stockpiles/ui/heavy_armor.png",
 					"filter": "stockpile_equipment heavy_armor"
 				},
 				"outfit": {
@@ -263,21 +301,33 @@
 		},
 		"food_and_drink": {
 			"ordinal": 10,
+			"mixintypes": {
+				"categories": "override"
+			},
 			"categories": {
-				"mixintypes": {
-					"cooking_ingredient": "remove"
+				"raw_vege": {
+					"ordinal": 1,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_raw_vege)",
+					"icon": "/better_stockpiles/ui/raw_vege.png",
+					"filter": "stockpile_raw_food"
 				},
-				"raw_food": {
-				   "display_name": "i18n(better_stockpiles:filters.tooltip_fruit_vegetable)"
-				},
-				"meat": {
+				"raw_meat": {
 					"ordinal": 2,
-					"display_name": "i18n(better_stockpiles:filters.tooltip_meat)",
-					"icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/meat.png",
+					"display_name": "i18n(better_stockpiles:filters.tooltip_raw_meat)",
+					"icon": "/better_stockpiles/ui/raw_meat.png",
 					"filter": "stockpile_cooking_ingredient meat"
 				},
-				"prepared_food": {
-					"ordinal": 3
+				"prepared_vege": {
+					"ordinal": 3,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_prepared_vege)",
+					"icon": "/better_stockpiles/ui/prepared_vege.png",
+					"filter": "stockpile_prepared_food vegetarian"
+				},
+				"prepared_meat": {
+					"ordinal": 4,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_prepared_meat)",
+					"icon": "/better_stockpiles/ui/prepared_meat.png",
+					"filter": "stockpile_prepared_food meat"
 				},
 				"rotten_food": {
 					"ordinal": 99,
@@ -292,11 +342,11 @@
 			"filter": "ingredients",
 			"ordinal": 11,
 			"categories": {
-				"cooking_ingredient": {
+				"refined_ingredient": {
 					"ordinal": 1,
-					"display_name": "i18n(better_stockpiles:filters.tooltip_cooking_ingredient)",
-					"icon": "/better_stockpiles/ui/grain_flour.png",
-					"filter": "stockpile_cooking_ingredient ingredient"
+					"display_name": "i18n(better_stockpiles:filters.tooltip_refined_ingredient)",
+					"icon": "/better_stockpiles/ui/refined_ingredient.png",
+					"filter": "stockpile_cooking_ingredient refined_ingredient"
 				},
 				"egg": {
 					"ordinal": 2,
@@ -317,20 +367,26 @@
 			"filter": "animal_feed",
 			"ordinal": 12,
 			"categories": {
-				"poyo_feed": {
+				"kibble": {
 					"ordinal": 1,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_kibble)",
+					"icon": "/better_stockpiles/ui/kibble.png",
+					"filter": "stockpile_prepared_food kibble"
+				},
+				"poyo_feed": {
+					"ordinal": 2,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_poyo_feed)",
 					"icon": "/better_stockpiles/ui/poyo_feed.png",
 					"filter": "stockpile_cooking_ingredient animal_feed poyo_feed_bag"
 				},
 				"rabbit_feed": {
-					"ordinal": 2,
+					"ordinal": 3,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_rabbit_feed)",
 					"icon": "/better_stockpiles/ui/rabbit_feed.png",
 					"filter": "stockpile_cooking_ingredient animal_feed rabbit_feed"
 				},
 				"sheep_feed": {
-					"ordinal": 3,
+					"ordinal": 4,
 					"display_name": "i18n(better_stockpiles:filters.tooltip_sheep_feed)",
 					"icon": "/better_stockpiles/ui/sheep_feed.png",
 					"filter": "stockpile_cooking_ingredient animal_feed sheep_feed"
@@ -338,7 +394,15 @@
 			}
 		},
 		"wealth": {
-			"ordinal": 13
+			"ordinal": 13,
+			"categories": {
+				"gold": {
+					"icon": "/better_stockpiles/ui/gold.png"
+				},
+				"trophy": {
+					"icon": "/better_stockpiles/ui/trophy.png"
+				}
+			}
 		}
 	}
 }

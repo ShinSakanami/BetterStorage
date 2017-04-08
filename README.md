@@ -19,15 +19,15 @@ Current available stockpile filters:
 * **Ore:** Coal, Copper, Tin, Iron, Silver, Gold
 * **Plants:** Fibers, Herbs, Saplings
 * **Animal Parts:** Pelts, Skins, Feathers, Wool, Bones
-* **Construction:** Doors & Windows, Furniture, Defenses, Decorations
-* **Refined Goods:** Thread, Cloth, Leather, Gears
+* **Construction:** Doors & Windows, Furniture, Fences & Gates, Decorations, Light Sources, Traps & Turrets, Food & Drink Sources [SC]
+* **Refined Craftables:** Thread, Cloth, Leather, Gears
 * **Metal Bars:** Copper Ingots, Tin Ingots, Bronze Ingots, Iron Ingots, Silver Ingots, Gold Ingots, Steel Ingots
 * **Equipment:** Tools, Melee Weapons, Ranged Weapons, Light Armor, Heavy Armor, Outfits
-* **Consumables:** Healing Items, Tonics, Medicine (FF)
-* **Food & Drink:** Fruits & Vegetables, Meat, Cooked Foods, Drinks (SC), Rotten Foods
-* **Ingredients:** Cooking Ingredients, Eggs, Wheat, Honey (SC), Sugarcane (BM)
-* **Animal Feed:** Poyo Feed, Rabbit Feed, Sheep Feed, Pig Feed (SC&FF), Yak Feed (SC)
-* **Wealth:** Gold Chests, Trophies, Quest Items (SC)
+* **Consumables:** Healing Items, Tonics, Medicine [FF]
+* **Food & Drink:** Raw Foods (Vege), Raw Foods (Meat), Cooked Foods (Vege), Cooked Foods (Meat), Drinks [SC], Rotten Foods
+* **Ingredients:** Refined Ingredients, Eggs, Crops [SC], Honey [SC]
+* **Animal Feed:** Kibble, Poyo Feed, Rabbit Feed, Sheep Feed, Pig Feed [SC&FF], Yak Feed [SC]
+* **Wealth:** Gold Chests, Trophies
 
 Discuss about this mod on http://discourse.stonehearth.net/t/mod-better-stockpiles/21449
 
@@ -76,9 +76,40 @@ If you want me to make a compatibility patch for a mod, please send me a PM on S
 
 ## Changelog
 
+**Version 0.21.0**
+
+For Stonehearth Alpha 21 stable 703
+
+* New filter icons.
+* Added "Kibble" filter to "Animal Feed" category.
+* Moved Kibble to "Kibble" filter (obviously).
+* Renamed "Refined Goods" category to "Refined Craftables".
+* Renamed "Cooking Ingredients" filter to "Refined Ingredients".
+* Renamed "Fruits & Vegetables" filter to "Raw Foods (Vege)".
+* Renamed "Meat" filter to "Raw Foods (Meat)".
+* Divided "Cooked Foods" filter into "Cooked Foods (Vege)" and "Cooked Foods (Meat)".
+* Divided "Defenses" filter into "Fences & Gates" and "Traps & Turrets".
+* Divided "Decorations" filter into "Decorations" and "Light Sources".
+* Fix: Moved Wheat Pile to "Wheat" filter.
+
+Updated compatibility patch for Stonehearth Cafe 1.7:
+
+* Updated to the latest mod revision.
+* Added "Food & Drink Sources" filter to "Construction" category.
+* Moved Well and Apiary to "Food & Drink Sources" filter.
+* Added "Crops" filter to "Ingredients" category.
+* Moved Potato and Rice Harvests to "Crops" filter.
+* Removed "Quest Items" filter, and moved the Queen Bee to "Trophies" filter.
+* Sorted prepared foods into "Cooked Foods (Vege)" and "Cooked Foods (Meat)".
+
+Updated compatibility patch for Brewery Mod Alpha 18:
+
+* Updated to the latest mod revision.
+* Removed "Sugarcane" filter, and moved Sugarcane Bale to "Crops" filter.
+
 **Version 0.20.0**
 
-For Stonehearth Alpha 20 develop 695
+For Stonehearth Alpha 20 stable 695
 
 * Fixed broken strings.
 
@@ -106,7 +137,7 @@ Added compatiblity patch for Frostfeast 2016:
 * Added "Pig Feed" filter to "Animal Feed" category.
 * Added "Medicine" filter to "Consumables" category.
 * Moved Cough Syrup and Vapour Rub to "Medicine" filter.
-* Moved "Ginger" to "Cooking Ingredients" filter.
+* Moved Ginger to "Cooking Ingredients" filter.
 * Moved Winter Outfits to "Outfits" filter.
 
 **Version 0.18.4**

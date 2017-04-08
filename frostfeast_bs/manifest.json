@@ -6,9 +6,12 @@
 	"default_locale": "en",
 	"mixintos": {
 		"stonehearth/ui/data/stockpile_filters.json": "frostfeast_bs/ui/stockpile_filters.json",
+		
 		"frostfeast/entities/consumables/cough_syrup/cough_syrup.json": "frostfeast_bs/entities/consumables/medicine.json",
 		"frostfeast/entities/consumables/vapour_rub/vapour_rub.json": "frostfeast_bs/entities/consumables/medicine.json",
-		"frostfeast/entities/food/ginger/ginger.json": "better_stockpiles/entities/food/cooking_ingredient.json",
+		
+		"frostfeast/entities/food/ginger/ginger.json": "better_stockpiles/entities/food/refined_ingredient.json",
+		
 		"frostfeast/jobs/blacksmith/winter_blacksmith_outfit/winter_blacksmith_outfit.json": "better_stockpiles/entities/equipment/outfit.json",
 		"frostfeast/jobs/carpenter/winter_carpenter_outfit/winter_carpenter_outfit.json": "better_stockpiles/entities/equipment/outfit.json",
 		"frostfeast/jobs/cook/winter_cook_outfit/winter_cook_outfit.json": "better_stockpiles/entities/equipment/outfit.json",
