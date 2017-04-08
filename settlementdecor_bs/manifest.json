@@ -1,0 +1,32 @@
+{
+	"info": {
+		"name": "settlementdecor_bs",
+		"version": 3
+	},
+	"default_locale": "en",
+	"mixintos": {
+		"stonehearth/ui/data/stockpile_filters.json": "settlementdecor_bs/ui/stockpile_filters.json",
+	
+		"settlementdecor/entities/furniture/ember_lantern/ember_lantern_ghost.json": "better_stockpiles/entities/construction/light_source.json",
+		"settlementdecor/entities/furniture/foxfire_lantern/foxfire_lantern_ghost.json": "better_stockpiles/entities/construction/light_source.json",
+		"settlementdecor/entities/furniture/wall_mounted_ember_lantern/wall_mounted_ember_lantern_ghost.json": "better_stockpiles/entities/construction/light_source.json",
+		"settlementdecor/entities/furniture/wall_mounted_foxfire_lantern/wall_mounted_foxfire_lantern_ghost.json": "better_stockpiles/entities/construction/light_source.json",
+		
+		"settlementdecor/entities/resources/ember_plant_pod/ember_plant_pod.json": "settlementdecor_bs/entities/plants/plant_part.json",
+		"settlementdecor/entities/resources/ember_plant_pollen/ember_plant_pollen_ghost.json": "settlementdecor_bs/entities/plants/plant_part.json",
+		"settlementdecor/entities/resources/foxfire_pod/foxfire_pod.json": "settlementdecor_bs/entities/plants/plant_part.json",
+		"settlementdecor/entities/resources/foxfire_slime/foxfire_slime_ghost.json": "settlementdecor_bs/entities/plants/plant_part.json",
+		"settlementdecor/entities/resources/litso_grass_stem/litso_grass_stem.json": "settlementdecor_bs/entities/plants/plant_part.json",
+		"settlementdecor/entities/resources/sunflower_pod/sunflower_pod.json": "settlementdecor_bs/entities/plants/plant_part.json",
+		
+		"settlementdecor/entities/plants/ember_plant/ember_plant.json": "settlementdecor_bs/entities/plants/herb.json",
+		"settlementdecor/entities/plants/foxfire/foxfire.json": "settlementdecor_bs/entities/plants/herb.json",
+		"settlementdecor/entities/plants/litso_grass/litso_grass.json": "settlementdecor_bs/entities/plants/herb.json",
+		"settlementdecor/entities/plants/sunflower/sunflower.json": "settlementdecor_bs/entities/plants/herb.json",
+		
+		"settlementdecor/entities/decoration/ember_plant/ember_plant.json": "settlementdecor_bs/entities/plants/herb.json",
+		"settlementdecor/entities/decoration/foxfire/foxfire.json": "settlementdecor_bs/entities/plants/herb.json",
+		"settlementdecor/entities/decoration/litso_grass/litso_grass.json": "settlementdecor_bs/entities/plants/herb.json",
+		"settlementdecor/entities/decoration/sunflower/sunflower.json": "settlementdecor_bs/entities/plants/herb.json"
+	}
+}

@@ -11,13 +11,13 @@ The stockpiles in StoneHearth are great, but maybe you need more filtering capab
 
 Better Stockpiles is here for you! Adding more filters to stockpiles, crates and chests for better stocks management.
 
-With compatibility patches for Candledark, Frostfeast, Stonehearth Cafe and Brewery Mod!
+With compatibility patches for Candledark, Frostfeast, Stonehearth Cafe, Brewery Mod and Settlement Decor!
 
 Current available stockpile filters:
 
 * **Resources:** Wood, Stone, Clay
 * **Ore:** Coal, Copper, Tin, Iron, Silver, Gold
-* **Plants:** Fibers, Herbs, Saplings
+* **Plants:** Fibers, Herbs, Saplings, Plant Parts [SD]
 * **Animal Parts:** Pelts, Skins, Feathers, Wool, Bones
 * **Construction:** Doors & Windows, Furniture, Fences & Gates, Decorations, Light Sources, Traps & Turrets, Food & Drink Sources [SC]
 * **Refined Craftables:** Thread, Cloth, Leather, Gears
@@ -63,8 +63,9 @@ Feedback, suggestions and bug reports are welcome!
 
 * Patch "candledark_bs.smod" for Candledark 2016 (http://www.stonehearth.net/eek-candledark-is-upon-us-again)
 * Patch "frostfeast_bs.smod" for Frostfeast 2016 (http://www.stonehearth.net/frostfeast-2016-moar-frost-moar-feast)
-* Patch "cookmod_bs.smod" for Stonehearth Cafe 1.7 (http://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-7/10159)
-* Patch "brewerymod_bs.smod" for Brewery Mod Alpha 18 (http://discourse.stonehearth.net/t/alpha18-brewerymod/21790)
+* Patch "cookmod_bs.smod" for Stonehearth Cafe 1.7 (https://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-7/10159)
+* Patch "brewerymod_bs.smod" for Brewery Mod Alpha 18 (https://discourse.stonehearth.net/t/alpha21-brewerymod/21790)
+* Patch "settlementdecor_bs.smod" for Settlement Decor 1.14 (https://discourse.stonehearth.net/t/mod-settlement-decor-mod-download-available/4841)
 
 If a mod uses vanilla filtering tags for its items, it will be mostly compatible with BS.
 
@@ -81,6 +82,7 @@ If you want me to make a compatibility patch for a mod, please send me a PM on S
 For Stonehearth Alpha 21 stable 703
 
 * New filter icons.
+* Slightly larger stockpile UI.
 * Added "Kibble" filter to "Animal Feed" category.
 * Moved Kibble to "Kibble" filter (obviously).
 * Renamed "Refined Goods" category to "Refined Craftables".
@@ -91,6 +93,12 @@ For Stonehearth Alpha 21 stable 703
 * Divided "Defenses" filter into "Fences & Gates" and "Traps & Turrets".
 * Divided "Decorations" filter into "Decorations" and "Light Sources".
 * Fix: Moved Wheat Pile to "Wheat" filter.
+
+Added compatibility patch for Settlement Decor 1.14:
+
+* Added "Plant Parts" filter to "Plants" category.
+* Moved plant pods, slimes, pollens and stems to "Plant Parts" filter.
+* Moved lanterns to "Light Sources" filter.
 
 Updated compatibility patch for Stonehearth Cafe 1.7:
 
@@ -106,6 +114,7 @@ Updated compatibility patch for Brewery Mod Alpha 18:
 
 * Updated to the latest mod revision.
 * Removed "Sugarcane" filter, and moved Sugarcane Bale to "Crops" filter.
+* Fix: Moved flowers to "Herbs" filter.
 
 **Version 0.20.0**
 
