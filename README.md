@@ -25,7 +25,7 @@ Current available stockpile filters:
 * **Equipment:** Tools, Melee Weapons, Ranged Weapons, Light Armor, Heavy Armor, Outfits
 * **Consumables:** Healing Items, Tonics, Medicine [FF]
 * **Food & Drink:** Raw Foods (Vege), Raw Foods (Meat), Cooked Foods (Vege), Cooked Foods (Meat), Drinks [SC], Rotten Foods
-* **Ingredients:** Refined Ingredients, Eggs, Crops [SC], Honey [SC]
+* **Ingredients:** Refined Ingredients, Eggs, Wheat, Crops [SC], Honey [SC]
 * **Animal Feed:** Kibble, Poyo Feed, Rabbit Feed, Sheep Feed, Pig Feed [SC&FF], Yak Feed [SC]
 * **Wealth:** Gold Chests, Trophies
 
