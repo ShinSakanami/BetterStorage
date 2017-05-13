@@ -22,7 +22,7 @@ Current available stockpile filters:
 * **Construction:** Doors & Windows, Furniture, Fences & Gates, Decorations, Light Sources, Traps & Turrets, Food & Drink Sources [SC]
 * **Refined Craftables:** Thread, Cloth, Leather, Gears
 * **Metal Bars:** Copper Ingots, Tin Ingots, Bronze Ingots, Iron Ingots, Silver Ingots, Gold Ingots, Steel Ingots
-* **Equipment:** Tools, Melee Weapons, Ranged Weapons, Light Armor, Heavy Armor, Outfits
+* **Equipment:** Talismans & Workbenches, Melee Weapons, Ranged Weapons, Light Armor, Heavy Armor, Outfits
 * **Consumables:** Healing Items, Tonics, Medicine [FF]
 * **Food & Drink:** Raw Foods (Vege), Raw Foods (Meat), Cooked Foods (Vege), Cooked Foods (Meat), Drinks [SC], Rotten Foods
 * **Ingredients:** Refined Ingredients, Eggs, Wheat, Crops [SC], Honey [SC]
@@ -66,9 +66,9 @@ Feedback, suggestions and bug reports are welcome!
 
 * Patch "candledark_bs.smod" for Candledark 2016 (http://www.stonehearth.net/eek-candledark-is-upon-us-again)
 * Patch "frostfeast_bs.smod" for Frostfeast 2016 (http://www.stonehearth.net/frostfeast-2016-moar-frost-moar-feast)
-* Patch "cookmod_bs.smod" for Stonehearth Cafe 1.7 (https://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-7/10159)
+* Patch "cookmod_bs.smod" for Stonehearth Cafe 1.9 (https://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-7/10159)
 * Patch "brewerymod_bs.smod" for Brewery Mod Alpha 18 (https://discourse.stonehearth.net/t/alpha21-brewerymod/21790)
-* Patch "settlementdecor_bs.smod" for Settlement Decor 1.14 (https://discourse.stonehearth.net/t/mod-settlement-decor-mod-download-available/4841)
+* Patch "settlementdecor_bs.smod" for Settlement Decor 1.18 (https://discourse.stonehearth.net/t/mod-settlement-decor-mod-download-available/4841)
 
 If a mod uses vanilla filtering tags for its items, it will be mostly compatible with BS.
 
@@ -79,6 +79,21 @@ If a mod overrides the stockpile filters file, or uses non vanilla filtering tag
 If you want me to make a compatibility patch for a mod, please send me a PM on Stonehearth Discourse, with a link to the latest version of the mod.
 
 ## Changelog
+
+**Version 0.21.1**
+
+For StoneHearth Alpha 21 stable 707
+
+* Renamed "Tools" filter to "Talismans & Workbenches".
+
+Updated compatibility patch for Stonehearth Cafe 1.9:
+
+* Updated to the latest mod revision.
+* Moved Rickety Well to "Food & Drink Sources" filter.
+
+Updated compatibility patch for Settlement Decor 1.18:
+
+* Updated to the latest mod revision.
 
 **Version 0.21.0**
 

@@ -6,11 +6,6 @@
 	"default_locale": "en",
 	"mixintos": {
 		"stonehearth/ui/data/stockpile_filters.json": "settlementdecor_bs/ui/stockpile_filters.json",
-	
-		"settlementdecor/entities/furniture/ember_lantern/ember_lantern_ghost.json": "better_stockpiles/entities/construction/light_source.json",
-		"settlementdecor/entities/furniture/foxfire_lantern/foxfire_lantern_ghost.json": "better_stockpiles/entities/construction/light_source.json",
-		"settlementdecor/entities/furniture/wall_mounted_ember_lantern/wall_mounted_ember_lantern_ghost.json": "better_stockpiles/entities/construction/light_source.json",
-		"settlementdecor/entities/furniture/wall_mounted_foxfire_lantern/wall_mounted_foxfire_lantern_ghost.json": "better_stockpiles/entities/construction/light_source.json",
 		
 		"settlementdecor/entities/resources/ember_plant_pod/ember_plant_pod.json": "settlementdecor_bs/entities/plants/plant_part.json",
 		"settlementdecor/entities/resources/ember_plant_pollen/ember_plant_pollen_ghost.json": "settlementdecor_bs/entities/plants/plant_part.json",
