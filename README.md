@@ -17,7 +17,7 @@ Current available stockpile filters:
 
 * **Resources:** Wood, Stone, Clay
 * **Ore:** Coal, Copper, Tin, Iron, Silver, Gold
-* **Plants:** Fibers, Herbs, Saplings, Plant Parts [SD]
+* **Plants:** Fibers, Herbs, Saplings, Sprouts
 * **Animal Parts:** Pelts, Skins, Feathers, Wool, Bones
 * **Construction:** Doors & Windows, Furniture, Fences & Gates, Decorations, Light Sources, Traps & Turrets, Food & Drink Sources [SC]
 * **Refined Craftables:** Thread, Cloth, Leather, Gears
@@ -80,9 +80,26 @@ If you want me to make a compatibility patch for a mod, please send me a PM on S
 
 ## Changelog
 
+**Version 0.22.0**
+
+For StoneHearth Alpha 22 Release 729
+
+* Added "Sprouts" filter under "Plants" category.
+* Moved Berry Bush, Brightbell, Cactus, Foxlily, Frostsnap, Pear Cactus, Silkweed and Sunflower plants to "Sprouts". Brightbell, Cactus and Frostsnap flowers are still in "Herbs" filter.
+
+Updated compatibility patch for Brewery Mod Alpha 18:
+
+* Moved Allium, Blueberry, Mushroom, Rose and Strawberry plants to "Sprouts".
+
+Updated compatibility patch for Settlement Decor 1.18:
+
+* Removed "Plant Parts" filter.
+* Moved Ember, Foxfire, Litso Grass and Sunflower plants to "Sprouts".
+* Moved plants pods, pollens, slimes and stems to "Herbs".
+
 **Version 0.21.1**
 
-For StoneHearth Alpha 21 stable 707
+For StoneHearth Alpha 21 Release 707
 
 * Renamed "Tools" filter to "Talismans & Workbenches".
 
@@ -97,7 +114,7 @@ Updated compatibility patch for Settlement Decor 1.18:
 
 **Version 0.21.0**
 
-For Stonehearth Alpha 21 stable 703
+For Stonehearth Alpha 21 Release 703
 
 * New filter icons.
 * Slightly larger stockpile UI.
@@ -136,13 +153,13 @@ Updated compatibility patch for Brewery Mod Alpha 18:
 
 **Version 0.20.0**
 
-For Stonehearth Alpha 20 stable 695
+For Stonehearth Alpha 20 Release 695
 
 * Fixed broken strings.
 
 **Version 0.19.0**
 
-For Stonehearth Alpha 19 stable 687
+For Stonehearth Alpha 19 Release 687
 
 * Reduced files number with more common mixintos.
 * Renamed "Worker Outfits" filter to "Outfits".
@@ -169,7 +186,7 @@ Added compatiblity patch for Frostfeast 2016:
 
 **Version 0.18.4**
 
-For Stonehearth Alpha 18 stable 663
+For Stonehearth Alpha 18 Release 663
 
 * Added "Worker Outfits" filter to "Equipment" category. Upgraded Worker Outfit and Winter Worker Outfit are now correctly stored by Hearthlings.
 
@@ -180,7 +197,7 @@ Updated compatibility patch for Stonehearth Cafe 1.7:
 
 **Version 0.18.3**
 
-For Stonehearth Alpha 18 stable 663
+For Stonehearth Alpha 18 Release 663
 
 * Moved "Meat" filter to "Food & Drink" category.
 * Renamed "Raw Food" filter to "Fruits & Vegetables".
@@ -201,7 +218,7 @@ Added compatibility patch for Brewery Mod Alpha 18:
 
 **Version 0.18.2**
 
-For Stonehearth Alpha 18 stable 663
+For Stonehearth Alpha 18 Release 663
 
 * Enlarged stockpile UI window, so every filters are visible without scrolling!
 
@@ -215,7 +232,7 @@ Added compatibility patch for Stonehearth Cafe 1.7:
 
 **Version 0.18.1**
 
-For Stonehearth Alpha 18 stable 656
+For Stonehearth Alpha 18 Release 656
 
 * Modified stockpile UI with a larger window (thanks Tuhalu).
 * Added "Rotten Foods" filter to "Food & Drink" category.
@@ -224,7 +241,7 @@ For Stonehearth Alpha 18 stable 656
 
 **Version 0.18.0**
 
-For Stonehearth Alpha 18 stable 652
+For Stonehearth Alpha 18 Release 652
 
 * Use of the new "remove" mixintype.
 * "Ore", "Metal Bars", "Consumables" and "Animal Feed" filters are now detailed categories.
@@ -234,19 +251,19 @@ For Stonehearth Alpha 18 stable 652
 
 **Version 0.17.2**
 
-For Stonehearth Alpha 17 stable 584
+For Stonehearth Alpha 17 Release 584
 
 * Added "Gears" filter to "Goods" category (thanks Brendan).
 
 **Version 0.17.1**
 
-For Stonehearth Alpha 17 develop 3013
+For Stonehearth Alpha 17 Release 3013
 
 * Removes the Fur Rug mixinto.
 
 **Version 0.17.0**
 
-For Stonehearth Alpha 17 develop 3008
+For Stonehearth Alpha 17 Release 3008
 
 * Use of the new "override" mixintype. The ghost filters are now exorcised.
 * Compatibility with the new stockpile filters.
@@ -257,7 +274,7 @@ For Stonehearth Alpha 17 develop 3008
 
 **Version 0.16.4**
 
-For Stonehearth Alpha 16 stable 2972
+For Stonehearth Alpha 16 Release 2972
 
 * stockpile_filters.json is now a mixinto instead of an override. This should assure better compatibility with other mods.
 * Redesigned filters so they use vanilla item tags as much as possible, to assure better compatibility with other mods. Now, only the fur rug need a mixinto.
@@ -267,14 +284,14 @@ For Stonehearth Alpha 16 stable 2972
 
 **Version 0.16.3**
 
-For Stonehearth Alpha 16 stable 2972.
+For Stonehearth Alpha 16 Release 2972.
 
 * Added "wool" filter to "Animal Parts" category.
 * Moved "Wool Bundle" to "wool" filter.
 
 **Version 0.16.2/0.15.2**
 
-For Stonehearth Alpha 16 develop 2940 and Alpha 15 stable 549.
+For Stonehearth Alpha 16 Release 2940 and Alpha 15 Release 549.
 
 * Moved "Goblin Honor Tokens" to "gems and trophies".
 * Renamed "flowers" to "herbs" (to be consistent with craft recipes).
@@ -285,7 +302,7 @@ For Stonehearth Alpha 16 develop 2940 and Alpha 15 stable 549.
 
 **Version 0.16.1/0.15.1**
 
-For Stonehearth Alpha 16 develop 2924 and Alpha 15 stable 549.
+For Stonehearth Alpha 16 Release 2924 and Alpha 15 Release 549.
 
 * "Leather Bolt" moved to "Refined Animal Parts".
 * "Fur Rug" moved to "Decorations".
@@ -293,7 +310,7 @@ For Stonehearth Alpha 16 develop 2924 and Alpha 15 stable 549.
 
 **Version 0.16.0**
 
-Initial version for Stonehearth Alpha 16 develop 2924.
+Initial version for Stonehearth Alpha 16 Release 2924.
 
 ## License
 

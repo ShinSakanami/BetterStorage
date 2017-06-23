@@ -13,10 +13,10 @@
 		
 		"brewerymod/entities/food/apple_pie/apple_pie/apple_pie.json": "better_stockpiles/entities/food/prepared_vege.json",
 		
-		"brewerymod/entities/plants/allium/allium_ghost.json": "better_stockpiles/entities/plants/herb.json",
-		"brewerymod/entities/plants/blueberry/blueberry_ghost.json": "better_stockpiles/entities/plants/herb.json",
-		"brewerymod/entities/plants/mushroom/mushroom_ghost.json": "better_stockpiles/entities/plants/herb.json",
-		"brewerymod/entities/plants/roses/roses_ghost.json": "better_stockpiles/entities/plants/herb.json",
-		"brewerymod/entities/plants/strawberry/strawberry_ghost.json": "better_stockpiles/entities/plants/herb.json"
+		"brewerymod/entities/plants/allium/allium_ghost.json": "better_stockpiles/entities/plants/sprout.json",
+		"brewerymod/entities/plants/blueberry/blueberry_ghost.json": "better_stockpiles/entities/plants/sprout.json",
+		"brewerymod/entities/plants/mushroom/mushroom_ghost.json": "better_stockpiles/entities/plants/sprout.json",
+		"brewerymod/entities/plants/roses/roses_ghost.json": "better_stockpiles/entities/plants/sprout.json",
+		"brewerymod/entities/plants/strawberry/strawberry_ghost.json": "better_stockpiles/entities/plants/sprout.json"
 	}
 }

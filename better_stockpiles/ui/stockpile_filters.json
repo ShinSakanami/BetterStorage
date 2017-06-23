@@ -83,6 +83,12 @@
 					"display_name": "i18n(better_stockpiles:filters.tooltip_tree)",
 					"icon": "/better_stockpiles/ui/tree.png",
 					"filter": "stockpile_plant tree"
+				},
+				"sprout": {
+					"ordinal": 4,
+					"display_name": "i18n(better_stockpiles:filters.tooltip_sprout)",
+					"icon": "/better_stockpiles/ui/sprout.png",
+					"filter": "stockpile_plant sprout"
 				}
 			}
 		},

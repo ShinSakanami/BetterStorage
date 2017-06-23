@@ -27,7 +27,16 @@
 		"stonehearth/entities/gizmos/turnip_shooter/turnip_shooter_ghost.json": "better_stockpiles/entities/construction/trap.json",
 		
 		"stonehearth/jobs/worker/worker_outfit_2/worker_outfit_2.json": "better_stockpiles/entities/equipment/outfit.json",
-		"stonehearth/jobs/worker/winter_worker_outfit/winter_worker_outfit.json": "better_stockpiles/entities/equipment/outfit.json"
+		"stonehearth/jobs/worker/winter_worker_outfit/winter_worker_outfit.json": "better_stockpiles/entities/equipment/outfit.json",
+		
+		"stonehearth/entities/plants/berry_bush/berry_bush_ghost.json": "better_stockpiles/entities/plants/sprout.json",
+		"stonehearth/entities/plants/brightbell_plant/brightbell_plant.json": "better_stockpiles/entities/plants/sprout.json",
+		"stonehearth/entities/plants/cactus_plant/cactus_plant_ghost.json": "better_stockpiles/entities/plants/sprout.json",
+		"stonehearth/entities/plants/foxlily_plant/foxlily_plant.json": "better_stockpiles/entities/plants/sprout.json",
+		"stonehearth/entities/plants/frostsnap_plant/frostsnap_plant_ghost.json": "better_stockpiles/entities/plants/sprout.json",
+		"stonehearth/entities/plants/pear_cactus/pear_cactus_ghost.json": "better_stockpiles/entities/plants/sprout.json",
+		"stonehearth/entities/plants/silkweed/silkweed/silkweed_ghost.json": "better_stockpiles/entities/plants/sprout.json",
+		"stonehearth/entities/plants/sunflower_plant/sunflower_plant.json": "better_stockpiles/entities/plants/sprout.json"
 	},
 	"overrides": {
 		"stonehearth/ui/game/modes/zones_mode/stockpile/stockpile.less": "better_stockpiles/ui/stockpile.less"
