@@ -1,5 +1,7 @@
-# BetterStockpiles
-**A mod for Stonehearth which add more item filters to the stockpiles.**
+# Better Storage
+**A mod for Stonehearth which add more item filters to the storages.**
+
+AKA Better Stockpiles
 
 By Shinji Sakanami http://shinsaka.com
 
@@ -7,78 +9,110 @@ Stonehearth is a game by Radiant Entertainment http://stonehearth.net/
 
 ## Description
 
-The stockpiles in StoneHearth are great, but maybe you need more filtering capabilities? Want to separate flowers from fibers? Wheat grains from food? Meat from animal feed?
+The storages in StoneHearth are great, but maybe you need more filtering capabilities? Want to separate flowers from fibers? Wheat grains from food? Meat from animal feed?
 
-Better Stockpiles is here for you! Adding more filters to stockpiles, crates and chests for better stocks management.
+Better Storage is here for you! Adding more filters to stockpiles, crates and chests for better resource management.
 
-With compatibility patches for Candledark, Frostfeast, Stonehearth Cafe, Brewery Mod and Settlement Decor!
+Compatible with many popular mods like Candledark, Frostfeast, Stonehearth Cafe, Brewery Mod, and more!
 
-Current available stockpile filters:
+Current available storage filters:
 
-* **Resources:** Wood, Stone, Clay
-* **Ore:** Coal, Copper, Tin, Iron, Silver, Gold
-* **Plants:** Fibers, Herbs, Saplings, Sprouts
+* **Resources:** Wood, Stone, Clay, Ore
+* **Plants:** Fibers, Herbs, Saplings, Sprouts & Seeds
 * **Animal Parts:** Pelts, Skins, Feathers, Wool, Bones
-* **Construction:** Doors & Windows, Furniture, Fences & Gates, Decorations, Light Sources, Traps & Turrets, Food & Drink Sources [SC]
-* **Refined Craftables:** Thread, Cloth, Leather, Gears
-* **Metal Bars:** Copper Ingots, Tin Ingots, Bronze Ingots, Iron Ingots, Silver Ingots, Gold Ingots, Steel Ingots
+* **Construction:** Doors & Windows, Furniture, Fences & Gates, Decorations, Light Sources, Traps & Turrets, Food & Drink Sources
+* **Refined Craftables:** Thread, Cloth, Leather, Components
 * **Equipment:** Talismans & Workbenches, Melee Weapons, Ranged Weapons, Light Armor, Heavy Armor, Outfits
-* **Consumables:** Healing Items, Tonics, Medicine [FF]
-* **Food & Drink:** Raw Foods (Vege), Raw Foods (Meat), Cooked Foods (Vege), Cooked Foods (Meat), Drinks [SC], Rotten Foods
-* **Ingredients:** Refined Ingredients, Eggs, Wheat, Crops [SC], Honey [SC]
-* **Animal Feed:** Kibble, Poyo Feed, Rabbit Feed, Sheep Feed, Pig Feed [SC&FF], Yak Feed [SC]
-* **Wealth:** Gold Chests, Trophies
+* **Consumables:** Healing Items, Tonics, Medicine
+* **Food & Drink:** Raw Fruits & Vegetables, Raw Meat, Cooked Veggie Foods, Cooked Meat Foods, Drinks, Rotten Foods
+* **Ingredients:** Raw Ingredients, Refined Ingredients, Wheat
+* **Animal Feed:** Kibble, Poyo Feed, Rabbit Feed, Sheep Feed, Pig Feed, Yak Feed
+* **Wealth:** Gold Chests, Trophies, Quest Items
 
 Discuss about this mod on http://discourse.stonehearth.net/t/mod-better-stockpiles/21449
 
 Feedback, suggestions and bug reports are welcome!
 
-## Mirrors
-
-**better_stockpiles.smod**
-* Dropbox: https://www.dropbox.com/s/0qvojc4niy1ircu/better_stockpiles.smod?dl=0
-* PraiseDB: http://praisedb.x10.bz/mod.php?id=127
-* StoneHearth Mods: https://stonehearthmods.co/better-stockpiles/
-
-**candledark_bs.smod**
-* Dropbox: https://www.dropbox.com/s/xiuxrncyyiqmiuz/candledark_bs.smod?dl=0
-
-**frostfeast_bs.smod**
-* Dropbox: https://www.dropbox.com/s/88rckv204vbk9kt/frostfeast_bs.smod?dl=0
-
-**cookmod_bs.smod**
-* Dropbox: https://www.dropbox.com/s/iondsbpv3952tvi/cookmod_bs.smod?dl=0
-
-**brewerymod_bs.smod**
-* Dropbox: https://www.dropbox.com/s/o2co3mj6lbqopo7/brewerymod_bs.smod?dl=0
-
-**settlementdecor_bs.smod**
-* Dropbox: https://www.dropbox.com/s/t3tuplw5ujohvic/settlementdecor_bs.smod?dl=0
-
 ## Installation
 
-* Download "better_stockpile.smod" file from the Releases page or any of the mirrors above.
-* Download the compatiblity patches for the mods you use.
-* Copy the .smod files to "/Stonehearth/mods" directory.
-* Profit!
+* Remove any previous files from Better Storage (betterstorage.smod) or Better Stockpiles (better_stockpiles.smod and *_bs.smod).
+* Download the latest stable version of BS from the Releases page.
+* Copy the "betterstorage.smod" file to ".../Stonehearth/mods" directory.
+* Launch Stonehearth and check if "betterstorage" is activated in Mods tab of the settings panel.
+* Start a new game, or load an existing town. Note in this case, you will need to verify all your stockpiles, crates and chests to check the new filters.
+* Enjoy!
+
+Alternate install: Click on the green "Clone or download" button, then on "Download ZIP". Extract "BetterStorage-master/betterstorage" folder from the ZIP file to ".../Stonehearth/mods" directory. Warning, this version of BS could be unstable.
 
 ## Compatibility
 
-* Patch "candledark_bs.smod" for Candledark 2016 (http://www.stonehearth.net/eek-candledark-is-upon-us-again)
-* Patch "frostfeast_bs.smod" for Frostfeast 2016 (http://www.stonehearth.net/frostfeast-2016-moar-frost-moar-feast)
-* Patch "cookmod_bs.smod" for Stonehearth Cafe 1.9 (https://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-7/10159)
-* Patch "brewerymod_bs.smod" for Brewery Mod Alpha 18 (https://discourse.stonehearth.net/t/alpha21-brewerymod/21790)
-* Patch "settlementdecor_bs.smod" for Settlement Decor 1.18 (https://discourse.stonehearth.net/t/mod-settlement-decor-mod-download-available/4841)
+Better Storage includes compatibility with the following mods:
+
+* Candledark 2016: http://www.stonehearth.net/eek-candledark-is-upon-us-again
+* Frostfeast 2016: http://www.stonehearth.net/frostfeast-2016-moar-frost-moar-feast
+* Stonehearth Cafe 1.92: https://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-92/10159
+* Brewery Mod A22.5: https://discourse.stonehearth.net/t/alpha22-5-brewerymod/21790
+* Settlement Decor 1.30: https://discourse.stonehearth.net/t/mod-settlement-decor-mod-download-available/4841
+* Wizards Class Pack Mod 0.3.5: https://discourse.stonehearth.net/t/wizards-class-pack-mod-a21-wip/29410
 
 If a mod uses vanilla filtering tags for its items, it will be mostly compatible with BS.
 
-If a mod modifies the stockpile filters file, it could be compatible with BS. Maybe. Depends on the modifications.
+If a mod modifies the "stockpile_filters.json" file, it could be not compatible with BS.
 
-If a mod overrides the stockpile filters file, or uses non vanilla filtering tags, it will NOT be compatible with BS.
+If a mod overrides the "stockpile_filters.json" file, or uses non vanilla filtering tags, it will NOT be compatible with BS.
 
-If you want me to make a compatibility patch for a mod, please send me a PM on Stonehearth Discourse, with a link to the latest version of the mod.
+If you want me to ensure compatibility with a mod, please send me a message on Stonehearth Discourse, with a link to the latest version of the mod.
+
+Recommended mods, all compatibles with Better Storage:
+
+* Pawel's Mod Corner: https://discourse.stonehearth.net/t/a22-pawels-mod-corner-finetems-plant-lore-archmod/26504
+* MaraRose's Container Mod: https://discourse.stonehearth.net/t/mararoses-container-mod/28554
+* Chabonit's Mod: https://discourse.stonehearth.net/t/a21-chabonit-s-mod-wealth-and-leadership-r15-04/29744
+* EndPieces: https://discourse.stonehearth.net/t/mod-all-versions-endpieces-1-09-a20-update/10375
+* Finery Mod: https://discourse.stonehearth.net/t/finery-mod-v4-7-nov-22/31511
+* Home Sweet Home: https://discourse.stonehearth.net/t/home-sweet-home-version-2-2-house-with-garden/30993
+* Signery Mod: https://discourse.stonehearth.net/t/signery-mod-v3-1-nov-3/31462
+* Slabs with Terrain Colors: https://discourse.stonehearth.net/t/mod-slabs-with-terrain-colors-a20/14957
+* Town Monitor: https://discourse.stonehearth.net/t/town-monitor-v1-1-mod/32561
+* Smart Crafter: https://discourse.stonehearth.net/t/mod-smart-crafter/10213
 
 ## Changelog
+
+**Version 1.0**
+
+For Stonehearth Alpha 22.5 Release 763
+
+* Added French localisation.
+* Merged all compatibility patches into the main SMOD.
+* Added compatibility with Wizards Class Pack Mod.
+* Reduced storage window height, so it won't collide with Town Monitor mod and A23 unit frame.
+* Renamed "Sprouts" filter to "Sprouts & Seeds".
+* Renamed "Gears" filter to "Components".
+* Renamed "Raw Foods (Vege)" to "Raw Fruits & Vegetables".
+* Renamed "Raw Foods (Meat)" to "Raw Meat".
+* Renamed "Cooked Foods (Vege)" to "Cooked Veggie Foods".
+* Renamed "Cooked Foods (Meat)" to "Cooked Meat Foods".
+* Removed "Ore" category and restored "Ore" filter in "Resources" category.
+* Removed "Metal Bars" category and restored "Metal Bars" filter in "Refined Craftables" category.
+* Removed "Eggs", "Crops" and "Honey" filters and added "Raw Ingredients" filter in "Ingredients" category.
+* Added "Quest Items" filter under "Wealth" category, merging the "Quest Items" filter from Stonehearth Cafe and the "Offerings" filter from Frostfeast.
+* Moved Eggs to "Raw Ingredients" filter.
+* Moved Dusty Tome, Broken Flute and Moutain Flute to "Quest Items" filter.
+* Rayyas Children: Fixed Upgraded Worker Outfit not properly stored.
+* Frostfeast: Moved offerings to "Quest Items" filter.
+* Frostfeast: Fixed mod's cooked food, decorations and light sources not properly stored.
+* Frostfeast: Fixed Berry Bush not properly stored.
+* Frostfeast: Moved hats to "Outfits" filter.
+* Candledark: Fixed mod's cooked food and decorations not properly stored.
+* Candledark: Moved costumes to "Outfits" filter.
+* Stonehearth Cafe: Moved Rice, Potato and Honey to "Raw Ingredients" filter.
+* Stonehearth Cafe: Moved back Bee Queen to "Quest Items" filter.
+* Brewery Mod: Fixed mod's drinks not properly stored.
+* Brewery Mod: Moved seeds to "Sprouts & Seeds" filter.
+* Brewery Mod: Moved Sugarcane Bundle to "Raw Ingredients" filter.
+* Settlement Decor: Fixed mod's light sources not properly stored.
+* Wizards Class Pack Mod: Fixed mod's decorations not properly stored.
+* Wizards Class Pack Mod: Moved Ink, Leather Cover, Vellum, Writ of Power and Essences to "Components" filter.
 
 **Version 0.22.0**
 
@@ -311,7 +345,3 @@ For Stonehearth Alpha 16 Release 2924 and Alpha 15 Release 549.
 **Version 0.16.0**
 
 Initial version for Stonehearth Alpha 16 Release 2924.
-
-## License
-
-This work is licensed under a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)** http://creativecommons.org/licenses/by-nc-sa/4.0/

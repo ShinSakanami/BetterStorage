@@ -1,0 +1,369 @@
+{
+	"stockpile": {
+		"resources": {
+			"ordinal": 1,
+			"categories": {
+				"mixintypes": {
+					"animal_part": "remove",
+					"plant": "remove"
+				},
+				"wood": {
+					"icon": "file(icons/wood.png)"
+				},
+				"stone": {
+					"icon": "file(icons/stone.png)"
+				},
+				"clay": {
+					"icon": "file(icons/clay.png)"
+				},
+				"ore": {
+					"icon": "file(icons/ore.png)"
+				}
+			}
+		},
+		"plants": {
+			"display_name": "i18n(betterstorage:filters.plants)",
+			"filter": "plants",
+			"ordinal": 2,
+			"categories": {
+				"fiber": {
+					"ordinal": 1,
+					"display_name": "i18n(betterstorage:filters.tooltip_fiber)",
+					"icon": "file(icons/fiber.png)",
+					"filter": "stockpile_plant fiber"
+				},
+				"herb": {
+					"ordinal": 2,
+					"display_name": "i18n(betterstorage:filters.tooltip_herb)",
+					"icon": "file(icons/herb.png)",
+					"filter": "stockpile_plant herb"
+				},
+				"tree": {
+					"ordinal": 3,
+					"display_name": "i18n(betterstorage:filters.tooltip_tree)",
+					"icon": "file(icons/tree.png)",
+					"filter": "stockpile_plant tree"
+				},
+				"sprout": {
+					"ordinal": 4,
+					"display_name": "i18n(betterstorage:filters.tooltip_sprout)",
+					"icon": "file(icons/sprout.png)",
+					"filter": "stockpile_plant sprout"
+				}
+			}
+		},
+		"animal_parts": {
+			"display_name": "i18n(betterstorage:filters.animal_parts)",
+			"filter": "animal_parts",
+			"ordinal": 3,
+			"categories": {
+				"pelt": {
+					"ordinal": 1,
+					"display_name": "i18n(betterstorage:filters.tooltip_pelt)",
+					"icon": "file(icons/pelt.png)",
+					"filter": "stockpile_animal_part pelt"
+				},
+				"skin": {
+					"ordinal": 2,
+					"display_name": "i18n(betterstorage:filters.tooltip_skin)",
+					"icon": "file(icons/skin.png)",
+					"filter": "stockpile_animal_part skin"
+				},
+				"feather": {
+					"ordinal": 3,
+					"display_name": "i18n(betterstorage:filters.tooltip_feather)",
+					"icon": "file(icons/feather.png)",
+					"filter": "stockpile_animal_part feather"
+				},
+				"wool": {
+					"ordinal": 4,
+					"display_name": "i18n(betterstorage:filters.tooltip_wool)",
+					"icon": "file(icons/wool.png)",
+					"filter": "stockpile_animal_part wool"
+				},
+				"bone": {
+					"ordinal": 5,
+					"display_name": "i18n(betterstorage:filters.tooltip_bone)",
+					"icon": "file(icons/bone.png)",
+					"filter": "stockpile_animal_part bone"
+				}
+			}
+		},
+		"construction": {
+			"ordinal": 4,
+			"categories": {
+				"portal": {
+					"icon": "file(icons/portal.png)"
+				},
+				"furniture": {
+					"icon": "file(icons/furniture.png)"
+				},
+				"defense": {
+					"display_name": "i18n(betterstorage:filters.tooltip_defense)",
+					"icon": "file(icons/defense.png)",
+					"filter": "stockpile_defense crafted"
+				},
+				"decoration": {
+					"icon": "file(icons/decoration.png)",
+					"filter": "stockpile_decoration decoration"
+				},
+				"light_source": {
+					"ordinal": 6,
+					"display_name": "i18n(betterstorage:filters.tooltip_light_source)",
+					"icon": "file(icons/light_source.png)",
+					"filter": "stockpile_decoration light_source"
+				},
+				"trap": {
+					"ordinal": 7,
+					"display_name": "i18n(betterstorage:filters.tooltip_trap)",
+					"icon": "file(icons/trap.png)",
+					"filter": "stockpile_defense trap"
+				},
+				"food_source": {
+					"ordinal": 8,
+					"display_name": "i18n(betterstorage:filters.tooltip_food_source)",
+					"icon": "file(icons/food_source.png)",
+					"filter": "stockpile_food_source"
+				}
+			}
+		},
+		"goods": {
+			"display_name": "i18n(betterstorage:filters.goods)",
+			"ordinal": 5,
+			"categories": {
+				"mixintypes": {
+					"tool": "remove",
+					"refined_weaver": "remove",
+					"weapons": "remove",
+					"equipment": "remove",
+					"consumables": "remove"
+				},
+				"thread": {
+					"ordinal": 1,
+					"display_name": "i18n(betterstorage:filters.tooltip_thread)",
+					"icon": "file(icons/thread.png)",
+					"filter": "stockpile_refined_weaver thread"
+				},
+				"cloth": {
+					"ordinal": 2,
+					"display_name": "i18n(betterstorage:filters.tooltip_cloth)",
+					"icon": "file(icons/cloth.png)",
+					"filter": "stockpile_refined_weaver cloth"
+				},
+				"leather": {
+					"ordinal": 3,
+					"display_name": "i18n(betterstorage:filters.tooltip_leather)",
+					"icon": "file(icons/leather.png)",
+					"filter": "stockpile_refined_weaver leather"
+				},
+				"refined_ore": {
+					"ordinal": 4,
+					"icon": "file(icons/refined_ore.png)"
+				},
+				"component": {
+					"ordinal": 99,
+					"display_name": "i18n(betterstorage:filters.tooltip_component)",
+					"icon": "file(icons/component.png)",
+					"filter": "stockpile_refined_component"
+				}
+			}
+		},
+		"equipment": {
+			"display_name": "i18n(betterstorage:filters.equipment)",
+			"filter": "equipment",
+			"ordinal": 6,
+			"categories": {
+				"tool": {
+					"ordinal": 1,
+					"display_name": "i18n(betterstorage:filters.tooltip_tool)",
+					"icon": "file(icons/tool.png)",
+					"filter": "stockpile_tool"
+				},
+				"melee_weapon": {
+					"ordinal": 2,
+					"display_name": "i18n(betterstorage:filters.tooltip_melee_weapon)",
+					"icon": "file(icons/melee_weapon.png)",
+					"filter": "stockpile_weapon melee_weapon"
+				},
+				"ranged_weapon": {
+					"ordinal": 3,
+					"display_name": "i18n(betterstorage:filters.tooltip_ranged_weapon)",
+					"icon": "file(icons/ranged_weapon.png)",
+					"filter": "stockpile_weapon ranged_weapon"
+				},
+				"light_armor": {
+					"ordinal": 4,
+					"display_name": "i18n(betterstorage:filters.tooltip_light_armor)",
+					"icon": "file(icons/light_armor.png)",
+					"filter": "stockpile_equipment light_armor"
+				},
+				"heavy_armor": {
+					"ordinal": 5,
+					"display_name": "i18n(betterstorage:filters.tooltip_heavy_armor)",
+					"icon": "file(icons/heavy_armor.png)",
+					"filter": "stockpile_equipment heavy_armor"
+				},
+				"outfit": {
+					"ordinal": 6,
+					"display_name": "i18n(betterstorage:filters.tooltip_outfit)",
+					"icon": "file(icons/outfit.png)",
+					"filter": "stockpile_equipment outfit"
+				}
+			}
+		},
+		"consumables": {
+			"display_name": "i18n(betterstorage:filters.consumables)",
+			"filter": "consumables",
+			"ordinal": 7,
+			"categories": {
+				"healing_item": {
+					"ordinal": 1,
+					"display_name": "i18n(betterstorage:filters.tooltip_healing_item)",
+					"icon": "file(icons/healing_item.png)",
+					"filter": "stockpile_consumable healing_item"
+				},
+				"tonic": {
+					"ordinal": 2,
+					"display_name": "i18n(betterstorage:filters.tooltip_tonic)",
+					"icon": "file(icons/tonic.png)",
+					"filter": "stockpile_consumable tonic"
+				},
+				"medicine": {
+					"ordinal": 3,
+					"display_name": "i18n(betterstorage:filters.tooltip_medicine)",
+					"icon": "file(icons/medicine.png)",
+					"filter": "stockpile_consumable medicine"
+				}
+			}
+		},
+		"food_and_drink": {
+			"ordinal": 8,
+			"categories": {
+				"mixintypes": {
+					"prepared_food": "remove",
+					"cooking_ingredient": "remove"
+				},
+				"raw_food": {
+					"ordinal": 1,
+					"display_name": "i18n(betterstorage:filters.tooltip_raw_food)",
+					"icon": "file(icons/raw_food.png)"
+				},
+				"raw_meat": {
+					"ordinal": 2,
+					"display_name": "i18n(betterstorage:filters.tooltip_raw_meat)",
+					"icon": "file(icons/raw_meat.png)",
+					"filter": "stockpile_cooking_ingredient meat"
+				},
+				"prepared_vege": {
+					"ordinal": 3,
+					"display_name": "i18n(betterstorage:filters.tooltip_prepared_vege)",
+					"icon": "file(icons/prepared_vege.png)",
+					"filter": "stockpile_prepared_food vegetarian"
+				},
+				"prepared_meat": {
+					"ordinal": 4,
+					"display_name": "i18n(betterstorage:filters.tooltip_prepared_meat)",
+					"icon": "file(icons/prepared_meat.png)",
+					"filter": "stockpile_prepared_food meat"
+				},
+				"drink_container": {
+					"ordinal": 5,
+					"display_name": "i18n(betterstorage:filters.tooltip_drink)",
+					"icon": "file(icons/drink.png)",
+					"filter": "stockpile_drink"
+				},
+				"rotten_food": {
+					"ordinal": 99,
+					"display_name": "i18n(betterstorage:filters.tooltip_rotten_food)",
+					"icon": "file(icons/rotten_food.png)",
+					"filter": "stockpile_rotten_food"
+				}
+			}
+		},
+		"ingredients": {
+			"display_name": "i18n(betterstorage:filters.ingredients)",
+			"filter": "ingredients",
+			"ordinal": 9,
+			"categories": {
+				"raw_ingredient": {
+					"ordinal": 1,
+					"display_name": "i18n(betterstorage:filters.tooltip_raw_ingredient)",
+					"icon": "file(icons/raw_ingredient.png)",
+					"filter": "stockpile_cooking_ingredient raw_ingredient"
+				},
+				"refined_ingredient": {
+					"ordinal": 2,
+					"display_name": "i18n(betterstorage:filters.tooltip_refined_ingredient)",
+					"icon": "file(icons/refined_ingredient.png)",
+					"filter": "stockpile_cooking_ingredient refined_ingredient"
+				},
+				"wheat": {
+					"ordinal": 3,
+					"display_name": "i18n(betterstorage:filters.tooltip_wheat)",
+					"icon": "file(icons/wheat.png)",
+					"filter": "stockpile_cooking_ingredient wheat"
+				}
+			}
+		},
+		"animal_feed": {
+			"display_name": "i18n(betterstorage:filters.animal_feed)",
+			"filter": "animal_feed",
+			"ordinal": 10,
+			"categories": {
+				"kibble": {
+					"ordinal": 1,
+					"display_name": "i18n(betterstorage:filters.tooltip_kibble)",
+					"icon": "file(icons/kibble.png)",
+					"filter": "stockpile_prepared_food kibble"
+				},
+				"poyo_feed": {
+					"ordinal": 2,
+					"display_name": "i18n(betterstorage:filters.tooltip_poyo_feed)",
+					"icon": "file(icons/poyo_feed.png)",
+					"filter": "stockpile_cooking_ingredient animal_feed poyo_feed_bag"
+				},
+				"rabbit_feed": {
+					"ordinal": 3,
+					"display_name": "i18n(betterstorage:filters.tooltip_rabbit_feed)",
+					"icon": "file(icons/rabbit_feed.png)",
+					"filter": "stockpile_cooking_ingredient animal_feed rabbit_feed"
+				},
+				"sheep_feed": {
+					"ordinal": 4,
+					"display_name": "i18n(betterstorage:filters.tooltip_sheep_feed)",
+					"icon": "file(icons/sheep_feed.png)",
+					"filter": "stockpile_cooking_ingredient animal_feed sheep_feed"
+				},
+				"pig_feed": {
+					"ordinal": 5,
+					"display_name": "i18n(betterstorage:filters.tooltip_pig_feed)",
+					"icon": "file(icons/pig_feed.png)",
+					"filter": "stockpile_cooking_ingredient animal_feed pig_feed"
+				},
+				"yak_feed": {
+					"ordinal": 6,
+					"display_name": "i18n(betterstorage:filters.tooltip_yak_feed)",
+					"icon": "file(icons/yak_feed.png)",
+					"filter": "stockpile_cooking_ingredient animal_feed yak_feed"
+				}
+			}
+		},
+		"wealth": {
+			"ordinal": 11,
+			"categories": {
+				"gold": {
+					"icon": "file(icons/gold.png)"
+				},
+				"trophy": {
+					"icon": "file(icons/trophy.png)"
+				},
+				"quest_items": {
+				   "ordinal": 99,
+				   "display_name": "i18n(betterstorage:filters.tooltip_quest_items)",
+				   "icon": "file(icons/quest_items.png)",
+				   "filter": "stockpile_quest_items"
+				}
+			}
+		}
+	}
+}
