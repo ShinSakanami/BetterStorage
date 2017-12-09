@@ -1,5 +1,5 @@
 # Better Storage
-**A mod for Stonehearth which add more item filters to the storages.**
+**A mod for Stonehearth which add more item filters to containers and stockpiles.**
 
 AKA Better Stockpiles
 
@@ -9,11 +9,15 @@ Stonehearth is a game by Radiant Entertainment http://stonehearth.net/
 
 ## Description
 
-The storages in StoneHearth are great, but maybe you need more filtering capabilities? Want to separate flowers from fibers? Wheat grains from food? Meat from animal feed?
+The storage system in StoneHearth is easy to use, but maybe you need more filtering capabilities? Want to separate flowers from fibers? Wheat grains from food? Meat from animal feed?
 
 Better Storage is here for you! Adding more filters to stockpiles, crates and chests for better resource management.
 
 Compatible with many popular mods like Candledark, Frostfeast, Stonehearth Cafe, Brewery Mod, and more!
+
+Includes French localisation / Traduction française incluse !
+
+Guide pour mettre Stonehearth en Français : https://steamcommunity.com/sharedfiles/filedetails/?id=455676343
 
 Current available storage filters:
 
@@ -36,7 +40,7 @@ Feedback, suggestions and bug reports are welcome!
 ## Installation
 
 * Remove any previous files from Better Storage (betterstorage.smod) or Better Stockpiles (better_stockpiles.smod and *_bs.smod).
-* Download the latest stable version of BS from the Releases page.
+* Download the latest stable version from the Github Releases page: https://github.com/ShinjiSakanami/BetterStorage/releases
 * Copy the "betterstorage.smod" file to ".../Stonehearth/mods" directory.
 * Launch Stonehearth and check if "betterstorage" is activated in Mods tab of the settings panel.
 * Start a new game, or load an existing town. Note in this case, you will need to verify all your stockpiles, crates and chests to check the new filters.
