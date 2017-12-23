@@ -222,7 +222,5 @@
 		"wizards/entities/refined/vellum/vellum.json": "betterstorage:goods:component",
 		"wizards/entities/refined/writ_of_power/writ_of_power.json": "betterstorage:goods:component"
 	},
-	"overrides": {
-		"stonehearth/ui/game/modes/zones_mode/stockpile/stockpile.less": "file(ui/stockpile.less)"
-	}
+	"overrides": {}
 }
