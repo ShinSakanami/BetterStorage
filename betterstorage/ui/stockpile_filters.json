@@ -160,6 +160,12 @@
 					"ordinal": 4,
 					"icon": "file(icons/refined_ore.png)"
 				},
+				"gold_flakes": {
+					"ordinal": 5,
+					"display_name": "i18n(betterstorage:filters.tooltip_gold_flakes)",
+					"icon": "file(icons/gold_flakes.png)",
+					"filter": "stockpile_refined gold_flakes"
+				},
 				"component": {
 					"ordinal": 99,
 					"display_name": "i18n(betterstorage:filters.tooltip_component)",
