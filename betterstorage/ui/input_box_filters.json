@@ -1,0 +1,344 @@
+{
+    "type": "index",
+    "stockpile": {
+        "resources": {
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.resources)",
+            "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/wood.png",
+            "ordinal": 1,
+            "categories": {
+                "wood": {
+                    "ordinal": 1,
+                    "display_name": "i18n(betterstorage:filters.tooltip_log)",
+                    "icon": "/stonehearth/entities/resources/wood/log.png",
+                    "filter": "stockpile_wood wood resource"
+                },
+                "stone": {
+                    "ordinal": 2,
+                    "display_name": "i18n(stonehearth:entities.resources.stone.hunk_of_stone.display_name)",
+                    "icon": "/stonehearth/entities/resources/stone/stone.png",
+                    "filter": "stockpile_stone stone resource"
+                },
+                "clay": {
+                    "ordinal": 3,
+                    "display_name": "i18n(stonehearth:entities.resources.clay.clay_mound.display_name)",
+                    "icon": "/stonehearth/entities/resources/clay/clay.png",
+                    "filter": "stockpile_clay clay resource"
+                },
+                "clay_bricks": {
+                    "ordinal": 4,
+                    "display_name": "i18n(stonehearth:entities.construction.clay_bricks.display_name)",
+                    "icon": "/stonehearth/entities/construction/clay_bricks/clay_bricks.png",
+                    "filter": "stockpile_clay clay_brick resource"
+                }
+            }
+        },
+        "ore": {
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_ore)",
+            "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/ore.png",
+            "ordinal": 2,
+            "categories": {
+                "copper_ore": {
+                    "ordinal": 1,
+                    "display_name": "i18n(stonehearth:entities.resources.copper.copper_ore.display_name)",
+                    "icon": "/stonehearth/entities/resources/copper/copper_ore/copper_ore.png",
+                    "filter": "stockpile_ore copper"
+                },
+                "tin_ore": {
+                    "ordinal": 2,
+                    "display_name": "i18n(stonehearth:entities.resources.tin.tin_ore.display_name)",
+                    "icon": "/stonehearth/entities/resources/tin/tin_ore/tin_ore.png",
+                    "filter": "stockpile_ore tin"
+                },
+                "iron_ore": {
+                    "ordinal": 3,
+                    "display_name": "i18n(stonehearth:entities.resources.iron.iron_ore.display_name)",
+                    "icon": "/stonehearth/entities/resources/iron/iron_ore/iron_ore.png",
+                    "filter": "stockpile_ore iron"
+                },
+                "silver_ore": {
+                    "ordinal": 4,
+                    "display_name": "i18n(stonehearth:entities.resources.silver.silver_ore.display_name)",
+                    "icon": "/stonehearth/entities/resources/silver/silver_ore/silver_ore.png",
+                    "filter": "stockpile_ore silver"
+                },
+                "gold_ore": {
+                    "ordinal": 5,
+                    "display_name": "i18n(stonehearth:entities.resources.gold.gold_ore.display_name)",
+                    "icon": "/stonehearth/entities/resources/gold/gold_ore/gold_ore.png",
+                    "filter": "stockpile_ore gold"
+                },
+                "coal": {
+                    "ordinal": 6,
+                    "display_name": "i18n(stonehearth:entities.resources.coal.lump_of_coal.display_name)",
+                    "icon": "/stonehearth/entities/resources/coal/lump_of_coal/lump_of_coal.png",
+                    "filter": "stockpile_ore coal"
+                }
+            }
+        },
+        "refined_ore": {
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_refined_ore)",
+            "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/refined_ore.png",
+            "ordinal": 3,
+            "categories": {
+                "copper_ingot": {
+                    "ordinal": 1,
+                    "display_name": "i18n(stonehearth:entities.refined.copper_ingot.display_name)",
+                    "icon": "/stonehearth/entities/refined/copper_ingot/copper_ingot.png",
+                    "filter": "stockpile_refined_ore copper ingot"
+                },
+                "tin_ingot": {
+                    "ordinal": 2,
+                    "display_name": "i18n(stonehearth:entities.refined.tin_ingot.display_name)",
+                    "icon": "/stonehearth/entities/refined/tin_ingot/tin_ingot.png",
+                    "filter": "stockpile_refined_ore tin ingot"
+                },
+                "bronze_ingot": {
+                    "ordinal": 3,
+                    "display_name": "i18n(stonehearth:entities.refined.bronze_ingot.display_name)",
+                    "icon": "/stonehearth/entities/refined/bronze_ingot/bronze_ingot.png",
+                    "filter": "stockpile_refined_ore bronze ingot"
+                },
+                "iron_ingot": {
+                    "ordinal": 4,
+                    "display_name": "i18n(stonehearth:entities.refined.iron_ingot.display_name)",
+                    "icon": "/stonehearth/entities/refined/iron_ingot/iron_ingot.png",
+                    "filter": "stockpile_refined_ore iron ingot"
+                },
+                "steel_ingot": {
+                    "ordinal": 5,
+                    "display_name": "i18n(stonehearth:entities.refined.steel_ingot.display_name)",
+                    "icon": "/stonehearth/entities/refined/steel_ingot/steel_ingot.png",
+                    "filter": "stockpile_refined_ore steel ingot"
+                },
+                "silver_ingot": {
+                    "ordinal": 6,
+                    "display_name": "i18n(stonehearth:entities.refined.silver_ingot.display_name)",
+                    "icon": "/stonehearth/entities/refined/silver_ingot/silver_ingot.png",
+                    "filter": "stockpile_refined_ore silver ingot"
+                },
+                "gold_ingot": {
+                    "ordinal": 7,
+                    "display_name": "i18n(stonehearth:entities.refined.gold_ingot.display_name)",
+                    "icon": "/stonehearth/entities/refined/gold_ingot/gold_ingot.png",
+                    "filter": "stockpile_refined_ore gold ingot"
+                },
+                "bronze_gear": {
+                    "ordinal": 8,
+                    "display_name": "i18n(stonehearth:entities.refined.bronze_gear.display_name)",
+                    "icon": "/stonehearth/entities/refined/bronze_gear/bronze_gear.png",
+                    "filter": "stockpile_refined_ore bronze gear"
+                },
+                "iron_gear": {
+                    "ordinal": 9,
+                    "display_name": "i18n(stonehearth:entities.refined.iron_gear.display_name)",
+                    "icon": "/stonehearth/entities/refined/iron_gear/iron_gear.png",
+                    "filter": "stockpile_refined_ore iron gear"
+                },
+                "gold_flakes": {
+                    "ordinal": 10,
+                    "display_name": "i18n(stonehearth:entities.resources.refined.gold_flakes.display_name)",
+                    "icon": "/stonehearth/entities/refined/gold_flakes/gold_flakes.png",
+                    "filter": "stockpile_refined_ore gold_flakes"
+                }
+            }
+        },
+        "animal_parts": {
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_animal_parts)",
+            "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/animal_part.png",
+            "ordinal": 4,
+            "categories": {
+                "pelts": {
+                    "ordinal": 1,
+                    "display_name": "i18n(betterstorage:filters.tooltip_pelt)",
+                    "icon": "/stonehearth/entities/resources/pelt/pelt.png",
+                    "filter": "stockpile_animal_part pelt"
+                },
+                "wool": {
+                    "ordinal": 2,
+                    "display_name": "i18n(stonehearth:entities.resources.fiber.wool_bundle.display_name)",
+                    "icon": "/stonehearth/entities/resources/fiber/wool_bundle/wool_bundle.png",
+                    "filter": "stockpile_animal_part wool"
+                },
+                "feathers": {
+                    "ordinal": 3,
+                    "display_name": "i18n(stonehearth:entities.resources.feathers.poyo_feathers.display_name)",
+                    "icon": "/stonehearth/entities/resources/feathers/poyo_feathers/poyo_feathers.png",
+                    "filter": "stockpile_animal_part feather"
+                },
+                "skins": {
+                    "ordinal": 4,
+                    "display_name": "i18n(stonehearth:entities.resources.skin.varanus_skin.display_name)",
+                    "icon": "/stonehearth/entities/resources/skin/varanus_skin/varanus_skin.png",
+                    "filter": "stockpile_animal_part skin"
+                }
+            }
+        },
+        "plants": {
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_plant)",
+            "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/plant.png",
+            "ordinal": 5,
+            "categories": {
+                "brightbell": {
+                    "ordinal": 1,
+                    "display_name": "i18n(stonehearth:entities.resources.herb.brightbell.display_name)",
+                    "icon": "/stonehearth/entities/resources/herb/brightbell/brightbell.png",
+                    "filter": "stockpile_plant brightbell"
+                },
+                "frostsnap": {
+                    "ordinal": 2,
+                    "display_name": "i18n(stonehearth:entities.resources.herb.frostsnap.display_name)",
+                    "icon": "/stonehearth/entities/resources/herb/frostsnap/frostsnap.png",
+                    "filter": "stockpile_plant frostsnap"
+                },
+                "cactus_flower": {
+                    "ordinal": 3,
+                    "display_name": "i18n(stonehearth:entities.resources.herb.cactus_flower.display_name)",
+                    "icon": "/stonehearth/entities/resources/herb/cactus_flower/cactus_flower.png",
+                    "filter": "stockpile_plant cactus_flower"
+                },
+                "silkweed": {
+                    "ordinal": 4,
+                    "display_name": "i18n(stonehearth:entities.resources.fiber.silkweed_bundle.display_name)",
+                    "icon": "/stonehearth/entities/resources/fiber/silkweed_bundle/silkweed_bundle.png",
+                    "filter": "stockpile_plant silkweed"
+                }
+            }
+        },
+        "refined_weaver": {
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_refined_weaver)",
+            "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/refined_cloth.png",
+            "ordinal": 6,
+            "categories": {
+                "thread": {
+                    "ordinal": 1,
+                    "display_name": "i18n(stonehearth:entities.refined.thread.display_name)",
+                    "icon": "/stonehearth/entities/refined/thread/thread.png",
+                    "filter": "stockpile_refined_weaver thread"
+                },
+                "cloth": {
+                    "ordinal": 2,
+                    "display_name": "i18n(stonehearth:entities.refined.cloth_bolt.display_name)",
+                    "icon": "/stonehearth/entities/refined/cloth_bolt/cloth_bolt.png",
+                    "filter": "stockpile_refined_weaver cloth"
+                },
+                "leather": {
+                    "ordinal": 3,
+                    "display_name": "i18n(stonehearth:entities.refined.leather_bolt.display_name)",
+                    "icon": "/stonehearth/entities/refined/leather_bolt/leather_bolt.png",
+                    "filter": "stockpile_refined_weaver leather"
+                }
+            }
+        },
+        "raw_veg": {
+            "display_name": "i18n(betterstorage:filters.raw_veg)",
+            "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/fruit.png",
+            "ordinal": 7,
+            "categories": {
+                "turnip": {
+                    "ordinal": 1,
+                    "display_name": "i18n(stonehearth:entities.plants.turnip.turnip_basket.display_name)",
+                    "icon": "/stonehearth/entities/food/turnip/turnip_basket/turnip_basket.png",
+                    "filter": "stockpile_raw_food turnip"
+                },
+                "carrot": {
+                    "ordinal": 2,
+                    "display_name": "i18n(stonehearth:entities.plants.carrot.carrot_basket.display_name)",
+                    "icon": "/stonehearth/entities/food/carrot/carrot_basket/carrot_basket.png",
+                    "filter": "stockpile_raw_food carrot"
+                },
+                "pumpkin": {
+                    "ordinal": 3,
+                    "display_name": "i18n(stonehearth:entities.food.pumpkin.pumpkin_basket.display_name)",
+                    "icon": "/stonehearth/entities/food/pumpkin/pumpkin_basket/pumpkin_basket.png",
+                    "filter": "stockpile_raw_food pumpkin"
+                },
+                "corn": {
+                    "ordinal": 4,
+                    "display_name": "i18n(stonehearth:entities.food.corn.corn_basket.display_name)",
+                    "icon": "/stonehearth/entities/food/corn/corn_basket/corn_basket.png",
+                    "filter": "stockpile_raw_food corn"
+                },
+                "gourd": {
+                    "ordinal": 5,
+                    "display_name": "i18n(stonehearth:entities.food.golden_gourd.golden_gourd_basket.display_name)",
+                    "icon": "/stonehearth/entities/food/golden_gourd/golden_gourd_basket/golden_gourd_basket.png",
+                    "filter": "stockpile_raw_food gourd"
+                },
+                "prickly_pear": {
+                    "ordinal": 6,
+                    "display_name": "i18n(stonehearth:entities.food.prickly_pear.prickly_pear_basket.display_name)",
+                    "icon": "/stonehearth/entities/food/prickly_pear/prickly_pear_basket/prickly_pear_basket.png",
+                    "filter": "stockpile_raw_food pear"
+                },
+                "watermelon": {
+                    "ordinal": 7,
+                    "display_name": "i18n(stonehearth:entities.food.watermelon.watermelon_basket.display_name)",
+                    "icon": "/stonehearth/entities/food/watermelon/watermelon_basket/watermelon_basket.png",
+                    "filter": "stockpile_raw_food watermelon"
+                },
+                "berries": {
+                    "ordinal": 8,
+                    "display_name": "i18n(stonehearth:entities.food.berries.berry_basket.display_name)",
+                    "icon": "/stonehearth/entities/food/berries/berry_basket/berry_basket.png",
+                    "filter": "stockpile_raw_food berry"
+                }
+            }
+        },
+        "raw_meat": {
+            "display_name": "i18n(betterstorage:filters.raw_meat)",
+            "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/meat.png",
+            "ordinal": 8,
+            "categories": {
+                "jerky": {
+                    "ordinal": 1,
+                    "display_name": "i18n(stonehearth:stonehearth_mixins.food.jerky.display_name)",
+                    "icon": "/stonehearth/mixins/food/jerky/jerky.png",
+                    "filter": "stockpile_cooking_ingredient jerky"
+                },
+                "mutton": {
+                    "ordinal": 2,
+                    "display_name": "i18n(stonehearth:entities.food.mutton.display_name)",
+                    "icon": "/stonehearth/entities/food/mutton/mutton.png",
+                    "filter": "stockpile_cooking_ingredient mutton"
+                },
+                "poyo_meat": {
+                    "ordinal": 3,
+                    "display_name": "i18n(stonehearth:entities.food.poyo_meat.display_name)",
+                    "icon": "/stonehearth/entities/food/poyo_meat/poyo_meat.png",
+                    "filter": "stockpile_cooking_ingredient poyo_meat"
+                }
+            }
+        },
+        "cooking_ingredients": {
+            "display_name": "i18n(betterstorage:filters.cooking_ingredients)",
+            "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/baked.png",
+            "ordinal": 9,
+            "categories": {
+                "corn_meal": {
+                    "ordinal": 1,
+                    "display_name": "i18n(stonehearth:entities.food.corn_meal.display_name)",
+                    "icon": "/stonehearth/entities/food/corn_meal/corn_meal.png",
+                    "filter": "stockpile_cooking_ingredient corn_meal"
+                },
+                "flour": {
+                    "ordinal": 2,
+                    "display_name": "i18n(stonehearth:entities.food.flour.display_name)",
+                    "icon": "/stonehearth/entities/food/flour/flour.png",
+                    "filter": "stockpile_cooking_ingredient flour"
+                },
+                "egg": {
+                    "ordinal": 3,
+                    "display_name": "i18n(stonehearth:entities.food.egg.display_name)",
+                    "icon": "/stonehearth/entities/food/egg/egg.png",
+                    "filter": "stockpile_cooking_ingredient egg"
+                },
+                "wheat": {
+                    "ordinal": 4,
+                    "display_name": "i18n(stonehearth:entities.food.wheat_bale.display_name)",
+                    "icon": "/stonehearth/entities/food/wheat_bale/wheat_bale.png",
+                    "filter": "stockpile_cooking_ingredient wheat"
+                }
+            }
+        }
+    }
+}

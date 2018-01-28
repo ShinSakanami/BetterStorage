@@ -1,0 +1,137 @@
+#stockpileWindow {
+   position: absolute;
+   left: 20px;
+   top: 200px;
+
+   .window {
+      width: 570px;
+      height: 515px;
+   }
+
+   .tabPage {
+      display: none;
+      height: 380px;
+      margin-bottom: 4px;
+      margin-top: 10px;
+   }
+
+   #filterTab {
+      p {
+         margin-top: 0;
+      }
+      
+      .downSection {
+         overflow-y: auto;
+         overflow-x: hidden;
+         height: 302px;
+      }
+
+      #taxonomyGrid {
+         padding-top: 10px;
+         padding-bottom: 20px;
+         width: 100%;
+
+         .row {
+            td:first-child {
+               padding: 5px;
+            }
+         }
+
+         .row:nth-child(odd) {
+            background: rgba(0,0,0,0.2);
+         }
+
+         .categoryLabel {
+            padding-left: 20px;
+            text-align: left;
+            white-space: nowrap;
+            vertical-align: top;
+            line-height: 46px;
+
+            img {
+               vertical-align: top;
+               width: 40px;
+            }
+         }
+
+         .group {
+            width: 100px;
+         }
+
+         .filterCategory.toggleButton {
+            width: 54px;
+            height: 54px;
+            vertical-align: middle;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            .handCursor;
+
+            img {
+               width: 70%;
+            }
+         
+            &:hover {
+               background-color: rgba(255, 255, 255, 0.4);
+            }
+
+            &.on {
+               background: url(/stonehearth/ui/root/css/images/togglegrid/active_bg_7.png) left top no-repeat,
+                  url(/stonehearth/ui/root/css/images/togglegrid/active_bg_9.png) right top no-repeat,
+                  url(/stonehearth/ui/root/css/images/togglegrid/active_bg_3.png) right bottom no-repeat,
+                  url(/stonehearth/ui/root/css/images/togglegrid/active_bg_1.png) left bottom no-repeat,
+                  url(/stonehearth/ui/root/css/images/togglegrid/active_bg_8.png) center top repeat-x,
+                  url(/stonehearth/ui/root/css/images/togglegrid/active_bg_6.png) right center repeat-y,
+                  url(/stonehearth/ui/root/css/images/togglegrid/active_bg_2.png) center bottom repeat-x,
+                  url(/stonehearth/ui/root/css/images/togglegrid/active_bg_4.png) left center repeat-y,
+                  url(/stonehearth/ui/root/css/images/togglegrid/active_bg_5.png) center center repeat;
+            }
+         }
+      }
+   }
+
+   #contentsTab {
+      width: 100%;
+      overflow-y: auto;
+      overflow-x: auto;
+   }
+
+   .footer {
+      text-align: right;
+
+      .selectedFilter {
+         display: inline-block;
+         float: left;
+         line-height: 59px;
+
+         .icon {
+            height: 55px;
+            border: 3px #FFC000 solid;
+            border-radius: 5px;
+            padding: 4px;
+            margin-left: 2px;
+            vertical-align: bottom;
+         }
+
+         .label {
+            font-family: "GroboldRegular";
+            font-size: 22px;
+            margin-left: 11px;
+         }
+      }
+
+      .warn {
+         float: left;
+      }
+
+      .remainingSpaces {
+         color: #fedb17;
+         font-family: @controlFontFamily;
+         font-size: 22px;
+         display: inline-block;
+         max-width: 170px;
+         padding-right: 15px;
+         line-height: 64px;
+      }
+   }
+}
