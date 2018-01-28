@@ -229,8 +229,8 @@
                 }
             }
         },
-        "raw_veg": {
-            "display_name": "i18n(betterstorage:filters.raw_veg)",
+        "raw_veggie": {
+            "display_name": "i18n(betterstorage:filters.raw_veggie)",
             "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/fruit.png",
             "ordinal": 7,
             "categories": {

@@ -13,25 +13,9 @@ The storage system in StoneHearth is easy to use, but maybe you need more filter
 
 Better Storage is here for you! Adding more filters to stockpiles, crates and chests for better resource management.
 
-Compatible with many popular mods like Candledark, Frostfeast, Stonehearth Cafe, Brewery Mod, and more!
-
 Includes French localisation / Traduction française incluse !
 
-Guide pour mettre Stonehearth en Français : https://steamcommunity.com/sharedfiles/filedetails/?id=455676343
-
-Current available storage filters:
-
-* **Resources:** Wood, Stone, Clay, Ore
-* **Plants:** Fibers, Herbs, Saplings, Sprouts & Seeds
-* **Animal Parts:** Pelts, Skins, Feathers, Wool, Bones
-* **Construction:** Doors & Windows, Furniture, Fences & Gates, Decorations, Light Sources, Traps & Turrets, Food & Drink Sources
-* **Refined Craftables:** Thread, Cloth, Leather, Components
-* **Equipment:** Talismans & Workbenches, Melee Weapons, Ranged Weapons, Light Armor, Heavy Armor, Outfits
-* **Consumables:** Healing Items, Tonics, Medicine
-* **Food & Drink:** Raw Fruits & Vegetables, Raw Meat, Cooked Veggie Foods, Cooked Meat Foods, Drinks, Rotten Foods
-* **Ingredients:** Raw Ingredients, Refined Ingredients, Wheat
-* **Animal Feed:** Kibble, Poyo Feed, Rabbit Feed, Sheep Feed, Pig Feed, Yak Feed
-* **Wealth:** Gold Chests, Trophies, Quest Items
+Guide pour traduire Stonehearth en Français : https://steamcommunity.com/sharedfiles/filedetails/?id=455676343
 
 Discuss about this mod on http://discourse.stonehearth.net/t/mod-better-stockpiles/21449
 
@@ -41,7 +25,7 @@ Feedback, suggestions and bug reports are welcome!
 
 * Remove any previous files from Better Storage (betterstorage.smod) or Better Stockpiles (better_stockpiles.smod and *_bs.smod).
 * Download the latest stable version from the Github Releases page: https://github.com/ShinjiSakanami/BetterStorage/releases
-* Copy the "betterstorage.smod" file to ".../Stonehearth/mods" directory.
+* Copy the "betterstorage.smod" file to "Stonehearth/mods" directory.
 * Launch Stonehearth and check if "betterstorage" is activated in Mods tab of the settings panel.
 * Start a new game, or load an existing town. Note in this case, you will need to verify all your stockpiles, crates and chests to check the new filters.
 * Enjoy!
@@ -50,43 +34,61 @@ Alternate install: Click on the green "Clone or download" button, then on "Downl
 
 ## Compatibility
 
-Better Storage includes compatibility with the following mods:
+Better Storage could not be compatible with mods which add items or modify storage filters.
 
-* Candledark 2016: http://www.stonehearth.net/eek-candledark-is-upon-us-again
-* Frostfeast 2016: http://www.stonehearth.net/frostfeast-2016-moar-frost-moar-feast
-* Stonehearth Cafe 1.92: https://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-92/10159
-* Brewery Mod A22.5: https://discourse.stonehearth.net/t/alpha22-5-brewerymod/21790
-* Settlement Decor 1.30: https://discourse.stonehearth.net/t/mod-settlement-decor-mod-download-available/4841
-* Wizards Class Pack Mod 0.3.5: https://discourse.stonehearth.net/t/wizards-class-pack-mod-a21-wip/29410
-
-If a mod uses vanilla filtering tags for its items, it will be mostly compatible with BS.
-
-If a mod modifies the "stockpile_filters.json" file, it could be not compatible with BS.
-
-If a mod overrides the "stockpile_filters.json" file, or uses non vanilla filtering tags, it will NOT be compatible with BS.
-
-If you want me to ensure compatibility with a mod, please send me a message on Stonehearth Discourse, with a link to the latest version of the mod.
-
-Recommended mods, all compatibles with Better Storage:
-
-* Pawel's Mod Corner: https://discourse.stonehearth.net/t/a22-pawels-mod-corner-finetems-plant-lore-archmod/26504
-* MaraRose's Container Mod: https://discourse.stonehearth.net/t/mararoses-container-mod/28554
-* Chabonit's Mod: https://discourse.stonehearth.net/t/a21-chabonit-s-mod-wealth-and-leadership-r15-04/29744
-* EndPieces: https://discourse.stonehearth.net/t/mod-all-versions-endpieces-1-09-a20-update/10375
-* Finery Mod: https://discourse.stonehearth.net/t/finery-mod-v4-7-nov-22/31511
-* Home Sweet Home: https://discourse.stonehearth.net/t/home-sweet-home-version-2-2-house-with-garden/30993
-* Signery Mod: https://discourse.stonehearth.net/t/signery-mod-v3-1-nov-3/31462
-* Slabs with Terrain Colors: https://discourse.stonehearth.net/t/mod-slabs-with-terrain-colors-a20/14957
-* Town Monitor: https://discourse.stonehearth.net/t/town-monitor-v1-1-mod/32561
-* Smart Crafter: https://discourse.stonehearth.net/t/mod-smart-crafter/10213
+If you want to ensure compatibility of a mod with BS, please refers to this guide: https://github.com/ShinjiSakanami/BetterStorage/wiki/Material-Tags
 
 ## Changelog
+
+**Version 1.1**
+
+For Stonehearth Alpha 23 Release 783
+
+* Removed compatibilities with outdated mods (in fact, all of them).
+* Removed obsolete icon files.
+* Removed many obsolete mixinto files.
+* stockpile_filters.json is now an override instead of a mixinto.
+* Added input_box_filters.json override for input/output containers.
+* Added stockpile.less override. Storage window is a little wider.
+
+Stockpiles and Storage Containers:
+
+* Renamed and reordered many filters and categories.
+* Added "Clay Bricks" filter to "Resources" category.
+* "Ore" filter is now a detailed category.
+* "Refined Metal" filter is now a detailed category.
+* Removed "Sprout & Seeds" filters from "Plants" category.
+* Divided "Herbs" into flower filters in "Plants" category.
+* Divided "Components" filter into gear filters in "Refined Metal" category.
+* Divided "Doors & Windows" and "Fences & Gates" into detailed filters in "Construction" category.
+* Removed "Food & Drink Sources" from "Construction" category.
+* "Furniture" filter is now a detailed category.
+* Moved "Decorations" and "Light Sources" filters to "Furniture" category.
+* Removed "Medicine" filter from "Consumables" category.
+* Divided "Tonics" filter into detailed filters in "Consumables" category.
+* Added "Seeds" filter to "Consumables" category.
+* Removed "Food & Drink" category.
+* "Raw Fruits & Vegetables", "Raw Meat", "Cooked Veggie Foods" and "Cooked Meat Foods" are now detailed categories.
+* Divided "Raw Ingredients" and "Refined Ingredients" into detailed filters in "Ingredients" category.
+* Removed "Kibble", "Pig Feed" and "Yak Feed" from "Animal Feed" category.
+* Added "Item Piles" category.
+* Added "Garbage" category.
+* Moved "Rotten Foods" to "Garbage" category.
+
+Input/Output Containers:
+
+* Added missing "Clay Bricks" filter to "Resources" category.
+* Added missing "Steel Ingot", "Bronze Gear" and "Iron Gear" filters to "Refined Metal" category.
+* Added missing "Varanus Skin" filter to "Animal Parts" category.
+* Renamed "Raw Foods" category to "Raw Veggie".
+* Added "Raw Meat" category.
+* Moved "Jerky", "Mutton" and "Poyo Meat" filters to "Raw Meat" category.
 
 **Version 1.0**
 
 For Stonehearth Alpha 22.5 Release 763
 
-* Added French localisation.
+* Added French localization.
 * Merged all compatibility patches into the main SMOD.
 * Added compatibility with Wizards Class Pack Mod.
 * Reduced storage window height, so it won't collide with Town Monitor mod and A23 unit frame.
