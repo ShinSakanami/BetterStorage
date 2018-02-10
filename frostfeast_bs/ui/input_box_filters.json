@@ -1,0 +1,34 @@
+{
+    "stockpile": {
+        "raw_veggie": {
+            "categories": {
+                "figs": {
+                    "ordinal": 9,
+                    "display_name": "i18n(frostfeast:entities.plants.fig.fig_basket.display_name)",
+                    "icon": "/frostfeast/entities/food/figs/fig_basket/fig_basket.png",
+                    "filter": "stockpile_raw_food fig"
+                }
+            }
+        },
+        "raw_meat": {
+            "categories": {
+                "pig_meat": {
+                    "ordinal": 4,
+                    "display_name": "i18n(frostfeast:entities.food.pig_meat.display_name)",
+                    "icon": "/frostfeast/entities/food/pig_meat/pig_meat.png",
+                    "filter": "stockpile_cooking_ingredient pig meat"
+                }
+            }
+        },
+        "cooking_ingredients": {
+            "categories": {
+                "ginger": {
+                    "ordinal": 5,
+                    "display_name": "i18n(frostfeast:entities.food.ginger.display_name)",
+                    "icon": "/frostfeast/entities/food/ginger/ginger.png",
+                    "filter": "stockpile_cooking_ingredient ginger"
+                },
+            }
+        }
+    }
+}

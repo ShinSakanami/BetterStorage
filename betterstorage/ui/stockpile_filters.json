@@ -372,7 +372,7 @@
                     "ordinal": 6,
                     "display_name": "i18n(betterstorage:filters.tooltip_worker_outfit)",
                     "icon": "/stonehearth/jobs/worker/worker_outfit_2/worker_outfit_2.png",
-                    "filter": "stockpile_equipment worker_outfit"
+                    "filter": "stockpile_equipment cloth"
                 }
             }
         },
@@ -626,19 +626,19 @@
                     "ordinal": 1,
                     "display_name": "i18n(stonehearth:entities.containers.log_pile.log_pile_ghost.display_name)",
                     "icon": "/stonehearth/entities/containers/log_pile/log_pile.png",
-                    "filter": "stockpile_wood wood resource_pile"
+                    "filter": "stockpile_wood resource_pile"
                 },
                 "stone_pile": {
                     "ordinal": 2,
                     "display_name": "i18n(stonehearth:entities.containers.stone_pile.stone_pile.display_name)",
                     "icon": "/stonehearth/entities/containers/stone_pile/stone_pile.png",
-                    "filter": "stockpile_stone stone resource_pile"
+                    "filter": "stockpile_stone resource_pile"
                 },
                 "clay_pile": {
                     "ordinal": 3,
                     "display_name": "i18n(stonehearth:entities.containers.clay_pile.display_name)",
                     "icon": "/stonehearth/entities/containers/clay_pile/clay_pile.png",
-                    "filter": "stockpile_clay clay resource_pile"
+                    "filter": "stockpile_clay resource_pile"
                 },
                 "wheat_pile": {
                     "ordinal": 4,

@@ -34,11 +34,35 @@ Alternate install: Click on the green "Clone or download" button, then on "Downl
 
 ## Compatibility
 
+A patch for Frostfeast is available, just download the file "frostfeast_bs.smod" and copy it in the ".../Stonehearth/mods" directory. A version of Frostfeast working with Alpha 23 is available here: https://discourse.stonehearth.net/t/frostfeast-2016-moar-frost-moar-feast/26952/83?u=golden
+
 Better Storage could not be compatible with mods which add items or modify storage filters.
 
 If you want to ensure compatibility of a mod with BS, please refers to this guide: https://github.com/ShinjiSakanami/BetterStorage/wiki/Material-Tags
 
 ## Changelog
+
+**Version 1.2**
+
+For Stonehearth Alpha 23 Release 784
+
+* Fix for Log Pile not properly stored.
+* Fix for Fine Dresser not properly stored.
+* Changed "Worker Outfits" filter material tags from "stockpile_equipment worker_outfit" to "stockpile_equipment cloth".
+
+Added a compatibility patch for Frostfeast 2017:
+
+* Added "Vapour Rub" and "Cough Syrup" filters to "Consumables" category.
+* Added "Fig Basket" filter to "Raw Veggie" category.
+* Added "Pig Meat" filter to "Raw Meat" category.
+* Added "Figgy Pudding", "Pumpkin Pie" and "Frostfeast Cake" filters to "Prepared Veggie" category.
+* Added "Frostfeast Ham" filter to "Prepared Meat" category.
+* Added "Ginger" filter to "Ingredients" category.
+* Added "Pig Feed" filter to "Animal Feed" category.
+* Added "Offerings" filter to "Wealth" category.
+* Ginger Bread is stored in "Bread" filter.
+* Pumpkin Soup is stored in "Veggie Stew" filter.
+* Winter outfits and hats are stored in "Worker Outfits" filter.
 
 **Version 1.1**
 
