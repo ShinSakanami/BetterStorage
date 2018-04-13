@@ -164,12 +164,6 @@
                     "display_name": "i18n(stonehearth:entities.resources.feathers.poyo_feathers.display_name)",
                     "icon": "/stonehearth/entities/resources/feathers/poyo_feathers/poyo_feathers.png",
                     "filter": "stockpile_animal_part feather"
-                },
-                "skins": {
-                    "ordinal": 4,
-                    "display_name": "i18n(stonehearth:entities.resources.skin.varanus_skin.display_name)",
-                    "icon": "/stonehearth/entities/resources/skin/varanus_skin/varanus_skin.png",
-                    "filter": "stockpile_animal_part skin"
                 }
             }
         },

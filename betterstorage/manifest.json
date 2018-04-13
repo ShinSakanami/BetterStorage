@@ -1,7 +1,10 @@
 {
-    "info": {
-        "name": "betterstorage",
-        "version": 3
+    "info" : {
+        "name" : "Better Storage",
+        "author": "Shinsaka",
+        "namespace" : "betterstorage",
+        "version" : 3,
+        "steam_file_id" : "1360090404"
     },
     "default_locale": "en",
     "aliases": {
@@ -13,6 +16,8 @@
         "furniture:table_clay": "file(mixins/furniture/table_clay.json)",
         "furniture:table_stone": "file(mixins/furniture/table_stone.json)",
         "furniture:table_wood": "file(mixins/furniture/table_wood.json)",
+        "plants:seed": "file(mixins/plants/seed.json)",
+        "plants:uproot": "file(mixins/plants/uproot.json)",
         "refined_ore:iron_gear": "file(mixins/refined_ore/iron_gear.json)",
         "wealth:quest_items": "file(mixins/wealth/quest_items.json)"
     },
@@ -41,6 +46,39 @@
         "stonehearth/entities/furniture/table_for_one_fine/table_for_one_fine_ghost.json": "betterstorage:furniture:table_wood",
         "stonehearth/entities/furniture/writing_desk/writing_desk_ghost.json": "betterstorage:furniture:decorative",
         "stonehearth/entities/furniture/writing_desk_fine/writing_desk_fine_ghost.json": "betterstorage:furniture:decorative",
+        "stonehearth/entities/plants/berry_bush/berry_bush_ghost.json": "betterstorage:plants:uproot",
+        "stonehearth/entities/plants/frostsnap_plant/frostsnap_plant_ghost.json": "betterstorage:plants:uproot",
+        "stonehearth/entities/plants/pear_cactus/pear_cactus_ghost.json": "betterstorage:plants:uproot",
+        "stonehearth/entities/plants/silkweed/silkweed/silkweed_ghost.json": "betterstorage:plants:uproot",
+        "stonehearth/entities/plants/sugarbell/sugarbell_ghost.json": "betterstorage:plants:uproot",
+        "stonehearth/entities/plants/wax_plant_green/wax_plant_green_ghost.json": "betterstorage:plants:uproot",
+        "stonehearth/entities/plants/wax_plant_purple/wax_plant_purple_ghost.json": "betterstorage:plants:uproot",
+        "stonehearth/entities/trees/acacia_tree/sapling_acacia_tree/sapling_acacia_tree.json": "betterstorage:plants:uproot",
+        "stonehearth/entities/trees/cactus_tree/sapling_cactus_tree/sapling_cactus_tree.json": "betterstorage:plants:uproot",
+        "stonehearth/entities/trees/juniper_tree/sapling_juniper_tree/sapling_juniper_tree.json": "betterstorage:plants:uproot",
+        "stonehearth/entities/trees/oak_tree/sapling_oak_tree/sapling_oak_tree.json": "betterstorage:plants:uproot",
+        "stonehearth/entities/plants/berry_bush/seed/berry_bush_plant_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/plants/brightbell_plant/seed/brightbell_plant_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/plants/cactus_plant/seed/cactus_plant_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/plants/cactus_tulip_plant/blue/seed/cactus_tulip_blue_plant_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/plants/cactus_tulip_plant/red/seed/cactus_tulip_red_plant_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/plants/cactus_tulip_plant/yellow/seed/cactus_tulip_yellow_plant_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/plants/carrot/seed/carrot_plant_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/plants/foxlily_plant/seed/foxlily_plant_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/plants/frostsnap_plant/seed/frostsnap_plant_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/plants/pear_cactus/seed/pear_cactus_plant_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/plants/silkweed/seed/silkweed_plant_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/plants/sugarbell/seed/sugarbell_plant_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/plants/sunflower_plant/seed/sunflower_plant_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/plants/tumbleweed/seed/tumbleweed_plant_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/plants/wax_plant_green/seed/wax_plant_green_plant_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/plants/wax_plant_purple/seed/wax_plant_purple_plant_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/trees/acacia_tree/seed/tree_acacia_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/trees/cactus_tree/seed/tree_cactus_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/trees/joshua_tree/seed/tree_joshua_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/trees/juniper_tree/seed/tree_juniper_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/trees/oak_tree/seed/tree_oak_seed.json": "betterstorage:plants:seed",
+        "stonehearth/entities/trees/pine_tree/seed/tree_pine_seed.json": "betterstorage:plants:seed",
         "stonehearth/entities/gizmos/clamp_trap/clamp_trap_ghost.json": "betterstorage:construction:gizmo",
         "stonehearth/entities/gizmos/critter_trap/critter_trap_ghost.json": "betterstorage:construction:gizmo",
         "stonehearth/entities/gizmos/small_turret/small_turret_ghost.json": "betterstorage:construction:gizmo",
@@ -54,5 +92,7 @@
         "stonehearth/ui/data/input_box_filters.json": "file(ui/input_box_filters.json)",
         "stonehearth/ui/data/stockpile_filters.json": "file(ui/stockpile_filters.json)",
         "stonehearth/ui/game/modes/zones_mode/stockpile/stockpile.less": "file(ui/stockpile.less)"
-    }
+    },
+    "components" : {},
+    "controllers" : {}
 }

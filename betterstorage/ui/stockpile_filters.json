@@ -165,14 +165,8 @@
                     "icon": "/stonehearth/entities/resources/feathers/poyo_feathers/poyo_feathers.png",
                     "filter": "stockpile_animal_part feather"
                 },
-                "skins": {
-                    "ordinal": 4,
-                    "display_name": "i18n(stonehearth:entities.resources.skin.varanus_skin.display_name)",
-                    "icon": "/stonehearth/entities/resources/skin/varanus_skin/varanus_skin.png",
-                    "filter": "stockpile_animal_part skin"
-                },
                 "bones": {
-                    "ordinal": 5,
+                    "ordinal": 4,
                     "display_name": "i18n(stonehearth:entities.resources.skin.ogre_bone.display_name)",
                     "icon": "/stonehearth/entities/resources/skin/ogre_bone/ogre_bone.png",
                     "filter": "stockpile_animal_part bone"
@@ -208,11 +202,17 @@
                     "icon": "/stonehearth/entities/resources/fiber/silkweed_bundle/silkweed_bundle.png",
                     "filter": "stockpile_plant silkweed"
                 },
-                "tree": {
+                "uproot": {
                     "ordinal": 5,
-                    "display_name": "i18n(betterstorage:filters.tooltip_tree)",
+                    "display_name": "i18n(betterstorage:filters.tooltip_uproot)",
                     "icon": "/stonehearth/entities/trees/oak_tree/sapling_oak_tree/sapling_oak_tree.png",
-                    "filter": "stockpile_plant tree"
+                    "filter": "stockpile_plant uproot"
+                },
+                "seed": {
+                    "ordinal": 6,
+                    "display_name": "i18n(betterstorage:filters.tooltip_seed)",
+                    "icon": "/stonehearth/entities/trees/oak_tree/seed/tree_oak_seed.png",
+                    "filter": "stockpile_plant seed"
                 }
             }
         },
@@ -411,9 +411,9 @@
                     "icon": "/stonehearth/entities/consumables/strength_tonic/strength_tonic.png",
                     "filter": "stockpile_consumable strength_tonic"
                 },
-                "seeds": {
+                "farm_seeds": {
                     "ordinal": 6,
-                    "display_name": "i18n(betterstorage:filters.tooltip_seeds)",
+                    "display_name": "i18n(betterstorage:filters.tooltip_farm_seed)",
                     "icon": "/stonehearth/entities/consumables/seeds/oak_tree_seeds/oak_tree_seeds.png",
                     "filter": "stockpile_consumable seeds"
                 }
