@@ -91,7 +91,8 @@
     "overrides": {
         "stonehearth/ui/data/input_box_filters.json": "file(ui/input_box_filters.json)",
         "stonehearth/ui/data/stockpile_filters.json": "file(ui/stockpile_filters.json)",
-        "stonehearth/ui/game/modes/zones_mode/stockpile/stockpile.less": "file(ui/stockpile.less)"
+        "stonehearth/ui/game/modes/zones_mode/stockpile/stockpile.less": "file(ui/stockpile.less)",
+        "stonehearth/ui/game/modes/zones_mode/stockpile/stockpile.js": "file(ui/stockpile.js)"
     },
     "components" : {},
     "controllers" : {}
