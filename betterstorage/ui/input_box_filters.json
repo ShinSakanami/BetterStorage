@@ -228,11 +228,11 @@
             "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/fruit.png",
             "ordinal": 7,
             "categories": {
-                "turnip": {
+                "berries": {
                     "ordinal": 1,
-                    "display_name": "i18n(stonehearth:entities.plants.turnip.turnip_basket.display_name)",
-                    "icon": "/stonehearth/entities/food/turnip/turnip_basket/turnip_basket.png",
-                    "filter": "stockpile_raw_food turnip"
+                    "display_name": "i18n(stonehearth:entities.food.berries.berry_basket.display_name)",
+                    "icon": "/stonehearth/entities/food/berries/berry_basket/berry_basket.png",
+                    "filter": "stockpile_raw_food berry"
                 },
                 "carrot": {
                     "ordinal": 2,
@@ -240,17 +240,17 @@
                     "icon": "/stonehearth/entities/food/carrot/carrot_basket/carrot_basket.png",
                     "filter": "stockpile_raw_food carrot"
                 },
-                "pumpkin": {
-                    "ordinal": 3,
-                    "display_name": "i18n(stonehearth:entities.food.pumpkin.pumpkin_basket.display_name)",
-                    "icon": "/stonehearth/entities/food/pumpkin/pumpkin_basket/pumpkin_basket.png",
-                    "filter": "stockpile_raw_food pumpkin"
-                },
                 "corn": {
-                    "ordinal": 4,
+                    "ordinal": 3,
                     "display_name": "i18n(stonehearth:entities.food.corn.corn_basket.display_name)",
                     "icon": "/stonehearth/entities/food/corn/corn_basket/corn_basket.png",
                     "filter": "stockpile_raw_food corn"
+                },
+                "turnip": {
+                    "ordinal": 4,
+                    "display_name": "i18n(stonehearth:entities.plants.turnip.turnip_basket.display_name)",
+                    "icon": "/stonehearth/entities/food/turnip/turnip_basket/turnip_basket.png",
+                    "filter": "stockpile_raw_food turnip"
                 },
                 "gourd": {
                     "ordinal": 5,
@@ -264,17 +264,17 @@
                     "icon": "/stonehearth/entities/food/prickly_pear/prickly_pear_basket/prickly_pear_basket.png",
                     "filter": "stockpile_raw_food pear"
                 },
-                "watermelon": {
+                "pumpkin": {
                     "ordinal": 7,
+                    "display_name": "i18n(stonehearth:entities.food.pumpkin.pumpkin_basket.display_name)",
+                    "icon": "/stonehearth/entities/food/pumpkin/pumpkin_basket/pumpkin_basket.png",
+                    "filter": "stockpile_raw_food pumpkin"
+                },
+                "watermelon": {
+                    "ordinal": 8,
                     "display_name": "i18n(stonehearth:entities.food.watermelon.watermelon_basket.display_name)",
                     "icon": "/stonehearth/entities/food/watermelon/watermelon_basket/watermelon_basket.png",
                     "filter": "stockpile_raw_food watermelon"
-                },
-                "berries": {
-                    "ordinal": 8,
-                    "display_name": "i18n(stonehearth:entities.food.berries.berry_basket.display_name)",
-                    "icon": "/stonehearth/entities/food/berries/berry_basket/berry_basket.png",
-                    "filter": "stockpile_raw_food berry"
                 }
             }
         },
@@ -283,23 +283,59 @@
             "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/meat.png",
             "ordinal": 8,
             "categories": {
-                "jerky": {
+                "bug_meat": {
                     "ordinal": 1,
+                    "display_name": "i18n(stonehearth:stonehearth_mixins.food.bug_meat.display_name)",
+                    "icon": "/stonehearth/mixins/food/bug_meat/bug_meat.png",
+                    "filter": "stockpile_cooking_ingredient bug_meat"
+                },
+                "jerky": {
+                    "ordinal": 2,
                     "display_name": "i18n(stonehearth:stonehearth_mixins.food.jerky.display_name)",
                     "icon": "/stonehearth/mixins/food/jerky/jerky.png",
                     "filter": "stockpile_cooking_ingredient jerky"
-                },
-                "mutton": {
-                    "ordinal": 2,
-                    "display_name": "i18n(stonehearth:entities.food.mutton.display_name)",
-                    "icon": "/stonehearth/entities/food/mutton/mutton.png",
-                    "filter": "stockpile_cooking_ingredient mutton"
                 },
                 "poyo_meat": {
                     "ordinal": 3,
                     "display_name": "i18n(stonehearth:entities.food.poyo_meat.display_name)",
                     "icon": "/stonehearth/entities/food/poyo_meat/poyo_meat.png",
                     "filter": "stockpile_cooking_ingredient poyo_meat"
+                },
+                "mutton": {
+                    "ordinal": 4,
+                    "display_name": "i18n(stonehearth:entities.food.mutton.display_name)",
+                    "icon": "/stonehearth/entities/food/mutton/mutton.png",
+                    "filter": "stockpile_cooking_ingredient mutton"
+                },
+                "pork": {
+                    "ordinal": 5,
+                    "display_name": "i18n(stonehearth:entities.food.pork.display_name)",
+                    "icon": "/stonehearth/entities/food/pork/pork.png",
+                    "filter": "stockpile_cooking_ingredient pork"
+                },
+                "poultry_large": {
+                    "ordinal": 6,
+                    "display_name": "i18n(stonehearth:entities.food.poultry_large.display_name)",
+                    "icon": "/stonehearth/entities/food/poultry_large/poultry_large.png",
+                    "filter": "stockpile_cooking_ingredient poultry_large"
+                },
+                "sausage": {
+                    "ordinal": 7,
+                    "display_name": "i18n(stonehearth:entities.food.sausage.display_name)",
+                    "icon": "/stonehearth/entities/food/sausage/sausage.png",
+                    "filter": "stockpile_cooking_ingredient sausage"
+                },
+                "venison": {
+                    "ordinal": 8,
+                    "display_name": "i18n(stonehearth:entities.food.venison.display_name)",
+                    "icon": "/stonehearth/entities/food/venison/venison.png",
+                    "filter": "stockpile_cooking_ingredient venison"
+                },
+                "varanus_meat": {
+                    "ordinal": 9,
+                    "display_name": "i18n(stonehearth:entities.food.varanus_meat.display_name)",
+                    "icon": "/stonehearth/entities/food/varanus_meat/varanus_meat.png",
+                    "filter": "stockpile_cooking_ingredient varanus_meat"
                 }
             }
         },
@@ -320,14 +356,32 @@
                     "icon": "/stonehearth/entities/food/flour/flour.png",
                     "filter": "stockpile_cooking_ingredient flour"
                 },
-                "egg": {
+                "sugar": {
                     "ordinal": 3,
+                    "display_name": "i18n(stonehearth:entities.food.sugar.display_name)",
+                    "icon": "/stonehearth/entities/food/sugar/sugar.png",
+                    "filter": "stockpile_cooking_ingredient grain_sugar"
+                },
+                "sugarbell": {
+                    "ordinal": 4,
+                    "display_name": "i18n(stonehearth:entities.food.sugar.sugarbell_basket.display_name)",
+                    "icon": "/stonehearth/entities/food/sugar/sugarbell_basket/sugarbell_basket.png",
+                    "filter": "stockpile_cooking_ingredient sugar"
+                },
+                "egg": {
+                    "ordinal": 5,
                     "display_name": "i18n(stonehearth:entities.food.egg.display_name)",
                     "icon": "/stonehearth/entities/food/egg/egg.png",
-                    "filter": "stockpile_cooking_ingredient egg"
+                    "filter": "stockpile_cooking_ingredient sugar"
+                },
+                "egg_large": {
+                    "ordinal": 6,
+                    "display_name": "i18n(stonehearth:entities.food.egg_large.display_name)",
+                    "icon": "/stonehearth/entities/food/egg_large/egg_large.png",
+                    "filter": "stockpile_cooking_ingredient egg_large"
                 },
                 "wheat": {
-                    "ordinal": 4,
+                    "ordinal": 7,
                     "display_name": "i18n(stonehearth:entities.food.wheat_bale.display_name)",
                     "icon": "/stonehearth/entities/food/wheat_bale/wheat_bale.png",
                     "filter": "stockpile_cooking_ingredient wheat"
