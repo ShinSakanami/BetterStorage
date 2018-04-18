@@ -113,11 +113,11 @@
         "stonehearth/jobs/potter/potter_workbench/potter_workbench_ghost.json": "betterstorage:furniture:workbench",
         "stonehearth/jobs/weaver/weaver_loom/weaver_loom_ghost.json": "betterstorage:furniture:workbench",
         "stonehearth/jobs/weaver/weaver_spinning_wheel/weaver_spinning_wheel_ghost.json": "betterstorage:furniture:workbench",
-        "stonehearth/jobs/weaver/weaver_workbench/weaver_workbench_ghost.json": "betterstorage:furniture:workbench"
+        "stonehearth/jobs/weaver/weaver_workbench/weaver_workbench_ghost.json": "betterstorage:furniture:workbench",
+        "stonehearth/ui/data/input_box_filters.json": "file(ui/input_box_filters.json)",
+        "stonehearth/ui/data/stockpile_filters.json": "file(ui/stockpile_filters.json)"
     },
     "overrides": {
-        "stonehearth/ui/data/input_box_filters.json": "file(ui/input_box_filters.json)",
-        "stonehearth/ui/data/stockpile_filters.json": "file(ui/stockpile_filters.json)",
         "stonehearth/ui/game/modes/zones_mode/stockpile/stockpile.js": "file(ui/stockpile.js)",
         "stonehearth/ui/game/modes/zones_mode/stockpile/stockpile.less": "file(ui/stockpile.less)"
     },
