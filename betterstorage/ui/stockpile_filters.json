@@ -84,11 +84,11 @@
                     "icon": "/stonehearth/entities/resources/herb/herbs.png",
                     "filter": "stockpile_plant herb"
                 },
-                "silkweed": {
+                "fiber": {
                     "ordinal": 2,
-                    "display_name": "i18n(stonehearth:entities.resources.fiber.silkweed_bundle.display_name)",
+                    "display_name": "i18n(betterstorage:filters.tooltip_fiber)",
                     "icon": "/stonehearth/entities/resources/fiber/silkweed_bundle/silkweed_bundle.png",
-                    "filter": "stockpile_plant silkweed"
+                    "filter": "stockpile_plant fiber"
                 },
                 "uproot": {
                     "ordinal": 3,
@@ -197,9 +197,9 @@
                 }
             }
         },
-        "furniture": {
+        "furnitures": {
             "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_furniture)",
-            "filter": "furniture",
+            "filter": "furnitures",
             "ordinal": 6,
             "categories": {
                 "workbench": {
@@ -209,43 +209,43 @@
                     "filter": "stockpile_furniture workbench"
                 },
                 "chair": {
-                    "ordinal": 1,
+                    "ordinal": 2,
                     "display_name": "i18n(betterstorage:filters.tooltip_chair)",
                     "icon": "/stonehearth/entities/furniture/wooden_chair/wooden_chair.png",
                     "filter": "stockpile_furniture chair"
                 },
                 "table": {
-                    "ordinal": 2,
+                    "ordinal": 3,
                     "display_name": "i18n(betterstorage:filters.tooltip_table)",
                     "icon": "/stonehearth/entities/furniture/dining_table/dining_table.png",
                     "filter": "stockpile_furniture table"
                 },
                 "bed": {
-                    "ordinal": 3,
+                    "ordinal": 4,
                     "display_name": "i18n(betterstorage:filters.tooltip_bed)",
                     "icon": "/stonehearth/entities/furniture/comfy_bed/comfy_bed.png",
                     "filter": "stockpile_furniture bed"
                 },
                 "decorative": {
-                    "ordinal": 4,
+                    "ordinal": 5,
                     "display_name": "i18n(betterstorage:filters.tooltip_decorative)",
                     "icon": "/stonehearth/entities/furniture/dresser/dresser.png",
                     "filter": "stockpile_furniture decorative"
                 },
                 "containers": {
-                    "ordinal": 5,
+                    "ordinal": 6,
                     "display_name": "i18n(betterstorage:filters.tooltip_containers)",
                     "icon": "/stonehearth/entities/containers/input_bin_wood/input_bin_wood.png",
                     "filter": "stockpile_furniture containers"
                 },
                 "crate": {
-                    "ordinal": 6,
+                    "ordinal": 7,
                     "display_name": "i18n(betterstorage:filters.tooltip_crate)",
                     "icon": "/stonehearth/entities/containers/large_crate/large_crate.png",
                     "filter": "stockpile_furniture crate"
                 },
                 "decoration": {
-                    "ordinal": 7,
+                    "ordinal": 8,
                     "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_decoration)",
                     "icon": "/stonehearth/entities/decoration/banner_wall_small/banner_wall_small.png",
                     "filter": "stockpile_decoration"

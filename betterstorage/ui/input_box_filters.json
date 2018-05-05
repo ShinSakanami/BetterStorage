@@ -375,7 +375,7 @@
                     "ordinal": 5,
                     "display_name": "i18n(stonehearth:entities.food.egg.display_name)",
                     "icon": "/stonehearth/entities/food/egg/egg.png",
-                    "filter": "stockpile_cooking_ingredient sugar"
+                    "filter": "stockpile_cooking_ingredient egg"
                 },
                 "egg_large": {
                     "ordinal": 6,
