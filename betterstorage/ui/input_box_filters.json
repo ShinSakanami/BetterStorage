@@ -175,11 +175,11 @@
                     "icon": "/stonehearth/entities/resources/herb/cactus_flower/cactus_flower.png",
                     "filter": "stockpile_plant cactus_flower"
                 },
-                "silkweed": {
+                "fiber": {
                     "ordinal": 4,
-                    "display_name": "i18n(stonehearth:entities.resources.fiber.silkweed_bundle.display_name)",
+                    "display_name": "i18n(betterstorage:filters.tooltip_fiber)",
                     "icon": "/stonehearth/entities/resources/fiber/silkweed_bundle/silkweed_bundle.png",
-                    "filter": "stockpile_plant silkweed"
+                    "filter": "stockpile_plant fiber"
                 }
             }
         },

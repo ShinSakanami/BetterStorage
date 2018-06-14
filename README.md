@@ -23,24 +23,61 @@ Feedback, suggestions and bug reports are welcome!
 
 ## Installation
 
-* Remove any previous files from Better Storage (betterstorage.smod) or Better Stockpiles (better_stockpiles.smod and *_bs.smod).
+One-click install from Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=1360090404
+
+Manual install:
 * Download the latest stable version from the Github Releases page: https://github.com/ShinjiSakanami/BetterStorage/releases
 * Copy the "betterstorage.smod" file to "Stonehearth/mods" directory.
-* Launch Stonehearth and check if "betterstorage" is activated in Mods tab of the settings panel.
-* Start a new game, or load an existing town. Note in this case, you will need to verify all your stockpiles, crates and chests to check the new filters.
+* Launch Stonehearth and check if Better Storage is activated in the Mods menu.
 * Enjoy!
 
-Alternate install: Click on the green "Clone or download" button, then on "Download ZIP". Extract "BetterStorage-master/betterstorage" folder from the ZIP file to ".../Stonehearth/mods" directory. Warning, this version of BS could be unstable.
-
 ## Compatibility
-
-A patch for Frostfeast is available, just download the file "frostfeast_bs.smod" and copy it in the ".../Stonehearth/mods" directory. A version of Frostfeast working with Alpha 23 is available here: https://discourse.stonehearth.net/t/frostfeast-2016-moar-frost-moar-feast/26952/83?u=golden
 
 Better Storage could not be compatible with mods which add items or modify storage filters.
 
 If you want to ensure compatibility of a mod with BS, please refers to this guide: https://github.com/ShinjiSakanami/BetterStorage/wiki/Material-Tags
 
 ## Changelog
+
+**Version 1.3**
+
+For Stonehearth Alpha 24+
+
+Common changes:
+* The storage UI is now larger and draggable!
+* Modifications to stockpile_filters and input_box_filters are now mixins instead of overrides.
+* Some tags changes for better mod compatibility.
+* Dropped Frostfeast patch for now.
+
+Stockpiles changes:
+* Removed "Ore", "Refined Metal", "Raw Veggie", "Raw Meat", "Cooked Veggie" and "Cooked Meat" categories.
+* Added "Ore" filter to "Resources" category.
+* Removed "Skins" filter from "Animal Parts" category.
+* Renamed "Fur Pelt" filter to "Pelts". Now includes Varanus Skin.
+* Removed "Brightbell", "Frostsnap" and "Cactus Flower" filters from "Plants" category.
+* Added "Herbs" and "Seeds" filters to "Plants" category.
+* Renamed "Silkweed Bundle" filter to "Fibers". Now includes Coarse Fibers.
+* Renamed "Tree Saplings" filter to "Uprooted Plants & Saplings". Now includes all uprooted plants.
+* Renamed "Cloth, etc" category to "Refined Goods".
+* Added "Ingots", "Gears" and "Gold Flakes" to "Refined Goods" category.
+* Removed "Light Sources" filter from "Furniture" category. "Decorations" filter now includes light sources.
+* Added "Workbenches" filter to "Furniture" category.
+* Renamed "Talismans & Workbenches" filter to "Tools".
+* Fixed "Worker Outfits" filter including cloth light armors.
+* Renamed "Seeds" filter to "Farm Seeds".
+* Added "Raw Foods" category with "Raw Vegetarian Foods" and "Raw Meat Foods" filters.
+* Added "Cooked Foods" category with "Cooked Vegetarian Foods" and "Cooked Meat Foods" filters.
+* Added "Sack of Sugar", "Basket of Sugarbells" and "Large Egg" filters to "Ingredients" category.
+
+Input Box changes:
+* Renamed "Refined Metal" category to "Ingots".
+* Renamed "Cloth, etc" category to "Refined Goods".
+* Moved "Bronze Gear", "Iron Gear" and "Gold Flakes" filters from "Ingots" category to "Refined Goods".
+* Removed "Skins" filter from "Animal Parts" category.
+* Renamed "Fur Pelt" filter to "Pelts". Now includes Varanus Skin.
+* Renamed "Silkweed Bundle" filter to "Fibers". Now includes Coarse Fibers.
+* Added "Bug Meat", "Raw Pork", "Raw Poultry", "Raw Sausage", "Raw Venison" and "Varanus Meat" filters to "Raw Meat" category.
+* Added "Sack of Sugar", "Basket of Sugarbells" and "Large Egg" filters to "Ingredients" category.
 
 **Version 1.2**
 
