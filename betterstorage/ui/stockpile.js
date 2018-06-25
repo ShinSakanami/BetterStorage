@@ -137,7 +137,7 @@ App.StonehearthStockpileView = App.StonehearthBaseZonesModeView.extend({
                var bOrd = b.ordinal ? b.ordinal : 10000;
                return aOrd - bOrd;
             });
-            group.categories = categories;
+            Ember.set(group, 'categories', categories);
          }
 
          self.set('stockpileFilters', sortedFilters);
@@ -204,11 +204,16 @@ App.StonehearthStockpileView = App.StonehearthBaseZonesModeView.extend({
 
    _updateTabs: function() {
       var self = this;
+      
+      var filterTabElement = self.$('div[tabPage=filterTab]');
+      if (!filterTabElement) {  // Too early or too late.
+         return;
+      }
+      
       var stockpileId = self.get('model.player_id');
       var isOwner = stockpileId && App.stonehearthClient.getPlayerId() == stockpileId;
       if (!isOwner) {
          // Hide filter tab if client doesn't own this object
-         var filterTabElement = self.$('div[tabPage=filterTab]');
          filterTabElement.hide();
          var filterTabPage = self.$('#filterTab');
          filterTabPage.hide();
@@ -219,7 +224,6 @@ App.StonehearthStockpileView = App.StonehearthBaseZonesModeView.extend({
          contentsTabPage.show();
       } else {
          // Show filter tab 
-         var filterTabElement = self.$('div[tabPage=filterTab]');
          filterTabElement.show();
 
          self._resumeLastTab();
