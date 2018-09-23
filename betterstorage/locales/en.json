@@ -31,8 +31,9 @@
         "ranged_weapon": "Ranged Weapons & Ammunitions",
         "light_armor": "Light Armor",
         "heavy_armor": "Heavy Armor",
-        "worker_outfit": "Worker Outfits"
+        "worker_outfit": "Worker Outfits",
         "consumables": "Consumables",
+        "healing_item": "Bandages & Healing Tonic",
         "farm_seed": "Farm Seeds",
         "geomancer": "Geomancer",
         "golems": "Golems",

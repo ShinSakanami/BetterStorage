@@ -94,31 +94,31 @@
                 },
                 "pelts": {
                     "ordinal": 1,
-                    "display_name": "i18n(betterstorage:filters.tooltip_pelt)",
+                    "display_name": "i18n(stonehearth:stonehearth_mixins.resources.fur_pelt.display_name)",
                     "icon": "/stonehearth/entities/resources/pelt/pelt.png",
                     "filter": "stockpile_animal_part pelt"
                 },
                 "hard_pelts": {
                     "ordinal": 2,
-                    "display_name": "Hard Pelts",
+                    "display_name": "i18n(stonehearth:stonehearth_mixins.resources.hard_pelt.display_name)",
                     "icon": "/stonehearth/entities/resources/chitin/beetle_chitin/beetle_chitin.png",
                     "filter": "stockpile_animal_part hard_pelt"
                 },
                 "feathers": {
                     "ordinal": 3,
-                    "display_name": "Feathers",
+                    "display_name": "i18n(stonehearth:entities.resources.feathers.poyo_feathers.display_name)",
                     "icon": "/stonehearth/entities/resources/feathers/poyo_feathers/poyo_feathers.png",
                     "filter": "stockpile_animal_part feather"
                 },
                 "wool": {
                     "ordinal": 4,
-                    "display_name": "Wool",
+                    "display_name": "i18n(stonehearth:entities.resources.fiber.wool_bundle.display_name)",
                     "icon": "/stonehearth/entities/resources/fiber/wool_bundle/wool_bundle.png",
                     "filter": "stockpile_animal_part wool"
                 },
                 "bones": {
                     "ordinal": 5,
-                    "display_name": "Bones",
+                    "display_name": "i18n(betterstorage:filters.bones)",
                     "icon": "/stonehearth/entities/resources/skin/ogre_bone/ogre_bone.png",
                     "filter": "stockpile_animal_part bone"
                 }
@@ -137,13 +137,13 @@
                 },
                 "herbs": {
                     "ordinal": 1,
-                    "display_name": "Herbs",
+                    "display_name": "i18n(stonehearth:ui.data.constants.herb_resource_name)",
                     "icon": "/stonehearth/entities/resources/herb/herbs.png",
                     "filter": "stockpile_plant herb"
                 },
                 "fibers": {
                     "ordinal": 2,
-                    "display_name": "Fibers",
+                    "display_name": "i18n(stonehearth:ui.data.constants.fiber_resource_name)",
                     "icon": "/stonehearth/entities/resources/fiber/fiber.png",
                     "filter": "stockpile_plant fiber"
                 },
@@ -246,7 +246,7 @@
             }
         },
         "ingots": {
-            "display_name": "i18n(betterstorage:filters.tooltip_ingot)",
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_refined_ore)",
             "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/refined_ore.png",
             "ordinal": 5,
             "categories": {
@@ -319,7 +319,7 @@
             }
         },
         "cloth": {
-            "display_name": "i18n(betterstorage:filters.goods)",
+            "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_refined_weaver)",
             "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/refined_cloth.png",
             "ordinal": 6,
             "categories": {
@@ -350,7 +350,7 @@
             }
         },
         "raw_foods": {
-            "display_name": "i18n(betterstorage:filters.raw_veggie)",
+            "display_name": "i18n(stonehearth:ui.data.constants.food_veggie_raw_name)",
             "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/fruit.png",
             "ordinal": 7,
             "categories": {
@@ -423,7 +423,7 @@
             }
         },
         "meat": {
-            "display_name": "i18n(betterstorage:filters.raw_meat)",
+            "display_name": "i18n(stonehearth:ui.data.constants.food_meat_raw_name)",
             "icon": "/stonehearth/ui/game/modes/zones_mode/stockpile/images/taxonomy/meat_uncooked.png",
             "ordinal": 8,
             "categories": {

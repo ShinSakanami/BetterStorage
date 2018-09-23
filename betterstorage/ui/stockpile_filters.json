@@ -643,7 +643,7 @@
                 },
                 "healing_item": {
                     "ordinal": 1,
-                    "display_name": "i18n(betterstorage:filters.tooltip_healing_item)",
+                    "display_name": "i18n(betterstorage:filters.healing_item)",
                     "icon": "/stonehearth/entities/consumables/light_bandage/light_bandage.png",
                     "filter": "stockpile_consumable healing_item"
                 },
