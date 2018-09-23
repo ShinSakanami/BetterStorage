@@ -39,6 +39,18 @@ If you want to ensure compatibility of a mod with BS, please refers to this guid
 
 ## Changelog
 
+**Version 1.4**
+
+For Stonehearth 1.0
+
+* Compatibility with Stonehearth 1.0 with support of new items like chitins and Geomancer’s stuff.
+* New global filters to help with mods compatibility.
+* New categories for furniture, building parts, defenses and decorations, filtered by craft material, so it’s now easy to store crafts by artisan.
+* Detailed categories are back: Ore, Refined Metals, Plants, Raw Foods and Prepared Foods.
+* Some filters reorganization.
+* Some vanilla item tags fixes.
+* Many changes, a full changelog will (maybe) come later.
+
 **Version 1.3**
 
 For Stonehearth Alpha 24+

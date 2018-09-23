@@ -7,14 +7,11 @@ App.StonehearthStockpileView = App.StonehearthBaseZonesModeView.extend({
 
    components: {
       "stonehearth:unit_info": {},
-      "stonehearth:stockpile" : {
-      },
+      "stonehearth:stockpile" : {},
       "stonehearth:storage" : {
          "item_tracker" : {
             "tracking_data" : {
                "*" : {
-                  "uri" : {},
-                  "canonical_uri" : {},
                   "item_qualities": {}
                },
                "stonehearth:loot:gold" : {

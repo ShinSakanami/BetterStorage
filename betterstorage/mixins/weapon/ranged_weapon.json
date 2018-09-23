@@ -1,7 +1,7 @@
 {
 	"entity_data": {
 		"stonehearth:catalog": {
-			"material_tags": "stockpile_defense defense gizmo"
+			"material_tags": "stockpile_weapon ranged_weapon"
 		}
 	}
 }

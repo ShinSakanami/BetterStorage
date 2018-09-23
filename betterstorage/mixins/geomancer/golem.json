@@ -1,7 +1,7 @@
 {
 	"entity_data": {
 		"stonehearth:catalog": {
-			"material_tags": "quest_items"
+			"material_tags": "stockpile_golem crafted"
 		}
 	}
 }
