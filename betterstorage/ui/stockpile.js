@@ -201,12 +201,12 @@ App.StonehearthStockpileView = App.StonehearthBaseZonesModeView.extend({
 
    _updateTabs: function() {
       var self = this;
-      
+
       var filterTabElement = self.$('div[tabPage=filterTab]');
       if (!filterTabElement) {  // Too early or too late.
          return;
       }
-      
+
       var stockpileId = self.get('model.player_id');
       var isOwner = stockpileId && App.stonehearthClient.getPlayerId() == stockpileId;
       if (!isOwner) {

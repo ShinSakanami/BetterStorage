@@ -1,7 +1,10 @@
 {
-	"entity_data": {
-		"stonehearth:catalog": {
-			"material_tags": "stockpile_portal crafted door metal"
-		}
-	}
+    "entity_data": {
+        "stonehearth:catalog": {
+            "mixintypes": {
+                "material_tags": "override"
+            },
+            "material_tags": ["metal", "portal", "crafted", "door", "stockpile_portal"]
+        }
+    }
 }

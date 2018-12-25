@@ -1,7 +1,10 @@
 {
 	"entity_data": {
 		"stonehearth:catalog": {
-			"material_tags": "stockpile_decoration decoration plant"
+			"mixintypes": {
+				"material_tags": "override"
+			},
+			"material_tags": ["stockpile_decoration", "decoration", "plant"]
 		}
 	}
 }

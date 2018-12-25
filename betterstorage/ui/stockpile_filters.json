@@ -1,5 +1,4 @@
 {
-    "type": "index",
     "stockpile": {
         "resources": {
             "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.resources)",
@@ -13,40 +12,58 @@
                     "filter": "stockpile_wood wood resource"
                 },
                 "wood_pile": {
-                    "ordinal": 2,
+                    "ordinal": 1.1,
                     "display_name": "i18n(stonehearth:entities.containers.log_pile.log_pile_ghost.display_name)",
                     "icon": "/stonehearth/entities/containers/log_pile/log_pile.png",
                     "filter": "stockpile_wood resource_pile"
                 },
                 "stone": {
-                    "ordinal": 3,
+                    "ordinal": 2,
                     "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_stone)",
                     "icon": "/stonehearth/entities/resources/stone/stone.png",
                     "filter": "stockpile_stone stone resource"
                 },
                 "stone_pile": {
-                    "ordinal": 4,
+                    "ordinal": 2.1,
                     "display_name": "i18n(stonehearth:entities.containers.stone_pile.stone_pile.display_name)",
                     "icon": "/stonehearth/entities/containers/stone_pile/stone_pile.png",
                     "filter": "stockpile_stone stone resource_pile"
                 },
+                "stone_bricks": {
+                    "ordinal": 2.2,
+                    "display_name": "i18n(stonehearth:entities.refined.stone_bricks.display_name)",
+                    "icon": "/stonehearth/entities/refined/stone_bricks/stone_bricks.png",
+                    "filter": "stockpile_stone stone_brick resource"
+                },
                 "clay": {
-                    "ordinal": 5,
+                    "ordinal": 3,
                     "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_clay)",
                     "icon": "/stonehearth/entities/resources/clay/clay.png",
                     "filter": "stockpile_clay clay resource"
                 },
+                "clay_pile": {
+                    "ordinal": 3.1,
+                    "display_name": "i18n(stonehearth:entities.containers.clay_pile.display_name)",
+                    "icon": "/stonehearth/entities/containers/clay_pile/clay_pile.png",
+                    "filter": "stockpile_clay clay resource_pile"
+                },
                 "clay_bricks": {
-                    "ordinal": 6,
+                    "ordinal": 3.2,
                     "display_name": "i18n(stonehearth:entities.construction.clay_bricks.display_name)",
                     "icon": "/stonehearth/entities/construction/clay_bricks/clay_bricks.png",
                     "filter": "stockpile_clay clay_brick resource"
                 },
-                "clay_pile": {
-                    "ordinal": 7,
-                    "display_name": "i18n(stonehearth:entities.containers.clay_pile.display_name)",
-                    "icon": "/stonehearth/entities/containers/clay_pile/clay_pile.png",
-                    "filter": "stockpile_clay clay resource_pile"
+                "dirt": {
+                    "ordinal": 4,
+                    "display_name": "i18n(stonehearth:entities.resources.dirt.dirt_pile.display_name)",
+                    "icon": "/stonehearth/entities/resources/dirt/dirt_pile/dirt_pile.png",
+                    "filter": "stockpile_dirt dirt resource"
+                },
+                "dirt_pile": {
+                    "ordinal": 4.1,
+                    "display_name": "i18n(stonehearth:entities.resources.dirt.terrain_dirt.display_name)",
+                    "icon": "/stonehearth/entities/resources/dirt/terrain_dirt/terrain_dirt.png",
+                    "filter": "stockpile_dirt dirt resource_pile"
                 },
                 "mixintypes": {
                     "ore": "remove",
@@ -58,7 +75,7 @@
         "ore": {
             "display_name": "i18n(stonehearth:ui.game.zones_mode.stockpile.filters.tooltip_ore)",
             "filter": "ore",
-			"ordinal": 2,
+            "ordinal": 2,
             "categories": {
                 "ore": {
                     "ordinal": 0.1,
@@ -101,6 +118,12 @@
                     "display_name": "i18n(stonehearth:entities.resources.coal.lump_of_coal.display_name)",
                     "icon": "/stonehearth/entities/resources/coal/lump_of_coal/lump_of_coal.png",
                     "filter": "stockpile_ore coal"
+                },
+                "gem_nature": {
+                    "ordinal": 7,
+                    "display_name": "i18n(stonehearth:entities.resources.gem_nature.display_name)",
+                    "icon": "/stonehearth/entities/resources/gem_nature/gem_nature.png",
+                    "filter": "stockpile_ore gem_nature resource"
                 }
             }
         },
@@ -164,11 +187,83 @@
                     "icon": "/stonehearth/entities/resources/herb/herbs.png",
                     "filter": "stockpile_plant herb"
                 },
+                "brightbell": {
+                    "ordinal": 1.1,
+                    "display_name": "i18n(stonehearth:entities.resources.herb.brightbell.display_name)",
+                    "icon": "/stonehearth/entities/resources/herb/brightbell/brightbell.png",
+                    "filter": "stockpile_plant herb brightbell"
+                },
+                "frostsnap": {
+                    "ordinal": 1.2,
+                    "display_name": "i18n(stonehearth:entities.resources.herb.frostsnap.display_name)",
+                    "icon": "/stonehearth/entities/resources/herb/frostsnap/frostsnap.png",
+                    "filter": "stockpile_plant herb frostsnap"
+                },
+                "snow_poppy": {
+                    "ordinal": 1.3,
+                    "display_name": "i18n(stonehearth:entities.resources.herb.snow_poppy.display_name)",
+                    "icon": "/stonehearth/entities/resources/herb/snow_poppy/snow_poppy.png",
+                    "filter": "stockpile_plant herb snow_poppy"
+                },
+                "violet": {
+                    "ordinal": 1.4,
+                    "display_name": "i18n(stonehearth:entities.resources.herb.violet.display_name)",
+                    "icon": "/stonehearth/entities/resources/herb/violet/violet.png",
+                    "filter": "stockpile_plant herb violet"
+                },
+                "cactus_flower": {
+                    "ordinal": 1.5,
+                    "display_name": "i18n(stonehearth:entities.resources.herb.cactus_flower.display_name)",
+                    "icon": "/stonehearth/entities/resources/herb/cactus_flower/cactus_flower.png",
+                    "filter": "stockpile_plant herb cactus_flower"
+                },
+                "cactus_tulip_red": {
+                    "ordinal": 1.6,
+                    "display_name": "i18n(stonehearth:entities.resources.herb.cactus_tulip_red.display_name)",
+                    "icon": "/stonehearth/entities/resources/herb/cactus_tulip_red/cactus_tulip_red.png",
+                    "filter": "stockpile_plant herb cactus tulip red"
+                },
+                "cactus_tulip_blue": {
+                    "ordinal": 1.7,
+                    "display_name": "i18n(stonehearth:entities.resources.herb.cactus_tulip_blue.display_name)",
+                    "icon": "/stonehearth/entities/resources/herb/cactus_tulip_blue/cactus_tulip_blue.png",
+                    "filter": "stockpile_plant herb cactus tulip blue"
+                },
+                "cactus_tulip_yellow": {
+                    "ordinal": 1.8,
+                    "display_name": "i18n(stonehearth:entities.resources.herb.cactus_tulip_yellow.display_name)",
+                    "icon": "/stonehearth/entities/resources/herb/cactus_tulip_yellow/cactus_tulip_yellow.png",
+                    "filter": "stockpile_plant herb cactus tulip yellow"
+                },
                 "fibers": {
                     "ordinal": 2,
                     "display_name": "i18n(stonehearth:ui.data.constants.fiber_resource_name)",
                     "icon": "/stonehearth/entities/resources/fiber/fiber.png",
                     "filter": "stockpile_plant fiber"
+                },
+                "silkweed": {
+                    "ordinal": 2.1,
+                    "display_name": "i18n(stonehearth:entities.resources.fiber.silkweed_bundle.display_name)",
+                    "icon": "/stonehearth/entities/resources/fiber/silkweed_bundle/silkweed_bundle.png",
+                    "filter": "stockpile_plant fiber silkweed"
+                },
+                "tumbleweed": {
+                    "ordinal": 2.2,
+                    "display_name": "i18n(stonehearth:entities.resources.fiber.coarse_fiber_bundle.display_name)",
+                    "icon": "/stonehearth/entities/resources/fiber/coarse_fiber_bundle/coarse_fiber_bundle.png",
+                    "filter": "stockpile_plant fiber tumbleweed"
+                },
+                "wintermoss": {
+                    "ordinal": 2.3,
+                    "display_name": "i18n(stonehearth:entities.resources.fiber.wintermoss_bundle.display_name)",
+                    "icon": "/stonehearth/entities/resources/fiber/wintermoss_bundle/wintermoss_bundle.png",
+                    "filter": "stockpile_plant fiber wintermoss"
+                },
+                "heirbloom": {
+                    "ordinal": 2.4,
+                    "display_name": "i18n(stonehearth:entities.resources.fiber.heirbloom_bundle.display_name)",
+                    "icon": "/stonehearth/entities/resources/fiber/heirbloom_bundle/heirbloom_bundle.png",
+                    "filter": "stockpile_plant fiber heirbloom"
                 },
                 "seeds": {
                     "ordinal": 3,
@@ -176,104 +271,32 @@
                     "icon": "/stonehearth/entities/resources/seed/seed.png",
                     "filter": "stockpile_plant seed"
                 },
-				"seed_hard": {
-					"ordinal": 4,
-					"display_name": "i18n(stonehearth:ui.data.constants.seed_hard_resource_name)",
-					"icon": "/stonehearth/entities/resources/seed_hard/seed_hard.png",
-					"filter": "stockpile_plant seed seed_hard"
-				},
-				"seed_fruit": {
-					"ordinal": 5,
-					"display_name": "i18n(stonehearth:ui.data.constants.seed_fruit_resource_name)",
-					"icon": "/stonehearth/entities/resources/seed_fruit/seed_fruit.png",
-					"filter": "stockpile_plant seed seed_fruit"
-				},
-                "brightbell": {
-                    "ordinal": 6,
-                    "display_name": "i18n(stonehearth:entities.resources.herb.brightbell.display_name)",
-                    "icon": "/stonehearth/entities/resources/herb/brightbell/brightbell.png",
-                    "filter": "stockpile_plant brightbell"
+                "seed_hard": {
+                    "ordinal": 3.1,
+                    "display_name": "i18n(stonehearth:ui.data.constants.seed_hard_resource_name)",
+                    "icon": "/stonehearth/entities/resources/seed_hard/seed_hard.png",
+                    "filter": "stockpile_plant seed seed_hard"
                 },
-                "frostsnap": {
-                    "ordinal": 7,
-                    "display_name": "i18n(stonehearth:entities.resources.herb.frostsnap.display_name)",
-                    "icon": "/stonehearth/entities/resources/herb/frostsnap/frostsnap.png",
-                    "filter": "stockpile_plant frostsnap"
+                "seed_fruit": {
+                    "ordinal": 3.2,
+                    "display_name": "i18n(stonehearth:ui.data.constants.seed_fruit_resource_name)",
+                    "icon": "/stonehearth/entities/resources/seed_fruit/seed_fruit.png",
+                    "filter": "stockpile_plant seed seed_fruit"
                 },
-				"snow_poppy": {
-					"ordinal": 8,
-					"display_name": "i18n(stonehearth:entities.resources.herb.snow_poppy.display_name)",
-					"icon": "/stonehearth/entities/resources/herb/snow_poppy/snow_poppy.png",
-					"filter": "stockpile_plant snow_poppy"
-				},
-				"violet": {
-					"ordinal": 9,
-					"display_name": "i18n(stonehearth:entities.resources.herb.violet.display_name)",
-					"icon": "/stonehearth/entities/resources/herb/violet/violet.png",
-					"filter": "stockpile_plant violet"
-				},
-				"cactus_flower": {
-					"ordinal": 10,
-					"display_name": "i18n(stonehearth:entities.resources.herb.cactus_flower.display_name)",
-					"icon": "/stonehearth/entities/resources/herb/cactus_flower/cactus_flower.png",
-					"filter": "stockpile_plant cactus_flower"
-				},
-				"cactus_tulip_red": {
-					"ordinal": 11,
-					"display_name": "i18n(stonehearth:entities.resources.herb.cactus_tulip_red.display_name)",
-					"icon": "/stonehearth/entities/resources/herb/cactus_tulip_red/cactus_tulip_red.png",
-					"filter": "stockpile_plant cactus tulip red"
-				},
-				"cactus_tulip_blue": {
-					"ordinal": 12,
-					"display_name": "i18n(stonehearth:entities.resources.herb.cactus_tulip_blue.display_name)",
-					"icon": "/stonehearth/entities/resources/herb/cactus_tulip_blue/cactus_tulip_blue.png",
-					"filter": "stockpile_plant cactus tulip blue"
-				},
-				"cactus_tulip_yellow": {
-					"ordinal": 13,
-					"display_name": "i18n(stonehearth:entities.resources.herb.cactus_tulip_yellow.display_name)",
-					"icon": "/stonehearth/entities/resources/herb/cactus_tulip_yellow/cactus_tulip_yellow.png",
-					"filter": "stockpile_plant cactus tulip yellow"
-				},
-				"silkweed": {
-					"ordinal": 14,
-					"display_name": "i18n(stonehearth:entities.resources.fiber.silkweed_bundle.display_name)",
-					"icon": "/stonehearth/entities/resources/fiber/silkweed_bundle/silkweed_bundle.png",
-					"filter": "stockpile_plant silkweed"
-				},
-				"tumbleweed": {
-					"ordinal": 15,
-					"display_name": "i18n(stonehearth:entities.resources.fiber.coarse_fiber_bundle.display_name)",
-					"icon": "/stonehearth/entities/resources/fiber/coarse_fiber_bundle/coarse_fiber_bundle.png",
-					"filter": "stockpile_plant tumbleweed"
-				},
-				"wintermoss": {
-					"ordinal": 16,
-					"display_name": "i18n(stonehearth:entities.resources.fiber.wintermoss_bundle.display_name)",
-					"icon": "/stonehearth/entities/resources/fiber/wintermoss_bundle/wintermoss_bundle.png",
-					"filter": "stockpile_plant wintermoss"
-				},
-				"heirbloom": {
-					"ordinal": 17,
-					"display_name": "i18n(stonehearth:entities.resources.fiber.heirbloom_bundle.display_name)",
-					"icon": "/stonehearth/entities/resources/fiber/heirbloom_bundle/heirbloom_bundle.png",
-					"filter": "stockpile_plant heirbloom"
-				},
                 "earth_essence": {
-                    "ordinal": 18,
+                    "ordinal": 4,
                     "display_name": "i18n(stonehearth:entities.resources.earth_essence.display_name)",
                     "icon": "/stonehearth/entities/resources/earth_essence/earth_essence.png",
                     "filter": "stockpile_plant earth_essence"
                 },
                 "saplings": {
-                    "ordinal": 19,
+                    "ordinal": 5,
                     "display_name": "i18n(betterstorage:filters.saplings)",
                     "icon": "/stonehearth/entities/trees/oak_tree/sapling_oak_tree/sapling_oak_tree.png",
                     "filter": "stockpile_plant tree"
                 },
                 "uproots": {
-                    "ordinal": 20,
+                    "ordinal": 6,
                     "display_name": "i18n(betterstorage:filters.uproots)",
                     "icon": "/stonehearth/entities/plants/berry_bush/berry_bush.png",
                     "filter": "stockpile_plant uproot"
@@ -381,6 +404,12 @@
                     "display_name": "i18n(stonehearth:entities.refined.leather_bolt.display_name)",
                     "icon": "/stonehearth/entities/refined/leather_bolt/leather_bolt.png",
                     "filter": "stockpile_refined_weaver leather"
+                },
+                "legendary": {
+                    "ordinal": 4,
+                    "display_name": "i18n(betterstorage:filters.legendary)",
+                    "icon": "/stonehearth/entities/refined/legendary_setting/legendary_setting.png",
+                    "filter": "stockpile_refined_weaver legendary"
                 },
                 "mixintypes": {
                     "tool": "remove",
@@ -647,32 +676,38 @@
                     "icon": "/stonehearth/entities/consumables/light_bandage/light_bandage.png",
                     "filter": "stockpile_consumable healing_item"
                 },
-                "energy_tonic": {
+                "healing_tonic": {
                     "ordinal": 2,
+                    "display_name": "i18n(betterstorage:filters.healing_tonic)",
+                    "icon": "/stonehearth/entities/consumables/healing_tonic/small_healing_tonic/small_healing_tonic.png",
+                    "filter": "stockpile_consumable healing_tonic"
+                },
+                "energy_tonic": {
+                    "ordinal": 3,
                     "display_name": "i18n(stonehearth:entities.consumables.energy_tonic.display_name)",
                     "icon": "/stonehearth/entities/consumables/energy_tonic/energy_tonic.png",
                     "filter": "stockpile_consumable energy_tonic"
                 },
                 "stamina_tonic": {
-                    "ordinal": 3,
+                    "ordinal": 4,
                     "display_name": "i18n(stonehearth:entities.consumables.stamina_tonic.display_name)",
                     "icon": "/stonehearth/entities/consumables/stamina_tonic/stamina_tonic.png",
                     "filter": "stockpile_consumable stamina_tonic"
                 },
                 "courage_tonic": {
-                    "ordinal": 4,
+                    "ordinal": 5,
                     "display_name": "i18n(stonehearth:entities.consumables.courage_tonic.display_name)",
                     "icon": "/stonehearth/entities/consumables/courage_tonic/courage_tonic.png",
                     "filter": "stockpile_consumable courage_tonic"
                 },
                 "strength_tonic": {
-                    "ordinal": 5,
+                    "ordinal": 6,
                     "display_name": "i18n(stonehearth:entities.consumables.strength_tonic.display_name)",
                     "icon": "/stonehearth/entities/consumables/strength_tonic/strength_tonic.png",
                     "filter": "stockpile_consumable strength_tonic"
                 },
                 "farm_seeds": {
-                    "ordinal": 6,
+                    "ordinal": 7,
                     "display_name": "i18n(betterstorage:filters.farm_seed)",
                     "icon": "/stonehearth/entities/consumables/seeds/oak_tree_seeds/oak_tree_seeds.png",
                     "filter": "stockpile_consumable seeds"
@@ -1133,7 +1168,7 @@
                     "icon": "/stonehearth/entities/food/rotten_basket/rotten_basket.png",
                     "filter": "stockpile_rotten_food"
                 },
-				"fertilized_egg": {
+                "fertilized_egg": {
                     "ordinal": 1,
                     "display_name": "i18n(betterstorage:filters.fertilized_egg)",
                     "icon": "/stonehearth/entities/critters/poyo/egg/poyo_egg.png",

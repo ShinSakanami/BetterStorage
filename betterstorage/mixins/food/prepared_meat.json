@@ -1,7 +1,10 @@
 {
-	"entity_data": {
-		"stonehearth:catalog": {
-			"material_tags": "food_container prepared_food meat stockpile_prepared_food"
-		}
-	}
+    "entity_data": {
+        "stonehearth:catalog": {
+            "mixintypes": {
+                "material_tags": "override"
+            },
+            "material_tags": ["stockpile_prepared_food", "food_container", "prepared_food", "meat"]
+        }
+    }
 }

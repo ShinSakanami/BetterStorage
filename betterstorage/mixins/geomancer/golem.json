@@ -1,7 +1,10 @@
 {
-	"entity_data": {
-		"stonehearth:catalog": {
-			"material_tags": "stockpile_golem crafted"
-		}
-	}
+    "entity_data": {
+        "stonehearth:catalog": {
+            "mixintypes": {
+                "material_tags": "override"
+            },
+            "material_tags": ["stockpile_golem", "crafted"]
+        }
+    }
 }

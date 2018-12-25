@@ -8,6 +8,13 @@
     },
     "default_locale": "en",
     "aliases": {
+        "consumable:healing_tonic": "file(mixins/consumable/healing_tonic.json)",
+        "furniture:container_clay": "file(mixins/furniture/container_clay.json)",
+        "plants:seed_hard": "file(mixins/plants/seed_hard.json)",
+        "plants:tumbleweed": "file(mixins/plants/tumbleweed.json)",
+        "refined_weaver:legendary": "file(mixins/refined_weaver/legendary.json)",
+        "resources:dirt_pile": "file(mixins/resources/dirt_pile.json)",
+        "resources:stone_bricks": "file(mixins/resources/stone_bricks.json)",
         "construction:door_metal": "file(mixins/construction/door_metal.json)",
         "construction:door_stone": "file(mixins/construction/door_stone.json)",
         "construction:window_stone": "file(mixins/construction/window_stone.json)",
@@ -35,9 +42,9 @@
         "weapon:ranged_weapon": "file(mixins/weapon/ranged_weapon.json)"
     },
     "mixintos": {
-        "northen_alliance/entities/container/input_shelf_wall_stone_gold/input_shelf_wall_stone_gold_ghost.json": "betterstorage:furniture:container_metal",
-        "northen_alliance/entities/furniture/chair_golden/chair_golden_ghost.json": "betterstorage:furniture:furniture_metal",
-        "northen_alliance/entities/furniture/table_stone_gold/table_stone_gold_ghost.json": "betterstorage:furniture:furniture_metal",
+        "northern_alliance/entities/container/input_shelf_wall_stone_gold/input_shelf_wall_stone_gold_ghost.json": "betterstorage:furniture:container_metal",
+        "northern_alliance/entities/furniture/chair_golden/chair_golden_ghost.json": "betterstorage:furniture:furniture_metal",
+        "northern_alliance/entities/furniture/table_stone_gold/table_stone_gold_ghost.json": "betterstorage:furniture:furniture_metal",
         
         "northern_alliance/entities/decoration/rug_moss/rug_moss.json": "betterstorage:decoration:decoration_cloth",
         "northern_alliance/entities/decoration/rug_pelt_wolf/rug_pelt_wolf.json": "betterstorage:decoration:decoration_cloth",
@@ -51,6 +58,17 @@
         "rayyas_children/entities/decoration/trading_post_monument/jar_red/jar_red_ghost.json": "betterstorage:decoration:decoration_clay",
         "rayyas_children/entities/decoration/trading_post_monument/wall_hanging_sunflower/wall_hanging_sunflower_ghost.json": "betterstorage:decoration:decoration_clay",
         "rayyas_children/entities/decoration/trading_post_monument/wall_hanging_sunwreath/wall_hanging_sunwreath_ghost.json": "betterstorage:decoration:decoration_clay",
+        
+        "rayyas_children/entities/refined/legendary_rc_blade/legendary_rc_blade.json": "betterstorage:refined_weaver:legendary",
+        "rayyas_children/entities/refined/legendary_rc_bowstring/legendary_rc_bowstring.json": "betterstorage:refined_weaver:legendary",
+        "rayyas_children/entities/refined/legendary_rc_cloth/legendary_rc_cloth.json": "betterstorage:refined_weaver:legendary",
+        "rayyas_children/entities/refined/legendary_rc_face/legendary_rc_face.json": "betterstorage:refined_weaver:legendary",
+        "rayyas_children/entities/refined/legendary_rc_frame/legendary_rc_frame.json": "betterstorage:refined_weaver:legendary",
+        "rayyas_children/entities/refined/legendary_rc_gem/legendary_rc_gem.json": "betterstorage:refined_weaver:legendary",
+        "rayyas_children/entities/refined/legendary_rc_inlay/legendary_rc_inlay.json": "betterstorage:refined_weaver:legendary",
+        "rayyas_children/entities/refined/legendary_rc_stave/legendary_rc_stave.json": "betterstorage:refined_weaver:legendary",
+        
+        "stonehearth/entities/consumables/healing_tonic/small_healing_tonic/small_healing_tonic.json": "betterstorage:consumable:healing_tonic",
         
         "stonehearth/entities/food/rotten_basket/rotten_basket.json": "betterstorage:food:rotten_food",
         "stonehearth/entities/food/rotten_egg/rotten_egg.json": "betterstorage:food:rotten_food",
@@ -77,6 +95,10 @@
         "stonehearth/entities/gizmos/small_turret/small_turret_ghost.json": "betterstorage:defense:trap",
         "stonehearth/entities/gizmos/turnip_shooter/turnip_shooter_ghost.json": "betterstorage:defense:trap",
         
+        "stonehearth/entities/containers/input_corner_ground_clay/input_corner_ground_clay_ghost.json": "betterstorage:furniture:container_clay",
+        "stonehearth/entities/containers/input_shelf_ground_clay/input_shelf_ground_clay_ghost.json": "betterstorage:furniture:container_clay",
+        "stonehearth/entities/containers/input_shelf_wall_clay/input_shelf_wall_clay_ghost.json": "betterstorage:furniture:container_clay",
+        "stonehearth/entities/containers/market_shelf_tall_ground_clay/market_shelf_tall_ground_clay_ghost.json": "betterstorage:furniture:container_clay",
         "stonehearth/entities/containers/input_bin_iron/input_bin_iron_ghost.json": "betterstorage:furniture:container_metal",
         "stonehearth/entities/containers/input_bin_stone/input_bin_stone_ghost.json": "betterstorage:furniture:container_stone",
         "stonehearth/entities/containers/input_corner_ground_iron/input_corner_ground_iron_ghost.json": "betterstorage:furniture:container_metal",
@@ -96,7 +118,7 @@
         "stonehearth/entities/decoration/craftsman_statue/candle_iron/candle_iron_ghost.json": "betterstorage:decoration:light_source_metal",
         "stonehearth/entities/decoration/craftsman_statue/candle_iron_double/candle_iron_double_ghost.json": "betterstorage:decoration:light_source_metal",
         "stonehearth/entities/decoration/craftsman_statue/lamppost_rustic/lamppost_rustic_ghost.json": "betterstorage:decoration:light_source_metal",
-        "stonehearth/entities/decoration/craftsman_statue/lamppost_rustic_double/lamppost_rustic_double_ghos": "betterstorage:decoration:light_source_metal",
+        "stonehearth/entities/decoration/craftsman_statue/lamppost_rustic_double/lamppost_rustic_double_ghost.json": "betterstorage:decoration:light_source_metal",
         "stonehearth/entities/decoration/craftsman_statue/lantern_iron/lantern_iron_ghost.json": "betterstorage:decoration:light_source_metal",
         "stonehearth/entities/decoration/craftsman_statue/pot_berry_bush/pot_berry_bush_ghost.json": "betterstorage:decoration:decoration_plant",
         "stonehearth/entities/decoration/craftsman_statue/sign_blacksmith/sign_blacksmith_ghost.json": "betterstorage:decoration:decoration_metal",
@@ -147,7 +169,6 @@
         "stonehearth/entities/plants/cactus_tulip_plant/blue/cactus_tulip_blue_plant.json": "betterstorage:plants:uproot",
         "stonehearth/entities/plants/cactus_tulip_plant/red/cactus_tulip_red_plant.json": "betterstorage:plants:uproot",
         "stonehearth/entities/plants/cactus_tulip_plant/yellow/cactus_tulip_yellow_plant.json": "betterstorage:plants:uproot",
-        "stonehearth/entities/plants/carrot/carrot.json": "betterstorage:plants:uproot",
         "stonehearth/entities/plants/carrot/carrot_ghost.json": "betterstorage:plants:uproot",
         "stonehearth/entities/plants/earthbud/earthbud_ghost.json": "betterstorage:plants:uproot",
         "stonehearth/entities/plants/foxlily_plant/foxlily_plant.json": "betterstorage:plants:uproot",
@@ -157,11 +178,14 @@
         "stonehearth/entities/plants/snow_poppy_plant/snow_poppy_plant.json": "betterstorage:plants:uproot",
         "stonehearth/entities/plants/sugarbell/sugarbell_ghost.json": "betterstorage:plants:uproot",
         "stonehearth/entities/plants/sunflower_plant/sunflower_plant.json": "betterstorage:plants:uproot",
-        "stonehearth/entities/plants/sweet_potato/sweet_potato.json": "betterstorage:plants:uproot",
         "stonehearth/entities/plants/sweet_potato/sweet_potato_ghost.json": "betterstorage:plants:uproot",
         "stonehearth/entities/plants/violet_plant/violet_plant.json": "betterstorage:plants:uproot",
         "stonehearth/entities/plants/wax_plant_green/wax_plant_green_ghost.json": "betterstorage:plants:uproot",
         "stonehearth/entities/plants/wax_plant_purple/wax_plant_purple_ghost.json": "betterstorage:plants:uproot",
+        
+        "stonehearth/entities/plants/earthbud/seed/earthbud_plant_seed_iconic.json": "betterstorage:plants:seed_hard",
+        "stonehearth/entities/plants/sweet_potato/seed/sweet_potato_plant_seed.json": "betterstorage:plants:seed_hard",
+        "stonehearth/entities/plants/sweet_potato/seed/sweet_potato_plant_seed_iconic.json": "betterstorage:plants:seed_hard",
         
         "stonehearth/entities/refined/golem_backpack/golem_backpack.json": "betterstorage:geomancer:golem_parts",
         "stonehearth/entities/refined/golem_pick/golem_pick.json": "betterstorage:geomancer:golem_parts",
@@ -198,6 +222,20 @@
         "stonehearth/jobs/weaver/weaver_loom/weaver_loom_ghost.json": "betterstorage:furniture:workbench",
         "stonehearth/jobs/weaver/weaver_spinning_wheel/weaver_spinning_wheel_ghost.json": "betterstorage:furniture:workbench",
         "stonehearth/jobs/weaver/weaver_workbench/weaver_workbench_ghost.json": "betterstorage:furniture:workbench",
+        
+        "stonehearth/entities/refined/legendary_bowstring/legendary_bowstring.json": "betterstorage:refined_weaver:legendary",
+        "stonehearth/entities/refined/legendary_face/legendary_face.json": "betterstorage:refined_weaver:legendary",
+        "stonehearth/entities/refined/legendary_frame/legendary_frame.json": "betterstorage:refined_weaver:legendary",
+        "stonehearth/entities/refined/legendary_gem/legendary_gem.json": "betterstorage:refined_weaver:legendary",
+        "stonehearth/entities/refined/legendary_grip/legendary_grip.json": "betterstorage:refined_weaver:legendary",
+        "stonehearth/entities/refined/legendary_inlay/legendary_inlay.json": "betterstorage:refined_weaver:legendary",
+        "stonehearth/entities/refined/legendary_mechanism/legendary_mechanism.json": "betterstorage:refined_weaver:legendary",
+        "stonehearth/entities/refined/legendary_setting/legendary_setting.json": "betterstorage:refined_weaver:legendary",
+        
+        "stonehearth/entities/resources/dirt/terrain_dirt/terrain_dirt_iconic.json": "betterstorage:resources:dirt_pile",
+        "stonehearth/entities/refined/stone_bricks/stone_bricks.json": "betterstorage:resources:stone_bricks",
+        
+        "stonehearth/entities/resources/fiber/coarse_fiber_bundle/coarse_fiber_bundle.json": "betterstorage:plants:tumbleweed",
         
         "stonehearth/ui/data/input_box_filters.json": "file(ui/input_box_filters.json)",
         "stonehearth/ui/data/stockpile_filters.json": "file(ui/stockpile_filters.json)"

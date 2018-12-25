@@ -4,7 +4,7 @@
             "mixintypes": {
                 "material_tags": "override"
             },
-            "material_tags": ["stockpile_decoration", "decoration", "clay"]
+            "material_tags": ["stockpile_stone", "stone_brick", "resource"]
         }
     }
 }

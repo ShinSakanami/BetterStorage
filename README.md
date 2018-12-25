@@ -39,6 +39,18 @@ If you want to ensure compatibility of a mod with BS, please refers to this guid
 
 ## Changelog
 
+**Version 1.5**
+
+For Stonehearth 1.1
+
+* Converted material tags to arrays.
+* Added "Stone Brick", "Pile of Dirt" and "Large Pile of Dirt" to "Resources" category.
+* Added "Nature Gem Bits" filter to "Ores" category.
+* Reordered "Plants" filters.
+* Added "Legendary Materials" filter to "Refined Materials" category.
+* Split "Bandages & Healing Tonic" into two separated filters.
+* Fixed items not properly stored: Earthbud Seed, Sweet Potato Seed, Coarse Fiber Bundle, Twin Rustic Lamppost, Golden Chair, Golden Wall Supply Shelf, Gold Plated Stone Table, Ceramic Supply Rack, Ceramic Corner Supply Rack, Ceramic Wall Supply Shelf, Market Trading Shelf (Clay).
+
 **Version 1.4**
 
 For Stonehearth 1.0
